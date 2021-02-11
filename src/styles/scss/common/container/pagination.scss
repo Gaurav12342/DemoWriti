@@ -1,0 +1,95 @@
+.pagination_wrap {
+                padding: 20px 0px 10px;
+                background-color: $white-color;
+                margin-right: 0px;
+                float: right;
+                @include -flex-space-between;
+                .pagination {
+                    @include -flex-align(flex-start);
+                    list-style: none;
+                    padding-left: 0;
+                    padding-right: 30px;
+
+                    li {
+                        line-height: 1;
+
+                        &:first-child {
+                            a {
+                                margin: 0 9px;
+                            }
+                        }
+
+                        &:last-child {
+                            a {
+                                margin: 0 9px;
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            a {
+                                margin: 0 15px 0 9px;
+                            }
+                        }
+
+                        &:nth-last-child(2) {
+                            a {
+                                margin: 0 9px 0 15px;
+                            }
+                        }
+
+                        a {
+                            margin: 0 15px;
+                            font-size: $font-12;
+                            cursor: pointer;
+                            color: $border-color;
+                            font-family: 'Gilroy';
+                            font-weight: 300;
+                            text-decoration: none;
+                            line-height: 1;
+
+                        }
+
+                        &.active_page {
+                            a {
+
+                                color: $btn-color;
+                                font-weight: 1000;
+                            }
+                        }
+                    }
+
+    
+    .rc-pagination-item-active {
+        a {
+            color: $btn-color !important;
+        }
+    }
+
+                }
+    .size-changer{
+        display: inline-block;
+        margin-right: 50px;
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .pagination_wrap{
+        margin-top: 1px;
+        .size-changer{
+            margin-top: 0;
+        }
+        .pagination {
+            li {
+                a{
+                    font-size: $font-19;
+                    svg{
+                        width: 20px;
+                        height : 20px;
+                    }
+                }
+            }
+        }
+    }
+}

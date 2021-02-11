@@ -1,0 +1,17 @@
+export {ReactComponent as AddCrlc } from '../../../containers/NursePrep/img/add-crcl.svg';
+export {ReactComponent as AddNote } from '../../../containers/NursePrep/img/add-notes.svg';
+export {ReactComponent as Close } from '../../../containers/NursePrep/img/close.svg';
+export {ReactComponent as Comment } from '../../../containers/NursePrep/img/comment.svg';
+export {ReactComponent as Conversation } from '../../../containers/NursePrep/img/conversation.svg';
+export {ReactComponent as Dc } from '../../../containers/NursePrep/img/d-c.svg';
+export {ReactComponent as DcCreateNew } from '../../../containers/NursePrep/img/d-c-create-new.svg';
+export {ReactComponent as Edit } from '../../../containers/NursePrep/img/edit.svg';
+export {ReactComponent as Hold } from '../../../containers/NursePrep/img/hold.svg';
+export {ReactComponent as Hold1 } from '../../../containers/NursePrep/img/hold1.svg';
+export {ReactComponent as Info } from '../../../containers/NursePrep/img/info.svg';
+export {ReactComponent as Notes } from '../../../containers/NursePrep/img/notes.svg';
+export {ReactComponent as Plus } from '../../../containers/NursePrep/img/plus.svg';
+export {ReactComponent as RedSmallInfo } from '../../../containers/NursePrep/img/red-small-info.svg';
+export {ReactComponent as Reminder } from '../../../containers/NursePrep/img/reminder.svg';
+export {ReactComponent as SmallInfo } from '../../../containers/NursePrep/img/small-info.svg';
+export {ReactComponent as Tick } from '../../../containers/NursePrep/img/tick.svg';

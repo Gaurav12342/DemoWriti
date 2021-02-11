@@ -1,0 +1,474 @@
+.prep_right_wrap {
+    width: calc(100% - 16%);
+    padding: 7px 20px 0px 15px;
+    margin-left: 16%;
+
+    // width: calc(100% - 3%);
+    // margin-left: 3%;
+    .main-title-bar {
+        background: #609FAE;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 300;
+        padding: 8px 10px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .box-border {
+        border: 1px solid #919A9F;
+        border-radius: 5px;
+        &.bb0{
+            border-bottom: 0;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }
+
+    .pmr-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 20px;
+
+        .access-view {
+            display: flex;
+            align-items: center;
+
+            .prev-c {
+                display: inline-block;
+                vertical-align: middle;
+                text-align: left;
+            }
+        }
+
+        .pmr-select {
+            margin-right: 20px;
+        }
+
+        .pmr-select select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #919A9F;
+            border-radius: 5px;
+            font-size: 12px;
+            font-family: 'gilroy', sans-serif !important;
+            font-weight: 600;
+            color: #919A9F;
+        }
+
+        p {
+            margin: 0;
+            font-size: 10px;
+            color: #919A9F;
+            font-weight: 300;
+
+            span {
+                display: block;
+            }
+        }
+
+        h3 {
+            font-size: 14px;
+            color: #1D1D20;
+            margin: 0;
+        }
+
+        .btn {
+            font-size: 14px;
+            padding: 0 40px;
+            height: 28px;
+        }
+    }
+
+    .resident-row {
+        display: flex;
+
+        .left-resident-pro {
+            width: 40%;
+            border-right: 1px solid #919A9F;
+
+            .pro-title {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background: #F3F3F3;
+                padding: 9px 19px;
+            }
+
+            h3 {
+                font-size: 14px;
+                color: #1D1D20;
+                font-weight: 700;
+                font-family: "gilroy";
+                margin: 0;
+                text-align: left;
+            }
+        }
+
+        .resident-detail {
+            padding: 12px 19px;
+            text-align: left;
+
+            .resident-desc-box {
+                width: 33%;
+            }
+
+            .inner-res-block {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 16px;
+            }
+
+            span.main {
+                display: block;
+                font-size: 13px;
+                font-weight: 600;
+                color: #2D2D30;
+                margin-bottom: 7px;
+            }
+
+            span.sub {
+                display: block;
+                font-size: 12px;
+                font-weight: 300;
+                font-family: "gilroy";
+                color: #2D2D30;
+            }
+        }
+    }
+
+    .rx-btns a button {
+        font-size: 12px;
+        color: #919A9F;
+        padding: 5px 15px;
+        border: 1px solid #919A9F;
+        border-radius: 5px;
+        background: #fff;
+        margin-right: 9px;
+        font-family: "gilroy" !important;
+        font-weight: 300;
+    }
+
+    .rx-btns {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        padding: 17px 17px 17px 0;
+        align-items: center;
+        // position: fixed;
+        bottom: 0;
+        width: calc(100% - 18%);
+        background: #fff;
+    }
+
+    .add-pmr-order{
+        .rx-btns{
+            position: fixed;
+        }
+    }
+
+    .notes-part {
+        font-size: 10px;
+        font-weight: 600;
+        color: #2D2D30;
+        margin-left: 5px;
+    }
+
+    .note-count {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+
+        p {
+            position: absolute;
+            font-size: 9px;
+            color: #fff;
+            background: #609FAE;
+            top: -7px;
+            left: 6px;
+            padding: 1px 3px;
+            border-radius: 5px;
+            margin: 0;
+        }
+
+    }
+
+    .p-relative {
+        position: relative;
+        display: flex;
+    }
+
+    .order-com {
+        color: #0BAA50;
+        font-size: 12px;
+        font-weight: 600;
+        &.bt{
+            padding-top: 6px;
+            border-top: 3px solid #0BAA50;
+        }
+    }
+
+    .flex-block {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.wd100 {
+    width: 100% !important;
+}
+
+//   start popup style
+.custom-model-main {
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* z-index: 1050; */
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear, z-index 0.15;
+    -o-transition: opacity 0.15s linear, z-index 0.15;
+    transition: opacity 0.15s linear, z-index 0.15;
+    z-index: -1;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.model-open {
+    z-index: 99999;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.custom-model-inner {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    display: inline-block;
+    vertical-align: middle;
+    width: 600px;
+    margin: 30px auto;
+    max-width: 97%;
+}
+
+.custom-model-wrap {
+    background-clip: padding-box;
+    outline: 0;
+    text-align: left;
+    margin: auto;
+    border-radius: 5px;
+    width: 573px;
+    position: absolute;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+}
+
+.ReactModalPortal .ReactModal__Overlay.ReactModal__Overlay--after-open {
+    background-color: #0000009c !important;
+    z-index: 99;
+}
+
+
+.popup-content h2 {
+    font-size: 20px;
+    color: #2D2D30;
+    border-bottom: 1px solid #919A9F;
+    padding-bottom: 8px;
+    margin: 27px 0 8px 0;
+    font-weight: 600;
+    font-family: "gilroy";
+
+}
+
+.laug-block {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.sub-text {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0;
+    display: block;
+    font-family: "gilroy";
+    margin-right: 22px;
+}
+
+.description-text {
+    font-size: 12px;
+    color: #2D2D30;
+    font-weight: 300;
+    margin: 8px 0 22px 0;
+    font-family: "gilroy";
+}
+
+.craig-icon {
+    display: flex;
+    align-items: center;
+    margin: 0 24px 0 0;
+}
+
+.custom-model-wrap .close-btn {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    background: transparent;
+    border: none;
+}
+
+.custom-model-wrap .close-btn:focus {
+    outline: none;
+}
+
+.popup-content {
+    padding: 0 30px;
+}
+
+.d-c-icon {
+    margin-right: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.j-content-center {
+    justify-content: center !important;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .prep_right_wrap {
+        .main-title-bar{
+            font-size: $font-22;
+        }
+        .pmr-row {
+            p{
+                font-size: $font-15;
+            }
+            .access-view{
+                img.prev-c{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+            
+        }
+        .resident-row {
+            .left-resident-pro {
+                h3{
+                    font-size: $font-18;
+                }
+            }
+            .resident-detail{
+                span.main{
+                    font-size: $font-18;
+                }
+                span.sub{
+                    font-size: $font-17;
+                }
+                .p-relative{
+                    svg,img{
+                        width: 25px;
+                        height: 25px;
+                    }
+                    .reminder-info{
+                        font-size: $font-17 !important;
+                    }
+                }
+            }
+            .right-Nurse-prep {
+                h3{
+                    font-size: $font-18;
+                }
+                .flex-block{
+                    .green-bg{
+                        width: 23px;
+                        height: 23px;
+                        img{
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+                    span{
+                        font-size: $font-17;
+                    }
+                    &.head-ack{
+                        span{
+                            font-size: $font-19;
+                        }
+                        
+                    }
+                }
+                .med_ack{
+                    .form_group {
+                        .search {
+                            .form_control{
+                                width: 300px !important;
+                            }
+                        }
+                    }
+                }
+                .round{
+                    label{
+                        width: 28px;
+                        height: 28px;
+                    }
+                }
+                .scroll-block{
+                    max-height: calc(100vh - 430px);
+                }
+            }
+        }
+        .rx-btns{
+            a{
+                button{
+                    font-size: $font-18;
+                }
+            }
+        }
+        .note-count{
+            svg{
+                width: 25px;
+                height: 25px;
+            }
+            p{
+                font-size: $font-13;
+                    padding : 2px 10px;
+                    @include border-radius(15px);
+            }
+            .notes-part{
+                font-size: $font-17;
+
+            }
+        }
+        .order-com{
+            font-size: $font-17;
+        }
+        .pmr-row{
+            h3{
+                font-size: $font-18;
+            }
+        }
+    }
+    .sub-text{
+        font-size: $font-18;
+    }
+    
+
+}

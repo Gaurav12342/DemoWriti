@@ -1,0 +1,41 @@
+.o_status {
+    @include border-radius(20px);
+    padding: 3px 12px;
+    display: inline-block;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: $font-12;
+
+    &.submitted {
+        background-color: $todo-backround;
+        color: $todo-text;
+
+    }
+
+    &.in_process {
+        background-color: $np-backround;
+        color: $np-text;
+
+    }
+
+    &.edited {
+        background-color: $edited-background;
+        color: $edited-text;
+
+    }
+
+    &.uploaded {
+        background-color: $phr-backround;
+        color: $phr-text;
+    }
+
+    &.ph_review {
+        background-color: $phr-backround;
+        color: $phr-text;
+    }
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .o_status {
+        font-size: $font-16;
+    }
+}

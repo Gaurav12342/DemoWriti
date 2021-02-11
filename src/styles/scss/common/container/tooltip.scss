@@ -1,0 +1,14 @@
+.rc-tooltip{
+    z-index: 999999 !important;
+}
+.max-w-500{
+    max-width: 500px;
+}
+.rc-tooltip .rc-tooltip-inner{
+    max-width: 500px;
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .rc-tooltip .rc-tooltip-inner{
+        font-size: $font-18;
+    }
+}

@@ -1,0 +1,499 @@
+.resident_wrapper {
+    padding-top: 60px;
+    text-align: left;
+    @include -flex-align(flex-start);
+}
+
+.residents_container.collapsed~.residents_detail_container {
+    width: calc(100% - 3%);
+    margin-left: 3%;
+}
+
+.residents_container {
+    width: 17%;
+    height: 100%;
+    border-right: 1px solid $border-color;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    z-index: 2;
+
+    &.no-border {
+        border-right: 0;
+    }
+
+    &.collapsed {
+        width: 3%;
+        background: $grey-color-light;
+
+        &.no-border {
+            border-right: 1px solid $border-color;
+        }
+
+        .search_resi {
+            justify-content: center;
+
+            .hide_pane {
+                margin-left: 0;
+
+                a {
+                    margin: 0;
+
+                    &.collapse_pane {
+                        svg {
+                            transform: rotate(180deg);
+                            -webkit-transform: rotate(180deg);
+                            -moz-transform: rotate(180deg);
+                            -ms-transform: rotate(180deg);
+                            -o-transform: rotate(180deg);
+                        }
+                    }
+                }
+            }
+        }
+
+        .pane_name {
+            display: block;
+            transform: translateY(-50%) rotate(-90deg);
+            -webkit-transform: translateY(-50%) rotate(-90deg);
+            -moz-transform: translateY(-50%) rotate(-90deg);
+            -ms-transform: translateY(-50%) rotate(-90deg);
+            -o-transform: translateY(-50%) rotate(-90deg);
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            white-space: nowrap;
+        }
+    }
+}
+
+.search_resi {
+    padding: 10px 10px 10px;
+    @include -flex-align(center);
+
+    form {
+
+        .components {
+
+            .inputForm {
+                width: 100%;
+                height: 36px;
+                padding: 0px 15px;
+                @include border-radius(5px);
+                border: 1px solid rgba(145, 154, 159, 0.78);
+                font-family: 'gilroy', sans-serif !important;
+                font-size: 14px;
+                color: $secondary-color;
+                transition: all 0.5s ease;
+
+                &:focus {
+                    border-color: #000;
+                    outline: none;
+                }
+
+                &.select {
+                    appearance: none;
+                    background: url('../../../../assets/images/chevron-down.svg') no-repeat;
+                    background-position: 95% center;
+                    padding-right: 50px;
+                }
+
+                &.datePick {
+                    appearance: none;
+                    background: url('../../../../assets/images/calendar-dates.svg') no-repeat;
+                    background-position: 95% center;
+                    padding-right: 50px;
+
+                    &::-webkit-calendar-picker-indicator {
+
+                        -webkit-appearance: none;
+                    }
+                }
+            }
+
+            &.search {
+                .inputForm {
+                    padding-right: 40px;
+                    background-image: url('../../../../assets/images/pmr/search.svg');
+                    background-repeat: no-repeat;
+                    background-position: 95% 50%;
+                }
+            }
+        }
+
+        .form_group{
+            margin-bottom: 0px;
+        }
+    }
+
+    .hide_pane {
+        margin-left: 10px;
+        @include -flex-align(center);
+
+        a {
+            margin: 0 10px;
+            cursor: pointer;
+
+            &.showed {
+                svg {
+                    .a {
+                        fill: $btn-color;
+                        stroke: $btn-color;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+.resi_person_wrap {
+    height: calc(100vh - 165px);
+    overflow: hidden;
+    overflow-y: auto;
+    @include scrollbar();
+
+    .resi_person {
+        padding: 10px;
+        width: 100%;
+        cursor: pointer;
+        @include -flex-align(center);
+        justify-content: space-between;
+
+        &.opened {
+            background-color: $grey-color;
+        }
+
+        .person_name {
+            margin-left: 0px;
+            @include -flex-align(center);
+            flex-wrap: wrap;
+            width: 100%;
+            >div{
+                width: calc(100% - 55px);
+                &.full_width{
+                    width: 100%;
+                    h1{
+                        width : 100%
+                    }
+                    
+                }
+            }
+            img {
+                // max-width: 36px;
+                // max-height: 36px;
+                width: 36px;
+                height: 36px;
+                @include border-radius(50px);
+                margin-right: 15px;
+            }
+
+            h4,
+            p {
+                margin: 0;
+            }
+
+            h4 {
+                width: 100%;
+                font-size: $font-14;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .r_room {
+                @include -flex-align(center);
+                margin-top: 3px;
+                width: 100%;
+
+                .status {
+                    width: 5px;
+                    height: 5px;
+                    @include border-radius(15px);
+                    margin-right: 5px;
+
+                    &.active {
+                        background: $todo-text;
+                    }
+
+                    &.inactive {
+                        background: $notes;
+                    }
+                }
+
+                p {
+
+                    font-size: $font-12;
+                    color: $border-color;
+                    font-weight: 500;
+                }
+            }
+
+            &.inactive {
+                h4 {
+                    font-weight: 500;
+                    color: $border-color;
+                }
+            }
+
+        }
+
+        .more {
+            justify-content: flex-end;
+        }
+    }
+
+
+}
+
+.master {
+    .resi_person_wrap{
+        height: calc(100vh - 80px) !important
+    }
+    .masterlist-header{
+        overflow: hidden !important
+    }
+}
+
+.residents_container .add_resident {
+    @include -flex-align(center);
+    justify-content: center;
+    cursor: pointer;
+    border-top: 1px solid $border-color;
+
+    h3 {
+        font-size: $font-16;
+    }
+
+    svg {
+        fill: #10D296;
+        margin-right: 10px;
+    }
+}
+
+.filter_wrap {
+    border-top: 1px solid $border-color;
+
+    .filter_section {
+
+
+        .filter_head {
+            background: $grey-color;
+            margin: 0;
+            padding: 10px 20px;
+        }
+
+        .filter_value {
+            padding: 20px 20px 30px;
+
+            .filter_switch {
+                margin-right: 10px;
+                cursor: pointer;
+
+                span {
+                    border: 1px solid $border-color;
+                    @include border-radius(5px);
+                    padding: 5px 8px;
+                    font-size: $font-14;
+                    color: $border-color;
+                }
+
+                input {
+                    display: none;
+
+                    &:checked~span {
+                        border-color: $phr-backround;
+                        background-color: $phr-backround;
+                        color: $phr-text;
+                        font-weight: 600;
+                    }
+                }
+
+
+            }
+
+            .filter_check {
+                cursor: pointer;
+                @include -flex-align(center);
+                padding: 5px 0;
+
+                .lbl {
+                    padding: 5px 8px;
+                    font-size: $font-14;
+                    color: $black-font;
+                }
+
+                .checkbox {
+                    display: block;
+                    width: 16px;
+                    height: 16px;
+                    border: 1px solid $border-color;
+                    @include border-radius(3px);
+                    font-weight: 500;
+                }
+
+                input {
+                    display: none;
+
+                    &:checked~.checkbox {
+                        background: url('../../../../assets/images/check.svg') no-repeat;
+                        background-position: center;
+                        color: $phr-text;
+                        font-weight: 600;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+.pt_0 {
+    padding-top: 0 !important;
+}
+
+
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .resi_person_wrap
+    {
+        height: calc(100vh - 190px);
+        p.text-center{
+            font-size: $font-18;
+        }
+        .resi_person 
+        {
+            .person_name {
+                > div{
+                    width: calc(100% - 80px);
+                }
+                h4{
+                    font-size: $font-18;
+                }
+                .r_room{
+                    p{
+                        font-size: $font-16;
+                    }
+                }
+            }
+        }
+        
+    }
+    .search_resi{
+        form{
+            width: 100%;
+        }
+    }
+    .residents_container{
+        width: 15%;
+        .add_resident{
+            svg{
+                width: 35px;
+                height: 35px;
+            }
+            h3{
+                font-size: $font-20;
+            }
+        }
+    }
+    .filter_wrap {
+        .filter_section {
+            .filter_value {
+                .filter_switch {
+                    span{
+                        font-size: $font-17;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width : 1300px) and (max-width : 1470px) {
+    .resi_person_wrap {
+        .resi_person {
+            .person_name {
+                flex-wrap: nowrap;
+
+                h4 {
+                    width: 91%;
+                }
+                >div{
+                    width: calc(100% - 55px);
+                    &.full_width{
+                        width: 100%;
+                        h4{
+                            width : 100%
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    .filter_wrap {
+        .filter_section {
+            .filter_value {
+                padding-bottom: 20px;
+
+                .filter_switch {
+
+                    display: inline-block;
+
+
+
+                    span {
+                        display: block;
+                    }
+
+
+                }
+
+            }
+        }
+    }
+
+    .mb-md-10 {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1299px) {
+
+    .resi_person_wrap {
+
+        .resi_person {
+            padding-right: 5px;
+
+            .person_name {
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+
+                div {
+                    width: 131px;
+                }
+            }
+        }
+    }
+
+    .residents_container {
+        width: 20%;
+    }
+
+
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .residents_container {
+        width: 32%;
+        max-width: 250px;
+        background: $white-color;
+    }
+
+
+}

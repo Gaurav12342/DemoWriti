@@ -1,0 +1,25 @@
+.nodata_wrap {
+    height: calc(100vh - 175px);
+    @include -flex-align(center);
+    justify-content: center;
+    flex-direction: column;
+
+    svg {
+        max-width: 100px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        margin: 0;
+    }
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .nodata_wrap {
+        svg{
+            max-width: 170px;
+        }
+        h3{
+            font-size: $font-25;
+        }
+    }
+}

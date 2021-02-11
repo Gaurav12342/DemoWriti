@@ -1,0 +1,340 @@
+.patient_order_wrap {
+    margin-top: 10px;
+    border: 1px solid $border-color;
+    border-top: 0;
+    overflow: hidden;
+    @include border-radius(5px);
+    display: table;
+    width: 100%;
+
+    .patient_order_head {
+        background-color: $btn-color;
+        display: table-header-group;
+        width: 100%;
+        @include border-radius(5px);
+
+        .p_head {
+            display: table-cell;
+            color: $white-color;
+            padding: 10px 10px;
+            font-size: $font-13;
+            font-weight: 300;
+            // min-width: calc(100% / attr('datacols'));
+
+            .p_head_container {
+                @include -flex-align(center);
+            }
+
+
+
+            svg {
+                margin-left: 15px;
+                width: 13px;
+                cursor: pointer;
+
+
+                .a {
+                    fill: $white-color;
+                    stroke: $white-color;
+                    stroke-width: 0 !important;
+                    cursor: pointer;
+                }
+            }
+
+            .refresh {
+
+                float: right;
+                // margin-left: 25px;
+                @include -flex-align(center);
+
+                a {
+                    margin: 0 10px;
+
+                    svg {
+                        margin-left: 5px;
+                        margin-top: 0;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    // .scroll_wrapper {
+    // max-height: calc(100vh - 385px);
+    // min-height: calc(100vh - 385px);
+    // overflow: hidden;
+    // overflow-y: auto;
+    // @include scrollbar();
+
+
+    .patient_order_detail {
+        display: table-row-group;
+
+        padding: 10px 0px;
+        border-bottom: 1px solid $border-color;
+
+        &:last-child {
+            border-bottom: 0;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        &:nth-child(even) {
+            background-color: $grey-color-light;
+        }
+
+        .patient_order_content {
+            display: table-row;
+            width: 100%;
+
+            .patient_order_d {
+                display: table-cell;
+                font-size: $font-12;
+                padding: 12px 10px 8px;
+                font-family: 'gilroy';
+                font-weight: 300;
+                vertical-align: middle;
+
+
+                &.ot {
+
+                    .ot_container {
+                        @include -flex-align(center);
+                    }
+
+                    svg {
+                        margin-right: 5px;
+                        height: 15px;
+
+                        path {
+                            fill: $todo-text;
+                        }
+                    }
+
+                    svg.non_drug {
+
+
+
+                        path {
+                            fill: $np-text;
+                        }
+
+
+                    }
+
+                    .o_status {
+                        @include border-radius(20px);
+                        padding: 2px 12px;
+                        display: inline-block;
+                        font-weight: 300;
+                        text-transform: capitalize;
+
+                        &.std_order {
+                            background-color: $todo-backround;
+                            color: $todo-text;
+                        }
+
+                        &.prn {
+                            background-color: $phr-backround !important;
+                            color: $phr-text!important;
+                        }
+
+                        &.non_drug {
+                            background-color: $np-backround;
+                            color: $np-text;
+                        }
+                    }
+                }
+
+                &.st {
+
+
+
+                    svg {
+                        path {
+                            fill: $todo-text;
+                        }
+                    }
+
+                    .o_status {
+                        @include border-radius(20px);
+                        padding: 3px 12px;
+                        display: inline-block;
+                        font-weight: 300;
+                        text-transform: capitalize;
+
+                        &.submitted {
+                            background-color: $todo-backround;
+                            color: $todo-text;
+
+                        }
+
+                        &.in_process {
+                            background-color: $np-backround;
+                            color: $np-text;
+
+                        }
+
+                        &.edited {
+                            background-color: $edited-background;
+                            color: $edited-text;
+
+                        }
+
+                        &.uploaded {
+                            background-color: $phr-backround;
+                            color: $phr-text;
+                        }
+                    }
+                }
+
+                // &.ac {
+
+                .actions {
+                    width: 100%;
+                    @include -flex-align(center);
+                    justify-content: flex-start;
+
+                    .more {
+                        margin-left: 10px;
+                    }
+
+                    a {
+                        margin: 0 10px 0 0;
+                        position: relative;
+                        text-align: center;
+                        cursor: pointer;
+
+                        svg {
+                            .a {
+                                stroke-width: 0;
+                            }
+                        }
+
+                        p {
+                            margin-top: 4px;
+                            margin-bottom: 0;
+                        }
+
+                        .tot {
+                            position: absolute;
+                            top: -8px;
+                            right: 2px;
+                            padding: 2px 4px;
+                            font-size: 9px;
+                            color: $white-color;
+
+                            @include border-radius(10px);
+
+                            &.notes {
+                                background: $notes;
+
+                                &.read {
+                                    background: $reminder;
+                                }
+                            }
+
+                            &.rem {
+                                right: 10px;
+                                background: $notes;
+
+                                &.read {
+                                    background: #609FAE;
+                                }
+                            }
+
+                            &.todo {
+                                right: 0px;
+                                background: $notes;
+
+                                &.read {
+                                    background: #609FAE;
+                                }
+                            }
+
+
+                        }
+
+                    }
+                }
+
+                // }
+
+                .more {
+                    position: relative;
+
+                    .more_wrap {
+                        position: absolute;
+                        top: 0px;
+                        right: 0;
+                        background: $white-color;
+                        box-shadow: 0 0px 10px $shadow-color;
+                        min-width: 100px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        display: none;
+                        z-index: 1;
+
+                        a {
+                            padding: 5px 10px;
+                            text-align: left !important;
+                            @include -flex-align(center);
+                            font-size: $font-12;
+                            font-weight: 600;
+                            -webkit-transition: all 0.3s ease-in-out;
+                            transition: all 0.3s ease-in-out;
+                            font-family: 'gilroy';
+                            font-weight: 300;
+
+                            &:hover {
+                                color: $reminder;
+                            }
+
+                            svg {
+                                margin-right: 10px;
+                                width: 20px;
+                            }
+                        }
+                    }
+
+                    &:hover .more_wrap {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .patient_order_desc {
+        @include -flex-space-between;
+        width: 100%;
+
+        .p_desc {
+            padding: 0px 20px 10px 10px;
+            font-size: $font-12;
+            font-family: 'gilroy';
+            column-count: 1;
+            font-weight: 300;
+
+            h4 {
+                margin-top: 0;
+                margin-bottom: 10px;
+                font-size: $font-13;
+            }
+
+            ol {
+                padding-left: 13px;
+                margin: 0;
+                
+                li {
+                    margin-bottom: 10px;
+                    padding-right: 20px;
+                    font-size: $font-13;
+                }
+            }
+        }
+    }
+}

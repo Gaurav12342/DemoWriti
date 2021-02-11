@@ -1,0 +1,30 @@
+.form_wrap .compnents .security-modal{
+    width: 280px;
+    margin-left: 0px;
+}
+.form_wrap .compnents{
+    width: 100%;
+   margin-left: 0;
+}
+.form_wrap .custom-component{
+    margin-bottom: 40px;
+
+    margin-top: 20px;
+}
+.form_wrap  .compnents {
+        &.resend-otp{
+            
+                .resend-link{
+                    cursor: pointer;
+                    pointer-events: '';
+                    font-size: 16px;
+                    color: #518e9c;
+                }
+                .disable-link{
+                    pointer-events: none;
+                    color: #a7a7a7;
+                    font-size: 16px;
+                }
+            }
+}
+

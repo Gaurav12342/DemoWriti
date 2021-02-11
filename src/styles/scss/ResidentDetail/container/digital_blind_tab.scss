@@ -1,0 +1,144 @@
+.digital_tab {
+    .patient_order_wrap {
+        .patient_order_head {
+            .p_head {
+                &.sr {
+                    width: 7%;
+                }
+
+                &.ph {
+                    width: 15%;
+                }
+
+                &.pno {
+                    width: 10%;
+                }
+
+                &.pr {
+                    width: 20%;
+                }
+
+                &.dd {
+                    width: 20%;
+                }
+
+                &.phr {
+                    width: 10%;
+                }
+
+                &.st {
+                    width: 13%;
+                }
+            }
+        }
+
+        .scroll_wrapper {
+            .patient_order_detail {
+                .patient_order_content {
+
+                    .patient_order_d {
+                        &.sr {
+                            width: 7%;
+                        }
+
+                        &.ph {
+                            width: 15%;
+                        }
+
+                        &.pno {
+                            width: 10%;
+                        }
+
+                        &.pr {
+                            width: 20%;
+                        }
+
+                        &.dd {
+                            width: 20%;
+                        }
+
+                        &.phr {
+                            width: 10%;
+                        }
+
+                        &.st {
+                            width: 13%;
+
+                            &.call_type {
+                                svg {
+                                    display: block;
+                                    margin-top: 5px;
+                                }
+
+                                .with_help {
+                                    @include -flex-align(center);
+
+                                    svg {
+                                        margin-right: 10px;
+                                    }
+
+                                    a {
+                                        margin-top: 5px;
+                                    }
+
+                                    &.rejected {
+                                        color: $notes;
+
+
+                                        svg {
+                                            margin-left: 10px;
+                                            margin-top: 0;
+
+                                            path {
+                                                fill: $notes;
+                                            }
+                                        }
+                                    }
+
+                                    &.reschdule {
+                                        a {
+                                            color: $btn-color;
+                                            text-decoration: underline;
+
+                                        }
+                                    }
+
+                                    &.completed {
+
+                                        color: $todo-text;
+                                    }
+                                }
+
+
+                            }
+                        }
+
+                        .more_wrap {
+
+                            width: 130px;
+
+                            a {
+                                span {
+                                    .nos {
+                                        margin-left: 20px;
+                                        float: right;
+                                        @include border-radius(10px);
+                                        padding: 3px 8px;
+                                        font-size: 11px;
+                                        color: $white-color;
+                                        background: $reminder;
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,402 @@
+.virtualvisit_wrap {
+  padding-top: 60px;
+  text-align: left;
+
+  .patient_order_wrap {
+    margin-bottom: 60px;
+    margin-top: 0;
+  }
+
+  .patient_order_head {
+    .p_head {
+      &.st0 {
+        fill: #ffffff;
+      }
+
+      &.sr {
+        width: 5%;
+      }
+
+      &.re {
+        width: 6%;
+      }
+
+      &.ha {
+        width: 8%;
+      }
+
+      &.rn {
+        width: 6%;
+      }
+
+      &.vv {
+        width: 9%;
+      }
+
+      &.vw {
+        width: 6%;
+      }
+
+      &.rq {
+        width: 8%;
+      }
+
+      &.sh {
+        width: 8%;
+      }
+
+      &.vd {
+        width: 12%;
+      }
+
+      &.st {
+        width: 11%;
+      }
+    }
+  }
+
+  .scroll_wrapper .patient_order_detail {
+    padding: 5px 0px;
+
+    .patient_order_content .patient_order_d.ac .actions a .tot {
+      right: -2px;
+    }
+  }
+
+  .scroll_wrapper .patient_order_detail .patient_order_content {
+    .patient_order_d {
+      color: #2D2D30;
+
+      &.sr {
+        width: 5%;
+      }
+
+      &.re {
+        width: 6%;
+      }
+
+      &.ha {
+        width: 8%;
+      }
+
+      &.rn {
+        width: 6%;
+      }
+
+      &.vv {
+        width: 9%;
+      }
+
+      &.vw {
+        width: 6%;
+      }
+
+      &.rq {
+        width: 8%;
+      }
+
+      &.sh {
+        width: 8%;
+      }
+
+      &.vd {
+        width: 12%;
+      }
+
+      &.st {
+        width: 11%;
+      }
+    }
+
+    .patient_order_d.st svg {
+      display: block;
+      margin-top: 5px;
+    }
+
+    .patient_order_d.st svg path {
+      fill: #919a9f;
+      stroke-width: 0;
+    }
+
+    .patient_order_d.st .o_status {
+      padding: 0;
+    }
+
+    .call_type .with_help.rejected {
+      color: #ff7885;
+      display: flex;
+      align-items: center;
+
+      svg {
+        margin-left: 10px;
+        margin-top: 0;
+        cursor: pointer;
+
+        path {
+          fill: #ff7885;
+        }
+      }
+    }
+
+    .call_type .with_help.completed {
+      color: #0BAA50;
+    }
+
+    .with_help.reschdule {
+      display: flex;
+      align-items: flex-end;
+
+      svg {
+        margin-right: 10px;
+      }
+
+      a {
+        color: #609fae;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .page_head {
+    .react-datepicker-input input {
+      width: 228px;
+    }
+
+    .inputForm.select,
+    .search input.inputForm {
+      width: 184px;
+      color: #919A9F;
+
+      &::placeholder {
+        color: #919A9F;
+      }
+    }
+
+    input.inputForm {
+      width: 150px;
+    }
+
+    .react-datepicker {
+      .react-datepicker-top {
+        background: linear-gradient(#609fae, #609fae);
+        border-top: 1px solid #609fae;
+        border-left: 1px solid #609fae;
+        border-right: 1px solid #609fae;
+      }
+
+      .react-datepicker-picker.selected.current {
+        background: #aad9e5 !important;
+      }
+
+      .react-datepicker-top::after {
+        border-bottom-color: #609fae;
+      }
+    }
+
+    .react-datepicker-input {
+      background: #fff;
+      border: 1px solid rgba(145, 154, 159, 0.78);
+
+      .calendar {
+        background-image: url("../../../../assets/images/calendar-dates.svg");
+        width: 18px;
+        height: 18px;
+        background-size: 18px;
+      }
+
+      input {
+        font-family: "gilroy", sans-serif !important;
+        font-size: 12px;
+        color: #919A9F;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .virtualvisit_list_wrap {
+    padding: 0 15px;
+
+    .actions {
+      display: flex;
+      align-items: center;
+
+      &>* {
+        display: inline-block;
+        width: auto;
+        position: relative;
+
+        p {
+          display: block;
+          font-size: 12px;
+          margin-bottom: 0;
+          margin-top: 4px !important;
+          white-space: nowrap;
+        }
+
+      }
+
+      .more {
+        position: relative;
+        cursor: pointer;
+
+        .more_wrap {
+          position: absolute;
+          top: 14px;
+          right: -2px;
+          background: #fff;
+          box-shadow: 0 5px 5px #e8e8e8;
+          width: 150px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          display: none;
+          z-index: 1;
+
+          a {
+            padding: 5px 10px;
+            text-align: left !important;
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            font-weight: 300;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            margin: 0 !important;
+
+            &:hover {
+              color: #6bb9cb;
+            }
+
+            svg {
+              margin-right: 10px;
+              width: 20px;
+            }
+          }
+        }
+
+        &:hover .more_wrap {
+          display: block;
+        }
+      }
+    }
+
+    .virtualvisit_list_table {
+      border: 1px solid rgba(145, 154, 159, 0.78);
+      border-radius: 6px;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+
+      tbody tr td {
+        font-size: 12px;
+        font-weight: 300;
+      }
+
+      thead tr {
+        background: #609fae;
+      }
+    }
+
+    .status {
+      text-transform: capitalize;
+      display: block;
+
+      img {
+        width: 12px;
+        margin-left: 4px;
+        cursor: pointer;
+      }
+    }
+
+    .status-io svg {
+      width: 30px;
+    }
+  }
+
+  p svg {
+    width: 12px;
+    height: 12px;
+    margin-left: 8px;
+
+    path {
+      fill: #fff;
+    }
+  }
+}
+
+.rc-tooltip {
+  opacity: 1;
+
+  .rc-tooltip-arrow {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: none;
+    transform: rotate(45deg);
+    -webkit-box-shadow: 6px 10px 20px rgba(0, 0, 0, 0.38);
+    box-shadow: 6px 10px 20px rgba(0, 0, 0, 0.38);
+  }
+
+  .rc-tooltip-inner {
+    background-color: #fff;
+    color: #2d2d30;
+    font-weight: 300;
+    padding: 6px 10px;
+    min-height: auto;
+  }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1299px) {
+  .virtualvisit_wrap {
+    .page_head {
+      h3 {
+        margin-bottom: 20px;
+        align-items: center;
+        font-size: 22px;
+      }
+
+      flex-wrap: wrap;
+
+      .form_wrap {
+        flex-wrap: wrap;
+        margin: 0 -6px;
+
+        .components {
+          margin-bottom: 12px;
+          width: 16.66%;
+
+          .inputForm {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+  .virtualvisit_wrap {
+    .page_head {
+      h3 {
+        margin-bottom: 20px;
+        font-size: 22px;
+        align-items: center;
+      }
+
+      padding-bottom: 10px;
+      flex-wrap: wrap;
+
+      .form_wrap {
+        flex-wrap: wrap;
+        margin: 0 -6px;
+
+        .components {
+          margin-bottom: 12px;
+          width: 33.33%;
+
+          .inputForm {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

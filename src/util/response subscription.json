@@ -1,0 +1,1187 @@
+{
+    "code": "OK",
+    "message": "Operation is successfully executed",
+    "data": {
+        "subscriptionRoleGroup": {
+            "_id": "5f91568e2fd9f515da160297",
+            "name": "teststss",
+            "isActive": true,
+            "createdAt": "2020-10-22T09:53:18.931Z",
+            "updatedAt": "2020-10-22T09:53:18.931Z",
+            "__v": 0,
+            "roleAccessPermissions": [
+                {
+                    "module": 1,
+                    "moduleName": "User",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "ADD",
+                            "isSelected": true,
+                            "name": "Add"
+                        },
+                        {
+                            "code": "EDIT",
+                            "isSelected": true,
+                            "name": "Edit"
+                        },
+                        {
+                            "code": "DELETE",
+                            "isSelected": true,
+                            "name": "Delete"
+                        },
+                        {
+                            "code": "UPLOAD",
+                            "isSelected": true,
+                            "name": "Upload"
+                        },
+                        {
+                            "code": "DOWNLOAD",
+                            "isSelected": true,
+                            "name": "Download"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 2,
+                    "moduleName": "Pharmacy",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "ADD",
+                            "isSelected": true,
+                            "name": "Add"
+                        },
+                        {
+                            "code": "EDIT",
+                            "isSelected": true,
+                            "name": "Edit"
+                        },
+                        {
+                            "code": "DELETE",
+                            "isSelected": true,
+                            "name": "Delete"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [
+                        {
+                            "subModule": 1,
+                            "subModuleName": "Setting",
+                            "isSelected": true,
+                            "actions": [
+                                {
+                                    "code": "ADD",
+                                    "isSelected": true,
+                                    "name": "Add"
+                                },
+                                {
+                                    "code": "EDIT",
+                                    "isSelected": true,
+                                    "name": "Edit"
+                                }
+                            ]
+                        }
+                    ],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 3,
+                    "moduleName": "Imaging & Diagnostic",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "ADD",
+                            "isSelected": true,
+                            "name": "Add"
+                        },
+                        {
+                            "code": "EDIT",
+                            "isSelected": true,
+                            "name": "Edit"
+                        },
+                        {
+                            "code": "DELETE",
+                            "isSelected": true,
+                            "name": "Delete"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [
+                        {
+                            "subModule": 2,
+                            "subModuleName": "Setting",
+                            "isSelected": true,
+                            "actions": [
+                                {
+                                    "code": "ADD",
+                                    "isSelected": true,
+                                    "name": "Add"
+                                },
+                                {
+                                    "code": "EDIT",
+                                    "isSelected": true,
+                                    "name": "Edit"
+                                }
+                            ]
+                        }
+                    ],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 4,
+                    "moduleName": "Organization & Home",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "ADD",
+                            "isSelected": true,
+                            "name": "Add"
+                        },
+                        {
+                            "code": "EDIT",
+                            "isSelected": true,
+                            "name": "Edit"
+                        },
+                        {
+                            "code": "DELETE",
+                            "isSelected": true,
+                            "name": "Delete"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [
+                        {
+                            "subModule": 3,
+                            "subModuleName": "Setting",
+                            "isSelected": true,
+                            "actions": [
+                                {
+                                    "code": "ADD",
+                                    "isSelected": true,
+                                    "name": "Add"
+                                },
+                                {
+                                    "code": "EDIT",
+                                    "isSelected": true,
+                                    "name": "Edit"
+                                }
+                            ]
+                        }
+                    ],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 5,
+                    "moduleName": "Home Area",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "ADD",
+                            "isSelected": true,
+                            "name": "Add"
+                        },
+                        {
+                            "code": "EDIT",
+                            "isSelected": true,
+                            "name": "Edit"
+                        },
+                        {
+                            "code": "DELETE",
+                            "isSelected": true,
+                            "name": "Delete"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [
+                        {
+                            "subModule": 4,
+                            "subModuleName": "Setting",
+                            "isSelected": true,
+                            "actions": [
+                                {
+                                    "code": "ADD",
+                                    "isSelected": true,
+                                    "name": "Add"
+                                },
+                                {
+                                    "code": "EDIT",
+                                    "isSelected": true,
+                                    "name": "Edit"
+                                }
+                            ]
+                        }
+                    ],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 6,
+                    "moduleName": "Role Base Access Permission",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "ADD",
+                            "isSelected": true,
+                            "name": "Add"
+                        },
+                        {
+                            "code": "EDIT",
+                            "isSelected": true,
+                            "name": "Edit"
+                        },
+                        {
+                            "code": "DELETE",
+                            "isSelected": true,
+                            "name": "Delete"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 7,
+                    "moduleName": "Resident",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "ADD",
+                            "isSelected": true,
+                            "name": "Add"
+                        },
+                        {
+                            "code": "EDIT",
+                            "isSelected": true,
+                            "name": "Edit"
+                        },
+                        {
+                            "code": "TRANSFER",
+                            "isSelected": true,
+                            "name": "Transfer"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 8,
+                    "moduleName": "Resident Document",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "ADD",
+                            "isSelected": true,
+                            "name": "Add"
+                        },
+                        {
+                            "code": "EDIT",
+                            "isSelected": true,
+                            "name": "Edit"
+                        },
+                        {
+                            "code": "DOWNLOAD",
+                            "isSelected": true,
+                            "name": "Download"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 9,
+                    "moduleName": "Digital Binder",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "DOWNLOAD",
+                            "isSelected": true,
+                            "name": "Download"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 10,
+                    "moduleName": "Archived Data",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "DOWNLOAD",
+                            "isSelected": true,
+                            "name": "Download"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 11,
+                    "moduleName": "TODO",
+                    "actions": [
+                        {
+                            "code": "YES_NA",
+                            "isSelected": true,
+                            "name": "Yes/NA"
+                        },
+                        {
+                            "code": "UNDO",
+                            "isSelected": true,
+                            "name": "Undo"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 12,
+                    "moduleName": "Rx Order",
+                    "actions": [
+                        {
+                            "code": "ADD",
+                            "isSelected": true,
+                            "name": "Add"
+                        },
+                        {
+                            "code": "EDIT",
+                            "isSelected": true,
+                            "name": "Edit"
+                        },
+                        {
+                            "code": "CANCE2020L",
+                            "isSelected": true,
+                            "name": "Cancel"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [
+                        {
+                            "subModule": 5,
+                            "subModuleName": "Rx Order ToDo",
+                            "isSelected": true,
+                            "actions": [
+                                {
+                                    "code": "DRUG_RECORD",
+                                    "sequence": 1,
+                                    "isSelected": true,
+                                    "name": "Drug Record"
+                                },
+                                {
+                                    "code": "CONSENT_OBTAINED",
+                                    "sequence": 2,
+                                    "isSelected": true,
+                                    "name": "Consent Obtained"
+                                },
+                                {
+                                    "code": "E_BOX_USED",
+                                    "sequence": 3,
+                                    "isSelected": true,
+                                    "name": "E-Box Used"
+                                },
+                                {
+                                    "code": "CARE_PLAN",
+                                    "sequence": 4,
+                                    "isSelected": true,
+                                    "name": "Care Plan"
+                                },
+                                {
+                                    "code": "X_RAY_DIET",
+                                    "sequence": 5,
+                                    "isSelected": true,
+                                    "name": "X-Ray Diet Lab Req"
+                                },
+                                {
+                                    "code": "CHANGE_STICKER",
+                                    "sequence": 6,
+                                    "isSelected": true,
+                                    "name": "Change Sticker"
+                                },
+                                {
+                                    "code": "FIRST_CHECK",
+                                    "sequence": 7,
+                                    "isSelected": true,
+                                    "name": "First Check"
+                                },
+                                {
+                                    "code": "SECOND_CHECK",
+                                    "sequence": 8,
+                                    "isSelected": true,
+                                    "name": "2nd eMAR/eTAR"
+                                },
+                                {
+                                    "code": "VERBAL_ORDER",
+                                    "sequence": 9,
+                                    "isSelected": true,
+                                    "name": "Verbal Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 13,
+                    "moduleName": "E-Processing",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "ADD",
+                            "isSelected": true,
+                            "name": "Add"
+                        },
+                        {
+                            "code": "EDIT",
+                            "isSelected": true,
+                            "name": "Edit"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 14,
+                    "moduleName": "PMR",
+                    "actions": [],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [
+                        {
+                            "subModule": 6,
+                            "subModuleName": "PMR Group",
+                            "isSelected": true,
+                            "actions": [
+                                {
+                                    "code": "LIST",
+                                    "isSelected": true,
+                                    "name": "List"
+                                },
+                                {
+                                    "code": "ADD",
+                                    "isSelected": true,
+                                    "name": "Add"
+                                },
+                                {
+                                    "code": "EDIT",
+                                    "isSelected": true,
+                                    "name": "Edit"
+                                },
+                                {
+                                    "code": "DELETE",
+                                    "isSelected": true,
+                                    "name": "Delete"
+                                }
+                            ]
+                        },
+                        {
+                            "subModule": 7,
+                            "subModuleName": "PMR ToDo",
+                            "isSelected": true,
+                            "actions": [
+                                {
+                                    "code": "NURSE_PREP1",
+                                    "sequence": 1,
+                                    "isSelected": true,
+                                    "name": "Nurse Prep1"
+                                },
+                                {
+                                    "code": "NURSE_PREP2",
+                                    "sequence": 2,
+                                    "isSelected": true,
+                                    "name": "Nurse Prep2"
+                                },
+                                {
+                                    "code": "PHARMACY_COMMENT",
+                                    "sequence": 3,
+                                    "isSelected": true,
+                                    "name": "Pharmacy comment"
+                                },
+                                {
+                                    "code": "PMR",
+                                    "sequence": 4,
+                                    "isSelected": true,
+                                    "name": "PMR"
+                                },
+                                {
+                                    "code": "DRUG_RECORD",
+                                    "sequence": 5,
+                                    "isSelected": true,
+                                    "name": "Drug Record"
+                                },
+                                {
+                                    "code": "CONSENT_OBTAINED",
+                                    "sequence": 6,
+                                    "isSelected": true,
+                                    "name": "Consent Obtained"
+                                },
+                                {
+                                    "code": "E_BOX_USED",
+                                    "sequence": 7,
+                                    "isSelected": true,
+                                    "name": "E-Box Used"
+                                },
+                                {
+                                    "code": "CARE_PLAN",
+                                    "sequence": 8,
+                                    "isSelected": true,
+                                    "name": "Care Plan"
+                                },
+                                {
+                                    "code": "CHANGE_STICKER",
+                                    "sequence": 9,
+                                    "isSelected": true,
+                                    "name": "Change Sticker"
+                                },
+                                {
+                                    "code": "FIRST_CHECK",
+                                    "sequence": 10,
+                                    "isSelected": true,
+                                    "name": "1st eMAR/eTAR"
+                                },
+                                {
+                                    "code": "SECOND_CHECK",
+                                    "sequence": 11,
+                                    "isSelected": true,
+                                    "name": "2nd eMAR/eTAR"
+                                },
+                                {
+                                    "code": "X_RAY_DIET",
+                                    "sequence": 12,
+                                    "isSelected": true,
+                                    "name": "X-Ray Diet Lab Req"
+                                }
+                            ]
+                        }
+                    ],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 15,
+                    "moduleName": "X-Ray/ UltraSound",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "ADD",
+                            "isSelected": true,
+                            "name": "Add"
+                        },
+                        {
+                            "code": "EDIT",
+                            "isSelected": true,
+                            "name": "Edit"
+                        },
+                        {
+                            "code": "CANCE2020L",
+                            "isSelected": true,
+                            "name": "Cancel"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [
+                        {
+                            "subModule": 8,
+                            "subModuleName": "X-Ray/ Ultrasound ToDo",
+                            "isSelected": true,
+                            "actions": [
+                                {
+                                    "code": "X_RAY",
+                                    "sequence": 1,
+                                    "isSelected": true,
+                                    "name": "X-Ray"
+                                }
+                            ]
+                        }
+                    ],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                },
+                {
+                    "module": 16,
+                    "moduleName": "Virtual Visit",
+                    "actions": [
+                        {
+                            "code": "LIST",
+                            "isSelected": true,
+                            "name": "List"
+                        },
+                        {
+                            "code": "ADD",
+                            "isSelected": true,
+                            "name": "Add"
+                        },
+                        {
+                            "code": "EDIT",
+                            "isSelected": true,
+                            "name": "Edit"
+                        },
+                        {
+                            "code": "CANCE2020L",
+                            "isSelected": true,
+                            "name": "Cancel"
+                        }
+                    ],
+                    "isSelected": true,
+                    "isActive": true,
+                    "subModules": [],
+                    "subscriptionRoleGroupId": "5f91568e2fd9f515da160297"
+                }
+            ],
+            "id": "5f91568e2fd9f515da160297"
+        },
+        "roleAccessPermissions": [
+            {
+                "isActive": true,
+                "_id": "5f91568e2fd9f515da160298",
+                "module": 1,
+                "moduleName": "User",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "ADD",
+                        "isSelected": true,
+                        "name": "Add"
+                    },
+                    {
+                        "code": "EDIT",
+                        "isSelected": true,
+                        "name": "Edit"
+                    },
+                    {
+                        "code": "DELETE",
+                        "isSelected": true,
+                        "name": "Delete"
+                    },
+                    {
+                        "code": "UPLOAD",
+                        "isSelected": true,
+                        "name": "Upload"
+                    },
+                    {
+                        "code": "DOWNLOAD",
+                        "isSelected": true,
+                        "name": "Download"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.040Z",
+                "updatedAt": "2020-10-22T09:53:19.040Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568e2fd9f515da160299",
+                "module": 2,
+                "moduleName": "Pharmacy",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "ADD",
+                        "isSelected": true,
+                        "name": "Add"
+                    },
+                    {
+                        "code": "EDIT",
+                        "isSelected": true,
+                        "name": "Edit"
+                    },
+                    {
+                        "code": "DELETE",
+                        "isSelected": true,
+                        "name": "Delete"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.043Z",
+                "updatedAt": "2020-10-22T09:53:19.043Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568e2fd9f515da16029a",
+                "module": 3,
+                "moduleName": "Imaging & Diagnostic",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "ADD",
+                        "isSelected": true,
+                        "name": "Add"
+                    },
+                    {
+                        "code": "EDIT",
+                        "isSelected": true,
+                        "name": "Edit"
+                    },
+                    {
+                        "code": "DELETE",
+                        "isSelected": true,
+                        "name": "Delete"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.045Z",
+                "updatedAt": "2020-10-22T09:53:19.045Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568e2fd9f515da16029b",
+                "module": 4,
+                "moduleName": "Organization & Home",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "ADD",
+                        "isSelected": true,
+                        "name": "Add"
+                    },
+                    {
+                        "code": "EDIT",
+                        "isSelected": true,
+                        "name": "Edit"
+                    },
+                    {
+                        "code": "DELETE",
+                        "isSelected": true,
+                        "name": "Delete"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.046Z",
+                "updatedAt": "2020-10-22T09:53:19.046Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568e2fd9f515da16029c",
+                "module": 5,
+                "moduleName": "Home Area",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "ADD",
+                        "isSelected": true,
+                        "name": "Add"
+                    },
+                    {
+                        "code": "EDIT",
+                        "isSelected": true,
+                        "name": "Edit"
+                    },
+                    {
+                        "code": "DELETE",
+                        "isSelected": true,
+                        "name": "Delete"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.047Z",
+                "updatedAt": "2020-10-22T09:53:19.047Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568e2fd9f515da16029d",
+                "module": 6,
+                "moduleName": "Role Base Access Permission",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "ADD",
+                        "isSelected": true,
+                        "name": "Add"
+                    },
+                    {
+                        "code": "EDIT",
+                        "isSelected": true,
+                        "name": "Edit"
+                    },
+                    {
+                        "code": "DELETE",
+                        "isSelected": true,
+                        "name": "Delete"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.048Z",
+                "updatedAt": "2020-10-22T09:53:19.048Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568e2fd9f515da16029e",
+                "module": 7,
+                "moduleName": "Resident",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "ADD",
+                        "isSelected": true,
+                        "name": "Add"
+                    },
+                    {
+                        "code": "EDIT",
+                        "isSelected": true,
+                        "name": "Edit"
+                    },
+                    {
+                        "code": "TRANSFER",
+                        "isSelected": true,
+                        "name": "Transfer"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.049Z",
+                "updatedAt": "2020-10-22T09:53:19.049Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568e2fd9f515da16029f",
+                "module": 8,
+                "moduleName": "Resident Document",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "ADD",
+                        "isSelected": true,
+                        "name": "Add"
+                    },
+                    {
+                        "code": "EDIT",
+                        "isSelected": true,
+                        "name": "Edit"
+                    },
+                    {
+                        "code": "DOWNLOAD",
+                        "isSelected": true,
+                        "name": "Download"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.053Z",
+                "updatedAt": "2020-10-22T09:53:19.053Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568f2fd9f515da1602a0",
+                "module": 9,
+                "moduleName": "Digital Binder",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "DOWNLOAD",
+                        "isSelected": true,
+                        "name": "Download"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.055Z",
+                "updatedAt": "2020-10-22T09:53:19.055Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568f2fd9f515da1602a1",
+                "module": 10,
+                "moduleName": "Archived Data",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "DOWNLOAD",
+                        "isSelected": true,
+                        "name": "Download"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.056Z",
+                "updatedAt": "2020-10-22T09:53:19.056Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568f2fd9f515da1602a2",
+                "module": 11,
+                "moduleName": "TODO",
+                "actions": [
+                    {
+                        "code": "YES_NA",
+                        "isSelected": true,
+                        "name": "Yes/NA"
+                    },
+                    {
+                        "code": "UNDO",
+                        "isSelected": true,
+                        "name": "Undo"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.057Z",
+                "updatedAt": "2020-10-22T09:53:19.057Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568f2fd9f515da1602a3",
+                "module": 12,
+                "moduleName": "Rx Order",
+                "actions": [
+                    {
+                        "code": "ADD",
+                        "isSelected": true,
+                        "name": "Add"
+                    },
+                    {
+                        "code": "EDIT",
+                        "isSelected": true,
+                        "name": "Edit"
+                    },
+                    {
+                        "code": "CANCE2020L",
+                        "isSelected": true,
+                        "name": "Cancel"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.058Z",
+                "updatedAt": "2020-10-22T09:53:19.058Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568f2fd9f515da1602a4",
+                "module": 13,
+                "moduleName": "E-Processing",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "ADD",
+                        "isSelected": true,
+                        "name": "Add"
+                    },
+                    {
+                        "code": "EDIT",
+                        "isSelected": true,
+                        "name": "Edit"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.059Z",
+                "updatedAt": "2020-10-22T09:53:19.059Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568f2fd9f515da1602a5",
+                "module": 14,
+                "moduleName": "PMR",
+                "actions": [],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.060Z",
+                "updatedAt": "2020-10-22T09:53:19.060Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568f2fd9f515da1602a6",
+                "module": 15,
+                "moduleName": "X-Ray/ UltraSound",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "ADD",
+                        "isSelected": true,
+                        "name": "Add"
+                    },
+                    {
+                        "code": "EDIT",
+                        "isSelected": true,
+                        "name": "Edit"
+                    },
+                    {
+                        "code": "CANCE2020L",
+                        "isSelected": true,
+                        "name": "Cancel"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.061Z",
+                "updatedAt": "2020-10-22T09:53:19.061Z"
+            },
+            {
+                "isActive": true,
+                "_id": "5f91568f2fd9f515da1602a7",
+                "module": 16,
+                "moduleName": "Virtual Visit",
+                "actions": [
+                    {
+                        "code": "LIST",
+                        "isSelected": true,
+                        "name": "List"
+                    },
+                    {
+                        "code": "ADD",
+                        "isSelected": true,
+                        "name": "Add"
+                    },
+                    {
+                        "code": "EDIT",
+                        "isSelected": true,
+                        "name": "Edit"
+                    },
+                    {
+                        "code": "CANCE2020L",
+                        "isSelected": true,
+                        "name": "Cancel"
+                    }
+                ],
+                "isSelected": true,
+                "subscriptionRoleGroupId": "5f91568e2fd9f515da160297",
+                "__v": 0,
+                "createdAt": "2020-10-22T09:53:19.062Z",
+                "updatedAt": "2020-10-22T09:53:19.062Z"
+            }
+        ]
+    },
+    "memUsage": [
+        "rss - 64.58 MB",
+        "heapTotal - 25.07 MB",
+        "heapUsed - 22.65 MB",
+        "external - 18.85 MB",
+        "arrayBuffers - 17.48 MB"
+    ]
+}

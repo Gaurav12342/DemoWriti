@@ -1,0 +1,402 @@
+.data_table_wrap {
+    width: 100%;
+    padding: 0 15px 30px;
+    min-height: calc(100vh - 330px);
+    &.no_lr_pad {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.data_table_cotainer {
+    border: 1px solid #919A9F;
+    @include border-radius(5px);
+    border-top: 0;
+    overflow: hidden;
+
+}
+
+.data_table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+
+    thead {
+        tr {
+            background-color: $btn-color;
+
+            th {
+                &:first-child {
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                }
+
+                &:last-child {
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                }
+
+                .p_head_container {
+                    @include -flex-align(center);
+                    color: #ffffff;
+                    padding: 10px 10px;
+                    font-size: 13px;
+                    font-weight: 300;
+                    // justify-content: center;
+
+                    .refresh {
+                        @include -flex-align(center);
+                    }
+
+                    a {
+                        cursor: pointer;
+
+
+                    }
+
+                    svg {
+                        margin-left: 15px;
+                        cursor: pointer;
+                        width: 14px;
+                        height: 14px;
+                        .a {
+                            fill: #ffffff !important
+                        }
+                    }
+
+
+
+                }
+
+            }
+        }
+    }
+
+    tbody {
+        border-bottom: 1px solid #919A9F;
+
+        &:nth-child(odd) {
+            background-color: $grey-color-light;
+        }
+
+        &:last-child {
+            border-bottom: 0;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        tr {
+
+            td {
+                padding: 5px 0px;
+
+
+
+                &.no_pad {
+                    padding: 0;
+                    width:100%
+                }
+
+                td {
+                    padding: 0;
+
+                    table {
+                        width: 100%;
+                    }
+                }
+
+                .patient_order_d {
+                    font-size: 12px;
+                    padding: 12px 10px 8px;
+                    font-family: 'gilroy';
+                    font-weight: 300;
+
+                    // .actions {
+                    //     div {
+                    //         margin: 0 5px;
+                    //         position: relative;
+                    //         text-align: center;
+                    //         cursor: pointer;
+
+                    //         .tot {
+                    //             top: -8px;
+                    //             right: -4px;
+                    //         }
+                    //     }
+                    // }
+                    
+
+                        .ot_container {
+                            @include -flex-align(center);
+                            svg {
+                                margin-right: 5px;
+                                height: 15px;
+        
+                                path {
+                                    fill: $todo-text;
+                                }
+                            }
+        
+                            svg.non_drug {
+        
+        
+        
+                                path {
+                                    fill: $np-text;
+                                }
+        
+        
+                            }
+        
+                            .o_status {
+                                @include border-radius(20px);
+                                padding: 2px 12px;
+                                display: inline-block;
+                                font-weight: 300;
+                                text-transform: capitalize;
+        
+                                &.std_order {
+                                    background-color: $todo-backround;
+                                    color: $todo-text;
+                                }
+        
+                                &.prn {
+                                    background-color: $phr-backround !important;
+                                    color: $phr-text!important;
+                                }
+        
+                                &.non_drug {
+                                    background-color: $np-backround;
+                                    color: $np-text;
+                                }
+                            }
+                        }
+    
+                        
+                    
+                    .actions {
+                        width: 100%;
+                        @include -flex-align(center);
+                        justify-content: flex-start;
+
+                        .more {
+                            margin-left: 10px;
+                        }
+
+                        .action_ico {
+                            position: relative;
+                            width: max-content;
+                            margin: auto;
+                        }
+
+                        div {
+                            margin: 0 auto;
+                            position: relative;
+                            text-align: center;
+                            cursor: pointer;
+                            width: max-content;
+                            span {
+                                position: relative;
+                            }
+
+                            svg {
+                                height: 16px;
+
+                                .a {
+                                    stroke-width: 0;
+                                }
+                            }
+
+                            p {
+                                margin-top: 4px;
+                                margin-bottom: 0;
+                                font-size: $font-12;
+                            }
+
+                            .tot {
+                                position: absolute;
+                                top: -7px;
+                                right: -8px;
+                                padding: 2px 4px;
+                                font-size: 9px;
+                                color: $white-color;
+                                line-height: 1;
+                                @include border-radius(10px);
+                                min-width: 17px;
+                                background: $btn-color;
+
+                                &.unread {
+                                    background: $notes;
+                                }
+
+
+                            }
+
+                        }
+                    }
+
+                    .more {
+                        position: relative;
+
+                        .more_wrap {
+                            position: absolute;
+                            top: 0px;
+                            right: 0;
+                            background: $white-color;
+                            box-shadow: 0 0px 10px $shadow-color;
+                            min-width: 120px;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            display: none;
+                            z-index: 1;
+
+                            a {
+                                padding: 5px 10px;
+                                text-align: left !important;
+                                @include -flex-align(center);
+                                font-size: $font-12;
+                                font-weight: 600;
+                                -webkit-transition: all 0.3s ease-in-out;
+                                transition: all 0.3s ease-in-out;
+                                font-family: 'gilroy';
+                                font-weight: 300;
+
+                                &:hover {
+                                    color: $reminder;
+                                }
+
+                                svg {
+                                    margin-right: 10px;
+                                    width: 20px;
+                                }
+                            }
+                        }
+
+                        &:hover .more_wrap {
+                            display: block;
+                        }
+                    }
+                }
+
+                .patient_order_desc {
+                    @include -flex-space-between;
+
+                    .p_desc {
+                        padding: 0px 10px 5px 10px;
+                        font-size: 12px;
+                        font-family: 'gilroy';
+                        font-weight: 300;
+                        width: 20%;
+                        &:first-child{
+                            width: 60%;
+                        }
+                        h4 {
+                            margin-top: 0;
+                            margin-bottom: 10px;
+                            font-size: 13px;
+
+                        }
+
+                        ol {
+                            padding-left: 13px;
+                            margin: 0;
+                            list-style-type: disc;
+                            li {
+                                margin-bottom: 10px;
+                                padding-right: 20px;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .data_table {
+        thead {
+            tr{
+                th {
+                    .p_head_container{
+                        font-size: $font-20;
+                        svg{
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+                // td{
+                //     .patient_order_d{
+                //         font-size: 14px;
+                //     }
+                // }
+            }
+        }
+        tbody {
+            tr{
+                
+                td{
+                    .patient_order_d{
+                        font-size: $font-17;
+                        .actions {
+                            
+                                svg{
+                                    width: 25px !important;
+                                    height: 25px !important;
+                                }
+                                p{
+                                    font-size: $font-17;
+                                }
+                                .tot{
+                                    font-size: $font-13;
+                                    padding : 2px 10px;
+                                    right : -6px;
+                                }
+                                div{
+                                    p{
+                                        font-size: $font-17;
+                                    }
+                                    .tot{
+                                        font-size: $font-13;
+                                    padding : 2px 10px;
+                                    right : -6px;
+                                    }
+                                }
+                            
+                        }
+                        .more{
+                            .more_wrap{
+                                a{
+                                    font-size: $font-17;
+                                }
+                            }
+                        }
+                    }
+                    .patient_order_desc {
+                        .p_desc {
+                            h4{
+                                font-size:$font-18
+                            }
+                            ol{
+                                
+                                li{
+                                    font-size: $font-17;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    .rbc-show-more{
+        font-size: $font-17;
+    }
+}
+@media screen and (min-width : 1300px) and (max-width : 1440px){
+    .data_table_wrap{
+        min-height: calc(100vh - 330px);
+    }
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "todoType": 44,
+        "label": "X-Ray Result",
+        "sequence": 1,
+        "executionType": "parallel",
+        "requiredEnable": true,
+        "required": true
+    }
+]

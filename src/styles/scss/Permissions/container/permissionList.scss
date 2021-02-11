@@ -1,0 +1,247 @@
+.permissions_list_wrap {
+
+
+    
+
+    .permission_filter {
+        @include -flex-align(center);
+        margin-top: 20px;
+        padding: 5px 15px;
+        background: $btn-color;
+        // border: 1px solid $border-color;
+        @include border-radius(5px);
+        margin-bottom: 30px;
+
+        .filter_check {
+            .lbl {
+                color: $white-color;
+            }
+
+            .checkbox {
+                border: 0;
+
+            }
+        }
+
+    }
+
+    .permission_group {
+        border: 1px solid $grey-color;
+        @include border-radius(5px);
+        margin-bottom: 20px;
+
+
+        .permission_group_head {
+            background-color: $grey-color;
+            padding: 5px 10px;
+            @include border-radius(5px);
+            @include -flex-space-between;
+            align-items: center;
+            cursor: pointer;
+
+            h4 {
+                margin: 0;
+                font-weight: 900;
+                font-size: $font-16;
+            }
+
+            .title{
+                display:flex;
+                align-items: center;
+
+                .checkbox {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
+
+        .apply_permission_container {
+            @include -flex-align(center);
+
+        }
+
+        .permission_group_row {
+            display: none;
+
+
+
+            
+
+            h4 {
+                margin: 0;
+                font-size: $font-14;
+                font-weight: 700;
+            }
+
+            h5 {
+                margin: 0;
+                font-size: $font-14;
+                font-weight: 300;
+            }
+
+            &:last-child {
+                .row_group {
+                    &:last-child {
+                        border-bottom: 0;
+                    }
+                }
+            }
+
+            
+
+            .title {
+                &.rotate {
+                    svg {
+                        transform: rotate(45deg);
+                        -webkit-transform: rotate(45deg);
+                        -moz-transform: rotate(45deg);
+                        -ms-transform: rotate(45deg);
+                        -o-transform: rotate(45deg);
+                    }
+                }
+            }
+           
+
+        }
+
+        &.collapsed {
+            .permission_group_row {
+                display: block;
+            }
+        }
+    }
+
+    .select-all{
+        border: none !important;
+        margin-bottom: 0px;
+        .permission_group_head{
+            background:none !important;
+        }
+    }
+}
+.drag_icon{
+    cursor: pointer;
+    width: 15px;
+    svg{
+        width : 15px
+    }
+}
+.row_group {
+    @include -flex-space-between;
+    align-items: center;
+    padding: 5px 10px 5px 35px;
+    border-bottom: 1px solid $grey-color;
+
+    &:first-child {
+        padding-left: 10px;
+    }
+
+
+
+    .title {
+        @include -flex-align(center);
+        cursor: pointer;
+
+        svg {
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+            fill: $btn-color;
+        }
+
+        h4 {
+            color: $btn-color;
+            line-height: normal;
+        }
+
+        .checkbox {
+            width: 18px;
+            height: 18px;
+                                }
+    }
+}
+.row_group_content {
+    display: none;
+
+    .row_group {
+        &:first-child {
+            padding-left: 35px;
+        }
+    }
+
+    &.expand {
+        display: block;
+
+    }
+}
+.filter_check {
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    padding: 5px 0;
+    margin-right: 15px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    .lbl {
+        padding: 5px 8px;
+        font-size: $font-14;
+        color: $black-font;
+        font-weight: 300;
+        display: inline-block;
+    }
+
+    .checkbox {
+        display: block;
+        width: 16px;
+        height: 16px;
+        border: 1px solid $border-color;
+        background-color: $white-color;
+        @include border-radius(3px);
+        font-weight: 500;
+
+        &.radio{
+            border-radius:50% !important;
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+    input {
+        display: none;
+
+        &:checked~.checkbox {
+            background: url('../../../../assets/images/check.svg') no-repeat;
+            background-position: center;
+            color: $phr-text;
+            background-color: $white-color;
+            font-weight: 600;
+        }
+    }
+
+
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .filter_check {
+        .lbl{
+            font-size: $font-18;
+        }
+    }
+    .permissions_list_wrap {
+        .permission_group {
+            .permission_group_head {
+                h4{
+                    font-size: $font-19;
+                }
+            }
+            .permission_group_row{
+                h4{
+                    font-size: $font-18;
+                }
+            }
+        }
+    }
+}

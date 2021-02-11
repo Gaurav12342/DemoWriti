@@ -1,0 +1,52 @@
+.ml-0 {
+    margin-left: 0 !important;
+}
+.xray-wrap .xray-details .details-table .xray-details-list {
+    &.option-listing {
+        .right-details {
+            display: block;
+            .listing {
+                flex-wrap: wrap;
+                width: 100%;
+                &:not(:last-child) {
+                    margin-bottom: 12px;
+                }
+            }
+        }
+    }
+    .right-details .options-listing-wrapper span {
+        position: relative;
+        z-index: 9999;
+    }
+}
+.pelvis-tooltip {
+    &.rc-tooltip {
+        z-index: 99999;
+    }
+    .rc-tooltip-content {
+        // position: relative;
+        // left: 90px;
+        .rc-tooltip-arrow {
+            -webkit-box-shadow: -11px 0px 20px rgba(0, 0, 0, 0.12);
+            box-shadow: -11px 0px 20px rgba(0, 0, 0, 0.12);
+            left: 2px;
+            width: 15px;
+            height: 15px;
+            
+        }
+        .rc-tooltip-inner{
+            width: 380px;
+            padding: 20px;
+            p {
+                font-weight: 300;
+                color: #2D2D30;
+                font-size: 13px;
+                &:first-child {
+                    margin-top: 0;
+                }
+                margin-top: 10px;
+                    margin-bottom: 0;
+            }
+        }
+    }
+}

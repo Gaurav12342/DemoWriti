@@ -1,0 +1,2781 @@
+[
+  {
+      "bodyPartNo": "Thorax",
+      "bodyPartName": "Chest",
+      "label": "Chest",
+      "code": "CHEST",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Chest x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "THORAX|CHEST|CHEST_X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Pneumonia",
+              "viewType": 1,
+              "code": "THORAX|CHEST|PNEUMONIA",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Congestive Heart Failure",
+              "viewType": 1,
+              "code": "THORAX|CHEST|CONGESTIVE_HEART FAILURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "TB",
+              "viewType": 1,
+              "code": "THORAX|CHEST|TB",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Pleural Effusion",
+              "viewType": 1,
+              "code": "THORAX|CHEST|PLEURAL_EFFUSION",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Mass/NeoPlasm",
+              "viewType": 1,
+              "code": "THORAX|CHEST|MASS/NEOPLASM",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "THORAX|CHEST|OTHER",
+              "nonIgnorableWords": "admission,routine,annual,dmission,amission,adission,admssion,admision,admision,admisson,admissin,admissio,aadmission,addmission,admmission,admiission,admisssion,admisssion,admissiion,admissioon,admissionn,damission,amdission,adimssion,admsision,admisison,admissoin,admissino,qdmission,wdmission,sdmission,xdmission,zdmission,asmission,aemission,armission,afmission,acmission,axmission,adnission,adjission,adkission,admussion,adm8ssion,adm9ssion,admossion,admlssion,admkssion,admjssion,admiasion,admiwsion,admiesion,admidsion,admixsion,admizsion,admisaion,admiswion,admiseion,admisdion,admisxion,admiszion,admissuon,admiss8on,admiss9on,admissoon,admisslon,admisskon,admissjon,admissiin,admissi9n,admissi0n,admissipn,admissiln,admissikn,admissiob,admissioh,admissioj,admissiom,qadmission,aqdmission,wadmission,awdmission,sadmission,asdmission,xadmission,axdmission,zadmission,azdmission,asdmission,adsmission,aedmission,ademission,ardmission,adrmission,afdmission,adfmission,acdmission,adcmission,axdmission,adxmission,adnmission,admnission,adjmission,admjission,adkmission,admkission,admuission,admiussion,adm8ission,admi8ssion,adm9ission,admi9ssion,admoission,admiossion,admlission,admilssion,admkission,admikssion,admjission,admijssion,admiassion,admisasion,admiwssion,admiswsion,admiession,admisesion,admidssion,admisdsion,admixssion,admisxsion,admizssion,admiszsion,admisasion,admissaion,admiswsion,admisswion,admisesion,admisseion,admisdsion,admissdion,admisxsion,admissxion,admiszsion,admisszion,admissuion,admissiuon,admiss8ion,admissi8on,admiss9ion,admissi9on,admissoion,admissioon,admisslion,admissilon,admisskion,admissikon,admissjion,admissijon,admissiion,admissioin,admissi9on,admissio9n,admissi0on,admissio0n,admissipon,admissiopn,admissilon,admissioln,admissikon,admissiokn,admissiobn,admissionb,admissiohn,admissionh,admissiojn,admissionj,admissiomn,admissionm,outine,rutine,rotine,rouine,routne,routie,routin,rroutine,rooutine,rouutine,routtine,routiine,routinne,routinee,orutine,ruotine,rotuine,rouitne,routnie,routien,eoutine,4outine,5outine,toutine,goutine,foutine,doutine,riutine,r9utine,r0utine,rputine,rlutine,rkutine,roytine,ro7tine,ro8tine,roitine,roktine,rojtine,rohtine,rourine,rou5ine,rou6ine,rouyine,rouhine,rougine,roufine,routune,rout8ne,rout9ne,routone,routlne,routkne,routjne,routibe,routihe,routije,routime,routinw,routin3,routin4,routinr,routinf,routind,routins,eroutine,reoutine,4routine,r4outine,5routine,r5outine,troutine,rtoutine,groutine,rgoutine,froutine,rfoutine,droutine,rdoutine,rioutine,roiutine,r9outine,ro9utine,r0outine,ro0utine,rpoutine,roputine,rloutine,rolutine,rkoutine,rokutine,royutine,rouytine,ro7utine,rou7tine,ro8utine,rou8tine,roiutine,rouitine,rokutine,rouktine,rojutine,roujtine,rohutine,rouhtine,rourtine,routrine,rou5tine,rout5ine,rou6tine,rout6ine,rouytine,routyine,rouhtine,routhine,rougtine,routgine,rouftine,routfine,routuine,routiune,rout8ine,routi8ne,rout9ine,routi9ne,routoine,routione,routline,routilne,routkine,routikne,routjine,routijne,routibne,routinbe,routihne,routinhe,routijne,routinje,routimne,routinme,routinwe,routinew,routin3e,routine3,routin4e,routine4,routinre,routiner,routinfe,routinef,routinde,routined,routinse,routines,nnual,anual,anual,annal,annul,annua,aannual,annnual,annnual,annuual,annuaal,annuall,nanual,anunal,annaul,annula,qnnual,wnnual,snnual,xnnual,znnual,abnual,ahnual,ajnual,amnual,anbual,anhual,anjual,anmual,annyal,ann7al,ann8al,annial,annkal,annjal,annhal,annuql,annuwl,annusl,annuxl,annuzl,annuak,annuao,annuap,qannual,aqnnual,wannual,awnnual,sannual,asnnual,xannual,axnnual,zannual,aznnual,abnnual,anbnual,ahnnual,anhnual,ajnnual,anjnual,amnnual,anmnual,anbnual,annbual,anhnual,annhual,anjnual,annjual,anmnual,annmual,annyual,annuyal,ann7ual,annu7al,ann8ual,annu8al,anniual,annuial,annkual,annukal,annjual,annujal,annhual,annuhal,annuqal,annuaql,annuwal,annuawl,annusal,annuasl,annuxal,annuaxl,annuzal,annuazl,annuakl,annualk,annuaol,annualo,annuapl,annualp",
+              "nonIgnorableWordsNotes": "Please note that '(insert typed word)' examinations are not insurable by OHIP and will require valid clinical information for the examination to proceed",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Thorax",
+      "bodyPartName": "Ribs",
+      "label": "Ribs",
+      "code": "RIBS",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Ribs x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "THORAX|RIBS|RIBS_X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "THORAX|RIBS|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Thorax|Ribs|Left",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "THORAX|RIBS|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": true
+                          },
+                          {
+                              "name": "Erosion",
+                              "viewType": 1,
+                              "code": "THORAX|RIBS|LEFT|EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "THORAX|RIBS|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Thorax|Ribs|Right",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "THORAX|RIBS|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": true
+                          },
+                          {
+                              "name": "Erosion",
+                              "viewType": 1,
+                              "code": "THORAX|RIBS|RIGHT|EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "THORAX|RIBS|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Thorax|Ribs|Both",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "THORAX|RIBS|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": true
+                          },
+                          {
+                              "name": "Erosion",
+                              "viewType": 1,
+                              "code": "THORAX|RIBS|BOTH|EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "THORAX|RIBS|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Spine",
+      "bodyPartName": "Cervical Spine",
+      "label": "Cervical Spine",
+      "code": "CERVICAL_SPINE",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Cervical Spine x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "SPINE|CERVICAL_SPINE|CERVICAL SPINE X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Degenerative Disc Disease",
+              "viewType": 1,
+              "code": "SPINE|CERVICAL_SPINE|DEGENERATIVE DISC DISEASE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Fracture",
+              "viewType": 1,
+              "code": "SPINE|CERVICAL_SPINE|FRACTURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Metastasis",
+              "viewType": 1,
+              "code": "SPINE|CERVICAL_SPINE|METASTASIS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Post Operative",
+              "viewType": 1,
+              "code": "SPINE|CERVICAL_SPINE|POST OPERATIVE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Radicular Symptoms",
+              "viewType": 1,
+              "code": "SPINE|CERVICAL_SPINE|RADICULAR SYMPTOMS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "SPINE|CERVICAL_SPINE|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Spine",
+      "bodyPartName": "Thoracic Spine",
+      "label": "Thoracic Spine",
+      "code": "THORACIC_SPINE",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Thoracic Spine x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "SPINE|THORACIC_SPINE|THORACIC SPINE X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Degenerative Disc Disease",
+              "viewType": 1,
+              "code": "SPINE|THORACIC_SPINE|DEGENERATIVE DISC DISEASE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Fracture",
+              "viewType": 1,
+              "code": "SPINE|THORACIC_SPINE|FRACTURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Metastasis",
+              "viewType": 1,
+              "code": "SPINE|THORACIC_SPINE|METASTASIS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Post Operative",
+              "viewType": 1,
+              "code": "SPINE|THORACIC_SPINE|POST OPERATIVE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "SPINE|THORACIC_SPINE|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Spine",
+      "bodyPartName": "Lumbar Spine",
+      "label": "Lumbar Spine",
+      "code": "LUMBAR_SPINE",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Lumbar Spine x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "SPINE|LUMBAR_SPINE|LUMBAR SPINE X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Degenerative Disc Disease",
+              "viewType": 1,
+              "code": "SPINE|LUMBAR_SPINE|DEGENERATIVE DISC DISEASE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Fracture",
+              "viewType": 1,
+              "code": "SPINE|LUMBAR_SPINE|FRACTURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Post Operative",
+              "viewType": 1,
+              "code": "SPINE|LUMBAR_SPINE|POST OPERATIVE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Metastasis",
+              "viewType": 1,
+              "code": "SPINE|LUMBAR_SPINE|METASTASIS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "SPINE|LUMBAR_SPINE|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Spine",
+      "bodyPartName": "Sacrum/Coccyx",
+      "label": "Sacrum/Coccyx",
+      "code": "SACRUM/COCCYX",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Sacrum/Coccyx x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "SPINE|SACRUM/COCCYX|SACRUM/COCCYX_X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Fracture",
+              "viewType": 1,
+              "code": "SPINE|SACRUM/COCCYX|FRACTURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Osteomyelitis",
+              "viewType": 1,
+              "code": "SPINE|SACRUM/COCCYX|OSTEOMYELITIS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "SPINE|SACRUM/COCCYX|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Pelvis",
+      "bodyPartName": "SI Joints",
+      "label": "SI Joints",
+      "code": "SI_JOINTS",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "SI Joints x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "PELVIS|SI_JOINTS|SI JOINTS X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Sacroiliitis",
+              "viewType": 1,
+              "code": "PELVIS|SI_JOINTS|SACROILIITIS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Fracture",
+              "viewType": 1,
+              "code": "PELVIS|SI_JOINTS|FRACTURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Ankylosis",
+              "viewType": 1,
+              "code": "PELVIS|SI_JOINTS|ANKYLOSIS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "PELVIS|SI_JOINTS|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Pelvis",
+      "bodyPartName": "Pelvis & Hips",
+      "label": "Pelvis & Hips",
+      "code": "PELVIS_& HIPS",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Pelvis & Hips x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "PELVIS|PELVIS_& HIPS|PELVIS & HIPS X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "PELVIS|PELVIS_& HIPS|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Pelvis|Pelvis & Hips|Left",
+                      "optionItems": [
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "PELVIS|PELVIS_& HIPS|LEFT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "PELVIS|PELVIS_& HIPS|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "PELVIS|PELVIS_& HIPS|LEFT|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "PELVIS|PELVIS_& HIPS|LEFT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "PELVIS|PELVIS_& HIPS|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Pelvis|Pelvis & Hips|Right",
+                      "optionItems": [
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "PELVIS|PELVIS_& HIPS|RIGHT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "PELVIS|PELVIS_& HIPS|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "PELVIS|PELVIS_& HIPS|RIGHT|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "PELVIS|PELVIS_& HIPS|RIGHT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "PELVIS|PELVIS_& HIPS|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Pelvis|Pelvis & Hips|Both",
+                      "optionItems": [
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "PELVIS|PELVIS_& HIPS|BOTH|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "PELVIS|PELVIS_& HIPS|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "PELVIS|PELVIS_& HIPS|BOTH|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "PELVIS|PELVIS_& HIPS|BOTH|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "PELVIS|PELVIS_& HIPS|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Abdomen",
+      "bodyPartName": "Abdomen 1 view",
+      "label": "Abdomen 1 view",
+      "code": "ABDOMEN_1 VIEW",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Abdomen 1 view x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "ABDOMEN|ABDOMEN_1 VIEW|1 VIEW ABDOMINAL X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Fecal Impaction",
+              "viewType": 1,
+              "code": "ABDOMEN|ABDOMEN_1 VIEW|FECAL IMPACTION",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Renal Calculi",
+              "viewType": 1,
+              "code": "ABDOMEN|ABDOMEN_1 VIEW|RENAL CALCULI",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Catheter Position",
+              "viewType": 1,
+              "code": "ABDOMEN|ABDOMEN_1 VIEW|CATHETER POSITION",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "ABDOMEN|ABDOMEN_1 VIEW|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Abdomen",
+      "bodyPartName": "Abdomen 3 views",
+      "label": "Abdomen 3 views",
+      "code": "ABDOMEN_3 VIEWS",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Abdomen 3 views x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "ABDOMEN|ABDOMEN_3 VIEWS|3 VIEW ABDOMINAL X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Bowel Obstruction",
+              "viewType": 1,
+              "code": "ABDOMEN|ABDOMEN_3 VIEWS|BOWEL OBSTRUCTION",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Free Intraperitoneal Air",
+              "viewType": 1,
+              "code": "ABDOMEN|ABDOMEN_3 VIEWS|FREE INTRAPERITONEAL AIR",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "ABDOMEN|ABDOMEN_3 VIEWS|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Skull / Facial",
+      "bodyPartName": "Skull",
+      "label": "Skull",
+      "code": "SKULL",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Skull x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "SKULL_/ FACIAL|SKULL|SKULL X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Fracture",
+              "viewType": 1,
+              "code": "SKULL_/ FACIAL|SKULL|FRACTURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Sella Enlargement",
+              "viewType": 1,
+              "code": "SKULL_/ FACIAL|SKULL|SELLA ENLARGEMENT",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Metastasis/Myeloma Deposits/Erosion",
+              "viewType": 1,
+              "code": "SKULL_/ FACIAL|SKULL|METASTASIS/MYELOMA DEPOSITS/EROSION",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "SKULL_/ FACIAL|SKULL|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Skull / Facial",
+      "bodyPartName": "Facial Bones",
+      "label": "Facial Bones",
+      "code": "FACIAL_BONES",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Facial Bones x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "SKULL_/ FACIAL|FACIAL BONES|FACIAL BONES X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Fracture",
+              "viewType": 1,
+              "code": "SKULL_/ FACIAL|FACIAL BONES|FRACTURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Osteomyelits",
+              "viewType": 1,
+              "code": "SKULL_/ FACIAL|FACIAL BONES|OSTEOMYELITS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "SKULL_/ FACIAL|FACIAL BONES|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Skull / Facial",
+      "bodyPartName": "Nasal Bones",
+      "label": "Nasal Bones",
+      "code": "NASAL_BONES",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Nasal Bones x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "SKULL_/ FACIAL|NASAL BONES|NASAL BONES X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Fracture",
+              "viewType": 1,
+              "code": "SKULL_/ FACIAL|NASAL BONES|FRACTURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "SKULL_/ FACIAL|NASAL BONES|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Skull / Facial",
+      "bodyPartName": "Orbits",
+      "label": "Orbits",
+      "code": "ORBITS",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Orbits x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "SKULL_/ FACIAL|ORBITS|ORBITS X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Pre MRI",
+              "viewType": 1,
+              "code": "SKULL_/ FACIAL|ORBITS|PRE MRI",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Fracture",
+              "viewType": 1,
+              "code": "SKULL_/ FACIAL|ORBITS|FRACTURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "SKULL_/ FACIAL|ORBITS|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Skull / Facial",
+      "bodyPartName": "Mandible",
+      "label": "Mandible",
+      "code": "MANDIBLE",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Mandible x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "SKULL_/ FACIAL|MANDIBLE|MANDIBLE X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Fracture",
+              "viewType": 1,
+              "code": "SKULL_/ FACIAL|MANDIBLE|FRACTURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Erosion/Osteomyelitis",
+              "viewType": 1,
+              "code": "SKULL_/ FACIAL|MANDIBLE|EROSION/OSTEOMYELITIS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "SKULL_/ FACIAL|MANDIBLE|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Shoulder",
+      "bodyPartName": "Clavicle",
+      "label": "Clavicle",
+      "code": "CLAVICLE",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Clavicle x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "SHOULDER|CLAVICLE|CLAVICLE_X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "SHOULDER|CLAVICLE|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Shoulder|Clavicle|Left",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "SHOULDER|CLAVICLE|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Erosion",
+                              "viewType": 1,
+                              "code": "SHOULDER|CLAVICLE|LEFT|EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "SHOULDER|CLAVICLE|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Shoulder|Clavicle|Right",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "SHOULDER|CLAVICLE|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Erosion",
+                              "viewType": 1,
+                              "code": "SHOULDER|CLAVICLE|RIGHT|EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "SHOULDER|CLAVICLE|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Shoulder|Clavicle|Both",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "SHOULDER|CLAVICLE|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Erosion",
+                              "viewType": 1,
+                              "code": "SHOULDER|CLAVICLE|BOTH|EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "SHOULDER|CLAVICLE|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Shoulder",
+      "bodyPartName": "Shoulder",
+      "label": "Shoulder",
+      "code": "SHOULDER",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Shoulder x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "SHOULDER|SHOULDER|SHOULDER_X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "SHOULDER|SHOULDER|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Shoulder|Shoulder|Left",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "SHOULDER|SHOULDER|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "SHOULDER|SHOULDER|LEFT|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Rotator Cuff Calcification",
+                              "viewType": 1,
+                              "code": "SHOULDER|SHOULDER|LEFT|ROTATOR_CUFF CALCIFICATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "SHOULDER|SHOULDER|LEFT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "SHOULDER|SHOULDER|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Shoulder|Shoulder|Right",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "SHOULDER|SHOULDER|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "SHOULDER|SHOULDER|RIGHT|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Rotator Cuff Calcification",
+                              "viewType": 1,
+                              "code": "SHOULDER|SHOULDER|RIGHT|ROTATOR_CUFF CALCIFICATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "SHOULDER|SHOULDER|RIGHT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "SHOULDER|SHOULDER|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Shoulder|Shoulder|Both",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "SHOULDER|SHOULDER|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "SHOULDER|SHOULDER|BOTH|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Rotator Cuff Calcification",
+                              "viewType": 1,
+                              "code": "SHOULDER|SHOULDER|BOTH|ROTATOR_CUFF CALCIFICATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "SHOULDER|SHOULDER|BOTH|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "SHOULDER|SHOULDER|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Shoulder",
+      "bodyPartName": "AC Joints",
+      "label": "AC Joints",
+      "code": "AC_JOINTS",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "AC Joints x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "SHOULDER|AC_JOINTS|AC JOINTS X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "SHOULDER|AC_JOINTS|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Shoulder|AC Joints|Left",
+                      "optionItems": [
+                          {
+                              "name": "Separation",
+                              "viewType": 1,
+                              "code": "SHOULDER|AC_JOINTS|LEFT|SEPARATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "SHOULDER|AC_JOINTS|LEFT|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "SHOULDER|AC_JOINTS|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "SHOULDER|AC_JOINTS|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Shoulder|AC Joints|Right",
+                      "optionItems": [
+                          {
+                              "name": "Separation",
+                              "viewType": 1,
+                              "code": "SHOULDER|AC_JOINTS|RIGHT|SEPARATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "SHOULDER|AC_JOINTS|RIGHT|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "SHOULDER|AC_JOINTS|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "SHOULDER|AC_JOINTS|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Shoulder|AC Joints|Both",
+                      "optionItems": [
+                          {
+                              "name": "Separation",
+                              "viewType": 1,
+                              "code": "SHOULDER|AC_JOINTS|BOTH|SEPARATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "SHOULDER|AC_JOINTS|BOTH|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "SHOULDER|AC_JOINTS|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "SHOULDER|AC_JOINTS|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Upper Extremity",
+      "bodyPartName": "Humerus",
+      "label": "Humerus",
+      "code": "HUMERUS",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Humerus x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "UPPER_EXTREMITY|HUMERUS|HUMERUS X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "UPPER_EXTREMITY|HUMERUS|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Humerus|Left",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HUMERUS|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Erosion",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HUMERUS|LEFT|EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HUMERUS|LEFT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|HUMERUS|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Humerus|Right",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HUMERUS|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Erosion",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HUMERUS|RIGHT|EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HUMERUS|RIGHT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|HUMERUS|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Humerus|Both",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HUMERUS|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Erosion",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HUMERUS|BOTH|EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HUMERUS|BOTH|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|HUMERUS|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Upper Extremity",
+      "bodyPartName": "Elbow",
+      "label": "Elbow",
+      "code": "ELBOW",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Elbow x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "UPPER_EXTREMITY|ELBOW|ELBOW X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "UPPER_EXTREMITY|ELBOW|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Elbow|Left",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|ELBOW|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|ELBOW|LEFT|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|ELBOW|LEFT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|ELBOW|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Elbow|Right",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|ELBOW|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|ELBOW|RIGHT|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|ELBOW|RIGHT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|ELBOW|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Elbow|Both",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|ELBOW|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|ELBOW|BOTH|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|ELBOW|BOTH|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|ELBOW|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Upper Extremity",
+      "bodyPartName": "Forearm",
+      "label": "Forearm",
+      "code": "FOREARM",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Forearm x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "UPPER_EXTREMITY|FOREARM|FOREARM X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "UPPER_EXTREMITY|FOREARM|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Forearm|Left",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|FOREARM|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Erosion",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|FOREARM|LEFT|EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|FOREARM|LEFT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|FOREARM|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Forearm|Right",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|FOREARM|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Erosion",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|FOREARM|RIGHT|EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|FOREARM|RIGHT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|FOREARM|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Forearm|Both",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|FOREARM|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Erosion",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|FOREARM|BOTH|EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|FOREARM|BOTH|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|FOREARM|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Upper Extremity",
+      "bodyPartName": "Wrist",
+      "label": "Wrist",
+      "code": "WRIST",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Wrist x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "UPPER_EXTREMITY|WRIST|WRIST X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "UPPER_EXTREMITY|WRIST|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Wrist|Left",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|WRIST|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|WRIST|LEFT|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|WRIST|LEFT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Rheumatoid Arthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|WRIST|LEFT|RHEUMATOID ARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|WRIST|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Wrist|Right",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|WRIST|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|WRIST|RIGHT|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|WRIST|RIGHT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Rheumatoid Arthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|WRIST|RIGHT|RHEUMATOID ARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|WRIST|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Wrist|Both",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|WRIST|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|WRIST|BOTH|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|WRIST|BOTH|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Rheumatoid Arthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|WRIST|BOTH|RHEUMATOID ARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|WRIST|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Upper Extremity",
+      "bodyPartName": "Hand",
+      "label": "Hand",
+      "code": "HAND",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Hand x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "UPPER_EXTREMITY|HAND|HAND X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "UPPER_EXTREMITY|HAND|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Hand|Left",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HAND|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HAND|LEFT|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HAND|LEFT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Rheumatoid Arthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HAND|LEFT|RHEUMATOID ARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|HAND|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Hand|Right",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HAND|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HAND|RIGHT|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HAND|RIGHT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Rheumatoid Arthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HAND|RIGHT|RHEUMATOID ARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|HAND|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Upper Extremity|Hand|Both",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HAND|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Dislocation",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HAND|BOTH|DISLOCATION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HAND|BOTH|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Rheumatoid Arthritis",
+                              "viewType": 1,
+                              "code": "UPPER_EXTREMITY|HAND|BOTH|RHEUMATOID ARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "UPPER_EXTREMITY|HAND|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Upper Extremity",
+      "bodyPartName": "Finger(s)",
+      "label": "Finger(s)",
+      "code": "FINGER(S)",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Finger(s) x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "UPPER_EXTREMITY|FINGER(S)|FINGER(S) X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Finger(s)",
+              "viewType": 3,
+              "code": "UPPER_EXTREMITY|FINGER(S)|FINGER(S)",
+              "isSelected": false,
+              "isMandatory": true,
+              "value": ""
+          },
+          {
+              "name": "Fracture",
+              "viewType": 1,
+              "code": "UPPER_EXTREMITY|FINGER(S)|FRACTURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Osteoarthritis",
+              "viewType": 1,
+              "code": "UPPER_EXTREMITY|FINGER(S)|OSTEOARTHRITIS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Rheumatoid Arthritis",
+              "viewType": 1,
+              "code": "UPPER_EXTREMITY|FINGER(S)|RHEUMATOID ARTHRITIS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "UPPER_EXTREMITY|FINGER(S)|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Lower Extremity",
+      "bodyPartName": "Femur",
+      "label": "Femur",
+      "code": "FEMUR",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Femur x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "LOWER_EXTREMITY|FEMUR|FEMUR X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "LOWER_EXTREMITY|FEMUR|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Femur|Left",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FEMUR|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FEMUR|LEFT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Metastasis/Erosion",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FEMUR|LEFT|METASTASIS/EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|FEMUR|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Femur|Right",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FEMUR|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FEMUR|RIGHT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Metastasis/Erosion",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FEMUR|RIGHT|METASTASIS/EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|FEMUR|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Femur|Both",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FEMUR|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FEMUR|BOTH|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Metastasis/Erosion",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FEMUR|BOTH|METASTASIS/EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|FEMUR|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Lower Extremity",
+      "bodyPartName": "Knee",
+      "label": "Knee",
+      "code": "KNEE",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Knee x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "LOWER_EXTREMITY|KNEE|KNEE X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "LOWER_EXTREMITY|KNEE|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Knee|Left",
+                      "optionItems": [
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|KNEE|LEFT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|KNEE|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|KNEE|LEFT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|KNEE|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Knee|Right",
+                      "optionItems": [
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|KNEE|RIGHT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|KNEE|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|KNEE|RIGHT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|KNEE|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Knee|Both",
+                      "optionItems": [
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|KNEE|BOTH|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|KNEE|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|KNEE|BOTH|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|KNEE|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Lower Extremity",
+      "bodyPartName": "Tib-Fib",
+      "label": "Tib-Fib",
+      "code": "TIB-FIB",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Tib-Fib x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "LOWER_EXTREMITY|TIB-FIB|TIB-FIB X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "LOWER_EXTREMITY|TIB-FIB|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Tib-Fib|Left",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|TIB-FIB|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|TIB-FIB|LEFT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Metastasis/Erosion",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|TIB-FIB|LEFT|METASTASIS/EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|TIB-FIB|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Tib-Fib|Right",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|TIB-FIB|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|TIB-FIB|RIGHT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Metastasis/Erosion",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|TIB-FIB|RIGHT|METASTASIS/EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|TIB-FIB|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Tib-Fib|Both",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|TIB-FIB|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|TIB-FIB|BOTH|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Metastasis/Erosion",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|TIB-FIB|BOTH|METASTASIS/EROSION",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|TIB-FIB|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Lower Extremity",
+      "bodyPartName": "Ankle",
+      "label": "Ankle",
+      "code": "ANKLE",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Ankle x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "LOWER_EXTREMITY|ANKLE|ANKLE X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "LOWER_EXTREMITY|ANKLE|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Ankle|Left",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|ANKLE|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|ANKLE|LEFT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|ANKLE|LEFT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteomyelitis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|ANKLE|LEFT|OSTEOMYELITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|ANKLE|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Ankle|Right",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|ANKLE|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|ANKLE|RIGHT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|ANKLE|RIGHT|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteomyelitis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|ANKLE|RIGHT|OSTEOMYELITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|ANKLE|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Ankle|Both",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|ANKLE|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|ANKLE|BOTH|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Post Operative",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|ANKLE|BOTH|POST OPERATIVE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteomyelitis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|ANKLE|BOTH|OSTEOMYELITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|ANKLE|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Lower Extremity",
+      "bodyPartName": "Foot",
+      "label": "Foot",
+      "code": "FOOT",
+      "note": "",
+      "isClickable": false,
+      "optionItems": [
+          {
+              "name": "Foot x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "LOWER_EXTREMITY|FOOT|FOOT X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Left/Right/Both",
+              "viewType": 4,
+              "code": "LOWER_EXTREMITY|FOOT|LEFT/RIGHT/BOTH",
+              "isSelected": false,
+              "isMandatory": true,
+              "radioButtons": [
+                  {
+                      "label": "Left",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Foot|Left",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|LEFT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|LEFT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Gout",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|LEFT|GOUT",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Plantar Spur",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|LEFT|PLANTAR SPUR",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteomyelitis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|LEFT|OSTEOMYELITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|FOOT|LEFT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Right",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Foot|Right",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|RIGHT|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|RIGHT|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Gout",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|RIGHT|GOUT",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Plantar Spur",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|RIGHT|PLANTAR SPUR",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteomyelitis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|RIGHT|OSTEOMYELITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|FOOT|RIGHT|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  },
+                  {
+                      "label": "Both",
+                      "isSelected": false,
+                      "code": "Lower Extremity|Foot|Both",
+                      "optionItems": [
+                          {
+                              "name": "Fracture",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|BOTH|FRACTURE",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteoarthritis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|BOTH|OSTEOARTHRITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Gout",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|BOTH|GOUT",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Plantar Spur",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|BOTH|PLANTAR SPUR",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Osteomyelitis",
+                              "viewType": 1,
+                              "code": "LOWER_EXTREMITY|FOOT|BOTH|OSTEOMYELITIS",
+                              "isSelected": false,
+                              "isMandatory": false
+                          },
+                          {
+                              "name": "Other",
+                              "viewType": 3,
+                              "code": "LOWER_EXTREMITY|FOOT|BOTH|OTHER",
+                              "isSelected": false,
+                              "isMandatory": false,
+                              "value": ""
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Lower Extremity",
+      "bodyPartName": "Toe(s)",
+      "label": "Toe(s)",
+      "code": "TOE(S)",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Toe(s) x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "LOWER_EXTREMITY|TOE(S)|TOE(S) X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Toe(s)",
+              "viewType": 3,
+              "code": "LOWER_EXTREMITY|TOE(S)|TOE(S)",
+              "isSelected": false,
+              "isMandatory": true,
+              "value": ""
+          },
+          {
+              "name": "Fracture",
+              "viewType": 1,
+              "code": "LOWER_EXTREMITY|TOE(S)|FRACTURE",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Osteomyelitis",
+              "viewType": 1,
+              "code": "LOWER_EXTREMITY|TOE(S)|OSTEOMYELITIS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Osteoarthritis",
+              "viewType": 1,
+              "code": "LOWER_EXTREMITY|TOE(S)|OSTEOARTHRITIS",
+              "isSelected": false,
+              "isMandatory": false
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "LOWER_EXTREMITY|TOE(S)|OTHER",
+              "isSelected": false,
+              "isMandatory": false,
+              "value": ""
+          }
+      ]
+  },
+  {
+      "bodyPartNo": "Other",
+      "bodyPartName": "Other",
+      "label": "Other",
+      "code": "OTHER",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+          {
+              "name": "Other x-ray for <NAME> Age (<AGE>)",
+              "viewType": 5,
+              "code": "OTHER|OTHER|OTHER_X-RAY FOR <NAME> AGE (<AGE>)"
+          },
+          {
+              "name": "Other",
+              "viewType": 3,
+              "code": "OTHER|OTHER|OTHER",
+              "isSelected": false,
+              "isMandatory": true,
+              "value": ""
+          }
+      ]
+  }
+]

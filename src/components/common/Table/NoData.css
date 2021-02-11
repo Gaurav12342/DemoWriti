@@ -1,0 +1,18 @@
+.content{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center; 
+}
+.inner{
+   min-height: 30px;
+    width: 170px;
+    margin-top: 50px;
+    display: inline-block;
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .inner{
+        width: 400px;
+    }
+}

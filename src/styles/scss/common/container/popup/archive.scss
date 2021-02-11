@@ -1,0 +1,47 @@
+.archive_wrap {
+    width: 416px;
+
+    .popup-content-log {
+        h3 {
+            span {
+                display: block;
+            }
+        }
+
+        h2 {
+            color: #2D2D30;
+            font-weight: 300;
+            font-family: 'gilroy';
+
+            span {
+                display: block;
+            }
+        }
+
+        .additional-textarea {
+            textarea {
+                padding: 10px;
+                border: 1px solid rgba(145, 154, 159, 0.78);
+                border-radius: 5px;
+                font-size: 12px;
+                font-family: 'gilroy', sans-serif !important;
+                font-weight: 300;
+                color: #919A9F;
+                height: 83px;
+                width: 100%;
+                margin: 0 0 24px 0;
+                resize: none;
+            }
+        }
+
+        .form_wrap {
+            margin-bottom: 14px;
+
+            .components {
+                padding: 0;
+
+            }
+        }
+    }
+
+}

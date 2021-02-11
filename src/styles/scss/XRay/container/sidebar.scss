@@ -1,0 +1,120 @@
+.xray-wrap .xray-sidebar {
+    width: 275px;
+    border-right: 1px solid #d4d4d4;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    max-height: calc(100vh - 60px);
+    overflow: auto;
+    @include scrollbar;
+    .listing {
+        border-bottom: 1px solid #d4d4d4;
+        .address-details {
+            padding: 7px 0;
+            .media {
+                padding: 10px 20px;
+            }
+        }
+        .media {
+            display: flex;
+            padding: 16px 20px;
+            align-items: center;
+            .contact-profile {
+                position: relative;
+                width: 36px;
+                height: 36px;
+                .icon {
+                    width: 36px;
+                    height: 36px;
+                    background: #EFFBFF;
+                    border-radius: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                img {
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50px;
+                }
+            }
+            &.gray-bg {
+                background: #f3f3f3;
+            }
+            .media-body {
+                margin-left: 15px;
+                text-align: left;
+                .name {
+                    margin: 0;
+                    font-size: 14px;
+                    color: #1d1d20;
+                    margin-bottom: 2px;
+                }
+                .desc {
+                    margin: 0;
+                    color: #919a9f;
+                    font-size: 12px;
+                    display: flex;
+                    line-height: 16px;
+                    .status {
+                        text-transform: uppercase;
+                        display: inline-flex;
+                        align-items: center;
+                        .green {
+                            background: $todo-text;
+                            width: 5px;
+                            height: 5px;
+                            border-radius: 50px;
+                            display: inline-flex;
+                            margin-right: 6px;
+                        }
+                    }
+                }
+            }
+        }
+        .spinner{
+            min-height: 150px;
+            .spin{
+                margin-left: 100px;
+            }
+        }
+    }
+    .company-details {
+        padding: 20px;
+        text-align: left;
+        .image {
+            border-radius: 10px;
+            background: #f3f3f3;
+            height: 120px;
+            margin-bottom: 20px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+        .details-body{
+            width: 80%;
+            &:not(:last-child) {
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #a7aeb2;
+            }
+            .name {
+                margin: 0;
+                font-size: 14px;
+                color: #1d1d20;
+                margin-bottom: 2px;
+            }
+            .desc {
+                margin: 0;
+                color: #919a9f;
+                font-size: 12px;
+                display: flex;
+                line-height: 16px;
+                width: 95%;
+            }
+        }
+    }
+}

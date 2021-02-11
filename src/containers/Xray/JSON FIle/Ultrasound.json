@@ -1,0 +1,402 @@
+[
+    {
+      "bodyPartNo": "Abdomen",
+      "bodyPartName": "Abdomen",
+      "label": "Abdomen",
+      "code": "ABDOMEN",
+      "note": "\"MODIFIED DIET CONTAINING: - NO MEAT - NO FAT - NO DAIRY -The day of the scheduled ultrasound until the ultrasound is completed. -Clear fluids only to be served with meals -Patients can take all medication as required *Please note examinations requiring preparations may not all be completed prior to lunch. The directions provided will need to be followed for the duration of the scheduled appointment date.*\"",
+      "isClickable": true,
+      "optionItems": [
+        {
+          "name": "Abdomen Ultrasound for <NAME> Age (<AGE>)",
+          "viewType": 5,
+          "code": "ABDOMEN|ABDOMEN|ABDOMEN_ULTRASOUND FOR <NAME> AGE (<AGE>)"
+        },
+        {
+          "name": "Pain",
+          "viewType": 1,
+          "code": "ABDOMEN|ABDOMEN|PAIN",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Gallstones",
+          "viewType": 1,
+          "code": "ABDOMEN|ABDOMEN|GALLSTONES",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Renal Stones",
+          "viewType": 1,
+          "code": "ABDOMEN|ABDOMEN|RENAL_STONES",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Abscess",
+          "viewType": 1,
+          "code": "ABDOMEN|ABDOMEN|ABSCESS",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Liver Disease",
+          "viewType": 1,
+          "code": "ABDOMEN|ABDOMEN|LIVER_DISEASE",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Splenomegaly",
+          "viewType": 1,
+          "code": "ABDOMEN|ABDOMEN|SPLENOMEGALY",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Mass",
+          "viewType": 1,
+          "code": "ABDOMEN|ABDOMEN|MASS",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Other",
+          "viewType": 3,
+          "code": "ABDOMEN|ABDOMEN|OTHER",
+          "isSelected": false,
+          "isMandatory": false,
+          "value": ""
+        }
+      ]
+    },
+    {
+      "bodyPartNo": "Pelvis",
+      "bodyPartName": "Pelvis",
+      "label": "Pelvis",
+      "code": "PELVIS",
+      "note": "\"- Patient will need to drink 32oz (approximately 1 litre) prior to the technologist's arrival. -Technologist will call and advise of the time to have the patient start drinking. The patient should be instructed not to void until the exam is completed (understandably, at times this may be difficult)\"",
+      "isClickable": true,
+      "optionItems": [
+        {
+          "name": "Pelvis Ultrasound for <NAME> Age (<AGE>)",
+          "viewType": 5,
+          "code": "PELVIS|PELVIS|PELVIS_ULTRASOUND FOR <NAME> AGE (<AGE>)"
+        },
+        {
+          "name": "Pain",
+          "viewType": 1,
+          "code": "PELVIS|PELVIS|PAIN",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Mass",
+          "viewType": 1,
+          "code": "PELVIS|PELVIS|MASS",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Ovarian Cyst",
+          "viewType": 1,
+          "code": "PELVIS|PELVIS|OVARIAN_CYST",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Prostate Enlargement",
+          "viewType": 1,
+          "code": "PELVIS|PELVIS|PROSTATE_ENLARGEMENT",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Endometrial Thickness",
+          "viewType": 1,
+          "code": "PELVIS|PELVIS|ENDOMETRIAL_THICKNESS",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Fibroids",
+          "viewType": 1,
+          "code": "PELVIS|PELVIS|FIBROIDS",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Bladder Lesion",
+          "viewType": 1,
+          "code": "PELVIS|PELVIS|BLADDER_LESION",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Post Void Residual",
+          "viewType": 1,
+          "code": "PELVIS|PELVIS|POST_VOID RESIDUAL",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Other",
+          "viewType": 3,
+          "code": "PELVIS|PELVIS|OTHER",
+          "isSelected": false,
+          "isMandatory": false,
+          "value": ""
+        }
+      ]
+    },
+    {
+      "bodyPartNo": "Scrotum / Groin",
+      "bodyPartName": "Scrotum",
+      "label": "Scrotum",
+      "code": "SCROTUM",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+        {
+          "name": "Scrotum Ultrasound for <NAME> Age (<AGE>)",
+          "viewType": 5,
+          "code": "SCROTUM_/ GROIN|SCROTUM|SCROTUM ULTRASOUND FOR <NAME> AGE (<AGE>)"
+        },
+        {
+          "name": "Pain",
+          "viewType": 1,
+          "code": "SCROTUM_/ GROIN|SCROTUM|PAIN",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Hydrocele",
+          "viewType": 1,
+          "code": "SCROTUM_/ GROIN|SCROTUM|HYDROCELE",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Varicocele",
+          "viewType": 1,
+          "code": "SCROTUM_/ GROIN|SCROTUM|VARICOCELE",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Torsion",
+          "viewType": 1,
+          "code": "SCROTUM_/ GROIN|SCROTUM|TORSION",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Orchitis",
+          "viewType": 1,
+          "code": "SCROTUM_/ GROIN|SCROTUM|ORCHITIS",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Epidydimitis",
+          "viewType": 1,
+          "code": "SCROTUM_/ GROIN|SCROTUM|EPIDYDIMITIS",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Mass",
+          "viewType": 1,
+          "code": "SCROTUM_/ GROIN|SCROTUM|MASS",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Other",
+          "viewType": 3,
+          "code": "SCROTUM_/ GROIN|SCROTUM|OTHER",
+          "isSelected": false,
+          "isMandatory": false,
+          "value": ""
+        }
+      ]
+    },
+    {
+      "bodyPartNo": "Scrotum / Groin",
+      "bodyPartName": "Groin",
+      "label": "Groin (Hernia)",
+      "code": "GROIN",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+        {
+          "name": "Groin Ultrasound for <NAME> Age (<AGE>)",
+          "viewType": 5,
+          "code": "SCROTUM_/ GROIN|GROIN|GROIN ULTRASOUND FOR <NAME> AGE (<AGE>)"
+        },
+        {
+          "name": "Hernia",
+          "viewType": 1,
+          "code": "SCROTUM_/ GROIN|GROIN|HERNIA",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Lymph Nodes",
+          "viewType": 1,
+          "code": "SCROTUM_/ GROIN|GROIN|LYMPH NODES",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Mass",
+          "viewType": 1,
+          "code": "SCROTUM_/ GROIN|GROIN|MASS",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Other",
+          "viewType": 3,
+          "code": "SCROTUM_/ GROIN|GROIN|OTHER",
+          "isSelected": false,
+          "isMandatory": false,
+          "value": ""
+        }
+      ]
+    },
+    {
+      "bodyPartNo": "Neck / Face",
+      "bodyPartName": "Thyroid",
+      "label": "Thyroid",
+      "code": "THYROID",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+        {
+          "name": "Thyroid Ultrasound for <NAME> Age (<AGE>)",
+          "viewType": 5,
+          "code": "NECK_/ FACE|THYROID|THYROID ULTRASOUND FOR <NAME> AGE (<AGE>)"
+        },
+        {
+          "name": "Goiter",
+          "viewType": 1,
+          "code": "NECK_/ FACE|THYROID|GOITER",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Nodule",
+          "viewType": 1,
+          "code": "NECK_/ FACE|THYROID|NODULE",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Mass",
+          "viewType": 1,
+          "code": "NECK_/ FACE|THYROID|MASS",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Other",
+          "viewType": 3,
+          "code": "NECK_/ FACE|THYROID|OTHER",
+          "isSelected": false,
+          "isMandatory": false,
+          "value": ""
+        }
+      ]
+    },
+    {
+      "bodyPartNo": "Neck / Face",
+      "bodyPartName": "Neck",
+      "label": "Neck",
+      "code": "NECK",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+        {
+          "name": "Neck Ultrasound for <NAME> Age (<AGE>)",
+          "viewType": 5,
+          "code": "NECK_/ FACE|NECK|NECK ULTRASOUND FOR <NAME> AGE (<AGE>)"
+        },
+        {
+          "name": "Lymph Nodes",
+          "viewType": 1,
+          "code": "NECK_/ FACE|NECK|LYMPH NODES",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Pain",
+          "viewType": 1,
+          "code": "NECK_/ FACE|NECK|PAIN",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Mass",
+          "viewType": 1,
+          "code": "NECK_/ FACE|NECK|MASS",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Other",
+          "viewType": 3,
+          "code": "NECK_/ FACE|NECK|OTHER",
+          "isSelected": false,
+          "isMandatory": false,
+          "value": ""
+        }
+      ]
+    },
+    {
+      "bodyPartNo": "Neck / Face",
+      "bodyPartName": "Salivary Gland",
+      "label": "Salivary Gland",
+      "code": "SALIVARY_GLAND",
+      "note": "",
+      "isClickable": true,
+      "optionItems": [
+        {
+          "name": "Salivary Gland Ultrasound for <NAME> Age (<AGE>)",
+          "viewType": 5,
+          "code": "NECK_/ FACE|SALIVARY GLAND|SALIVARY GLAND ULTRASOUND FOR <NAME> AGE (<AGE>)"
+        },
+        {
+          "name": "Site",
+          "viewType": 2,
+          "code": "NECK_/ FACE|SALIVARY GLAND|SITE",
+          "isSelected": false,
+          "isMandatory": true,
+          "value": ""
+        },
+        {
+          "name": "Pain",
+          "viewType": 1,
+          "code": "NECK_/ FACE|SALIVARY GLAND|PAIN",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Inflamation",
+          "viewType": 1,
+          "code": "NECK_/ FACE|SALIVARY GLAND|INFLAMATION",
+          "isSelected": false,
+          "isMandatory": false
+        },
+        {
+          "name": "Other",
+          "viewType": 3,
+          "code": "NECK_/ FACE|SALIVARY GLAND|OTHER",
+          "isSelected": false,
+          "isMandatory": false,
+          "value": ""
+        }
+      ]
+    }
+  ]

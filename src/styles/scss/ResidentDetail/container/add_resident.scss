@@ -1,0 +1,344 @@
+.residents_detail_container .add_resident {
+  .green-bg-plus {
+    background: #fff;
+
+    svg {
+      fill: #10d296;
+    }
+  }
+
+  .patient_order_wrap.medication_wrap {
+    .patient_order_detail .patient_order_content .patient_order_d {
+      font-weight: 300;
+      color: #2d2d30;
+      font-size: 12px;
+
+      .actions a p {
+        margin-bottom: 0;
+        margin-top: 2px;
+      }
+    }
+  }
+
+  .daysportblock {
+    .day-block {
+      // padding-left: 30px;
+      margin-bottom: 14px;
+      margin-left: 0;
+
+      p {
+        padding-left: 30px;
+      }
+    }
+
+    label {
+      line-height: 20px;
+      margin-bottom: 6px;
+    }
+
+    p {
+      margin-bottom: 2px;
+    }
+
+    input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      margin-left: 0;
+
+      &:before {
+        top: 1px;
+        left: 5px;
+        width: 3px;
+        height: 8px;
+      }
+    }
+  }
+
+  .right-create-box {
+    .search-box input {
+      // padding-right: 20px;
+      // background-image: url("../../../../assets/images/pmr/search.svg");
+      // background-repeat: no-repeat;
+      // background-position: 100% 50%;
+      // color: #919a9f;
+      height: 28px;
+
+      &::-webkit-input-placeholder {
+        color: #919a9f;
+      }
+
+    }
+
+    .small-add-btn {
+      padding: 2px 20px;
+      min-width: auto;
+      line-height: 16px;
+    }
+
+    .small-text-btn {
+      margin-top: 25px;
+    }
+  }
+
+  padding: 0 10px;
+
+  .prep_right_wrap {
+    width: 100%;
+    padding: 7px 0;
+    margin-left: 0;
+
+    .box-inner-border {
+      padding: 0;
+    }
+
+    .d-flex-end {
+      padding: 20px 0;
+    }
+
+    select {
+      font-weight: 400;
+      width: 100%;
+      height: 36px;
+      padding: 0px 15px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      border: 1px solid rgba(145, 154, 159, 0.78);
+      font-size: 12px;
+      color: #919a9f;
+      transition: all 0.5s ease;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: url(/static/media/chevron-down.d1f73a36.svg) no-repeat;
+      background-position: 95% center;
+      padding-right: 50px;
+      font-family: "gilroy", sans-serif;
+
+      &::placeholder {
+        color: #919a9f;
+      }
+    }
+
+    .left-select {
+      width: 33.33%;
+
+      .form_group.textInput {
+        input {
+          background: transparent;
+        }
+      }
+
+      input {
+        // font-size: 12px;
+        // font-weight: 400;
+        // width: 100%;
+        // height: 36px;
+        // padding: 0px 15px;
+        // border-radius: 5px;
+        // -webkit-border-radius: 5px;
+        // -moz-border-radius: 5px;
+        // -ms-border-radius: 5px;
+        // -o-border-radius: 5px;
+        // border: 1px solid rgba(145, 154, 159, 0.78);
+        // color: #919a9f;
+        // transition: all 0.5s ease;
+        // font-family: "gilroy", sans-serif;
+
+
+        &::-webkit-input-placeholder {
+          color: #919a9f;
+        }
+      }
+
+      input {
+        padding-right: 40px;
+        background-image: url("../../../../assets/images/pmr/search.svg");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+        margin-bottom: 10px;
+
+        &::-webkit-input-placeholder {
+          color: #919a9f;
+        }
+      }
+    }
+
+    .right-textarea {
+      width: 33.33%;
+      margin: 0 12px;
+
+      textarea {
+        margin-top: 10px;
+        height: 128px;
+        border: 1px solid rgba(145, 154, 159, 0.78);
+        font-weight: 400;
+        resize: none;
+
+        ::-webkit-textarea-placeholder {
+          color: #919A9F;
+        }
+      }
+
+      &.primary-notes {
+        margin: 0;
+      }
+    }
+
+    .primary-notes textarea {
+      height: 175px;
+      margin-top: 0;
+
+      &::-webkit-textarea-placeholder {
+        color: #919a9f;
+      }
+    }
+
+    .save-graft {
+      display: flex;
+      align-items: center;
+
+      span {
+        color: #609fae;
+        font-weight: 300;
+        font-size: 14px;
+        margin:0;
+        margin-right: 10px;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      svg {
+        width: 16px;
+        height: 16px;
+        margin-right: 20px;
+      }
+    }
+
+    .primary-btn {
+      padding-top: 7px ;
+      height: 28px;
+    }
+  
+  }
+
+  .left-create-box {
+    .text-left {
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+
+      .sub-text {
+        margin-right: 30px;
+      }
+
+      .drug-bts {
+        padding: 0;
+      }
+    }
+
+    .checkbox-control {
+      margin-bottom: 10px;
+      font-size: 13px;
+      color: #2d2d30;
+      font-weight: 300;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+
+      input[type="checkbox"] {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+input[type="checkbox"] {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  color: #363839;
+  border: 1px solid #bdc1c6;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  cursor: pointer;
+  margin-right: 8px;
+
+  &:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 2px;
+    left: 7px;
+    width: 3px;
+    height: 10px;
+    border-style: solid;
+    border-color: #0baa50;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+  }
+
+  &:checked::before {
+    opacity: 1;
+  }
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.custom-row-style{
+  background-color: #d4d5d8 !important; 
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+  .residents_detail_container {
+    .add_resident {
+      .right-create-box{
+        .search-box{
+          width: 200px;
+          input{
+            font-size: $font-17;
+            height: 41px;
+          }
+        }
+      }
+      .prep_right_wrap {
+        .left-select{
+          input{
+            background-position: 98% 70%;
+          }
+        }
+        .primary-btn{
+          height: 45px;
+        }
+        .save-graft {
+          span{
+            font-size: $font-18;
+          }
+          svg{
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+      .green-bg-plus{
+        
+          width: 22px;
+          height: 22px;
+       
+      }
+    }
+  }
+}

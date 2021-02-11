@@ -1,0 +1,573 @@
+.xray_wrap {
+    text-align: left;
+    padding-top: 60px;
+}
+
+.page_head {
+    @include -flex-space-between;
+    padding: 20px 15px;
+
+    h3 {
+        @include -flex-align(flex-start);
+        color: $black-font;
+        margin: 0;
+        font-size: 25px;
+        width: 30%;
+        align-items: center;
+
+        .r_no {
+            margin-top: 1%;
+            font-size: 55%;
+            background: $btn-color;
+            @include border-radius(10px);
+            color: $white-color;
+            padding: 3px 4px;
+            margin-left: 10px;
+            font-weight: normal;
+        }
+    }
+
+
+}
+
+/*xray popup start*/
+.addxray-popup {
+    .xray_crete {
+        @include -flex-space-between;
+
+        p {
+            font-size: $font-12;
+            margin: 0;
+            font-weight: 300;
+        }
+    }
+
+    .filter_section {
+        text-align: left;
+
+        .filter_head {
+            // background: $grey-color;
+            margin: 30px 0 15px;
+            // padding: 10px 20px;
+            font-size: $font-14;
+        }
+
+        .filter_value {
+            // padding: 20px 20px 30px;
+          
+            .filter_switch {
+                margin-right: 10px;
+                cursor: pointer;
+
+                span {
+                    border: 1px solid $border-color;
+                    @include border-radius(5px);
+                    padding: 5px 20px;
+                    font-size: $font-12;
+                    color: $border-color;
+                }
+
+                input {
+                    display: none;
+
+                    &:checked~span {
+                        border-color: #EFFBFF;
+                        background-color: #EFFBFF;
+                        color: $btn-color;
+                        font-weight: 300;
+                    }
+                }
+
+
+            }
+
+
+        }
+    }
+    
+
+    .form_wrap {
+        margin-top: 30px;
+        margin-left: -10px;
+        margin-right: -10px;
+        justify-content: space-between;
+
+        .components {
+            width: 50%;
+            padding: 0 10px
+        }
+    }
+
+    .footer-block {
+        margin-top: 30px;
+
+        .screen-btn {
+            min-width: 104px;
+            padding: 6px 20px;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+    }
+}
+
+/*xray popup end*/
+
+/*xray selection popup start*/
+.xray_selection_popup {
+    .xray_type {
+        margin-top: 26px
+    }
+
+    .form_wrap {
+        flex-wrap: wrap;
+
+        .components {
+            width: 100%;
+            margin-bottom: 16px;
+            padding: 0;
+
+            &.textarea {
+                height: 90px;
+                resize: none;
+
+                textarea {
+                    margin-bottom: 0;
+                    padding: 10px 15px;
+                    font-size: $font-14;
+                }
+            }
+        }
+    }
+
+    .lg_check {
+
+        width: 100%;
+        cursor: pointer;
+
+        .mandatory-filled {
+            justify-content: end;
+            border: none;
+            padding: 0;
+            color: #ff0000;
+            font-size: 18px;
+        }
+        span {
+            border: 0.8px solid $border-color;
+            color: $border-color;
+            padding: 10px 15px;
+            width: 100%;
+            @include border-radius(5px);
+            text-align: left;
+            font-size: $font-14;
+            font-weight: 300;
+            @include -flex-space-between;
+            align-items: center;
+        }
+
+        svg {
+            display: none;
+            width: 16px;
+            height: auto;
+        }
+
+        input {
+            display: none;
+
+            &:checked+span {
+                background: #EFFBFF;
+                border-color: #EFFBFF;
+                color: $btn-color;
+
+                svg {
+                    display: block;
+                }
+            }
+
+
+        }
+
+
+    }
+
+    .footer-block {
+        margin-top: 16px;
+
+        .screen-btn {
+            min-width: 104px;
+            padding: 6px 20px;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+    }
+}
+
+/*xray selection popup end*/
+/*toes xray popup start */
+.toes_popup {
+    min-width: 654px;
+
+    .inline_check {
+        @include -flex-align(center);
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 25px;
+
+        .components {
+            padding: 0 2px;
+            margin-bottom: 0;
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+
+        .lg_check {
+            span {
+                font-size: $font-13;
+                padding: 0;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                min-width: 96px;
+                text-align: center;
+                display: inline-block;
+            }
+        }
+    }
+
+    .bottom-part {
+        margin-bottom: 40px;
+        width: 100%;
+
+        .d-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .d-flex-end {
+                display: flex;
+                align-items: center;
+
+                .save-graft a {
+                    color: #609FAE;
+                    font-size: 14px;
+                    text-decoration: none;
+                    line-height: 17px;
+                    font-weight: 600;
+                    border-bottom: 1px solid;
+                    margin-right: 30px;
+                    text-transform: capitalize;
+                }
+            }
+        }
+
+
+
+        label {
+            font-weight: 600;
+            color: #2D2D30;
+            font-size: 14px;
+
+            span {
+                color: #0BAA50;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+/*toes xray popup end */
+/*xray review popup start*/
+.xray_review {
+    min-width: 804px;
+
+    .popup-content {
+        padding: 0;
+
+        .name_head,
+        .bb {
+            width: calc(100% - 52px);
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+
+
+    .created_by {
+        @include -flex-space-between;
+        align-items: center;
+        margin-bottom: 21px;
+        padding: 0 26px;
+
+        span {
+            font-size: $font-12;
+            font-weight: 300;
+        }
+    }
+
+    .xray_list_wrap {
+        padding: 0 26px;
+        max-height: 300px;
+        overflow: hidden;
+        overflow-y: auto;
+
+
+        @include scrollbar();
+    }
+
+    .xray_list {
+        text-align: left;
+        margin-bottom: 27px;
+
+        svg {
+            .a {
+                fill: $btn-color;
+            }
+        }
+
+        .xray_name {
+            @include -flex-space-between;
+            align-items: center;
+            background-color: #EFFBFF;
+            padding: 10px 16px;
+            @include border-radius(5px);
+            margin-bottom: 10px;
+
+
+            span {
+                color: #609FAE;
+                font-size: $font-14;
+                font-weight: 300;
+            }
+
+
+        }
+
+        .xray_detail {
+            padding-left: 14px;
+            position: relative;
+            h4 {
+                font-size: $font-14;
+                margin: 0 0 8px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: $font-14;
+                margin: 0;
+                font-weight: 300;
+            }
+            .cancel-list {
+                position: absolute;
+                right: 0;
+                bottom: 0px;
+                cursor: pointer;
+                svg {
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 15px;
+                }
+            }
+        }
+
+        &.multi {
+            .xray_part_wrap {
+                @include -flex-space-between;
+                padding-left: 14px;
+
+                .xray_detail {
+                    padding: 0 15px;
+                    border-right: 1px solid $border-color;
+                    width: 25%;
+
+                    &:last-child {
+                        border: 0;
+                    }
+
+                    &:first-child {
+                        padding-left: 0;
+                    }
+
+                    .part_title {
+                        @include -flex-align(flex-start);
+                        justify-content: space-between;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .form_wrap {
+        // border-top: 1px solid $border-color;
+        padding: 0 26px;
+        // margin-top: 20px;
+
+        .components {
+            margin-top: 22px;
+
+            .label {
+                @include -flex-space-between;
+                margin-bottom: 12px;
+
+                span {
+
+                    font-size: $font-14;
+                    font-weight: 300;
+                    @include -flex-align(center);
+
+                    svg {
+                        width: 15px;
+                        height: 15px;
+                        margin-right: 12px;
+                    }
+                    .mandatory{
+                        color: red
+                    }
+
+                    &:last-child {
+                        font-weight: 700;
+                    }
+                }
+
+                .filter_check {
+                    cursor: pointer;
+                    @include -flex-align(center);
+                    padding: 0px 0 0;
+    
+                    .lbl {
+                        padding: 0px 8px;
+                        font-size: $font-13;
+                        color: $black-font;
+                    }
+    
+                    .checkbox {
+                        display: block;
+                        width: 16px;
+                        height: 16px;
+                        border: 1px solid $border-color;
+                        @include border-radius(50px);
+                        font-weight: 500;
+                        margin-right: 0;
+                        
+                    }
+    
+                    input {
+                        // display: none;
+    
+                        &:checked~.checkbox {
+                            background: url('../../../../assets/images/popup/radio.svg') no-repeat;
+                            background-position: center;
+                            color: $phr-text;
+                            font-weight: 600;
+                            background-color: #13AA0B;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .filter_check {
+        cursor: pointer;
+        @include -flex-align(center);
+        padding: 10px 30px 0;
+        .lbl {
+            padding: 0px 8px;
+            font-size: $font-14;
+            color: $black-font;
+        }
+
+        .checkbox {
+            display: block;
+            width: 16px;
+            height: 16px;
+            border: 1px solid $border-color;
+            @include border-radius(50px);
+            font-weight: 800;
+            margin-right: 0;
+            
+        }
+
+        input {
+            // display: none;
+
+            &:checked~.checkbox {
+                // background: url('../../../../../assets/images/popup/radio.svg') no-repeat;
+                background: url('../../../../assets/images/popup/radio.svg') no-repeat;
+                background-position: center;
+                color: $phr-text;
+                font-weight: 600;
+                background-color: #13AA0B;
+            }
+        }
+    }
+    .modal_footer {
+        @include -flex-space-between;
+        align-items: center;
+        padding: 0 26px;
+        margin-top: 31px;
+
+        .actions_wrap {
+            @include -flex-align(center);
+
+            h4 {
+                font-size: $font-13;
+                margin: 0;
+                margin-right: 22px;
+            }
+
+            a {
+                @include -flex-align(center);
+
+                svg {
+                    margin-right: 10px;
+                    height: 12px;
+                }
+
+                p {
+                    font-weight: 300;
+                }
+
+                .tot {
+                    top: -3px;
+                    right: auto;
+                    left: 5px;
+                    font-size: 8px;
+                }
+            }
+        }
+
+        .modal_actions {
+            button {
+                margin-left: 13px
+            }
+        }
+
+    }
+}
+.custom-inputs{
+    .form_wrap {
+        width: 100%;
+        .components {
+            width: 40%;
+            margin-right: 30px;
+        }
+    }
+}
+
+/*xray review popup end*/
+@media screen and (min-width : 1300px) and (max-width : 1439px){
+    .xray_review {
+        .xray_list_wrap{
+            max-height: 200px;
+        }
+    }
+}
+.infection{
+    margin-top: 5px;
+}

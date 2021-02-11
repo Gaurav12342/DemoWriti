@@ -1,0 +1,144 @@
+.clari_popup {
+    .popup-content {
+        padding: 0;
+
+        .name_head {
+            padding: 0 27px;
+        }
+
+        .bb {
+            width: calc(100% - 54px);
+            margin: auto;
+        }
+
+        .screen-btn {
+            padding: 6px 29px;
+        }
+    }
+}
+
+.clarification_popup_wrap {
+    padding: 24px 0px;
+
+    .rc-tabs {
+        width: 100%;
+
+
+    }
+
+    .rc-tabs-nav {
+        padding: 0 27px;
+    }
+
+    .rc-tabs-nav-list {
+        @include -flex-align(flex-end);
+        justify-content: space-between;
+        padding: 0 30px;
+
+        border-bottom: 1px solid $border-color;
+
+        .rc-tabs-tab {
+            position: relative;
+            cursor: pointer;
+
+            &.rc-tabs-tab-active {
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 4px;
+                    background-color: #6BB9CB;
+                    left: 0;
+                    bottom: -1px;
+                }
+
+                .poa-g {
+                    p {
+                        font-weight: 300;
+                        color: $btn-color
+                    }
+
+                    svg {
+                        .a {
+                            fill: $btn-color;
+                        }
+                    }
+                }
+            }
+
+            .poa-g {
+                svg {
+
+                    .a,
+                    .b {
+                        stroke-width: 0
+                    }
+                }
+
+                p {
+                    margin-top: 4px;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+
+        .rc-tabs-ink-bar {
+            display: none;
+        }
+    }
+
+    .form_wrap {
+        .components {
+            width: 100%;
+            padding: 0 27px;
+
+            &.search {
+                .inputForm {
+                    background-position: 97% 50%;
+                }
+            }
+        }
+    }
+
+    .doc_list {
+        margin-top: 13px;
+
+
+        .doc {
+            @include -flex-align(center);
+            padding: 12px 27px;
+
+            &:hover {
+                background: #F3F3F3
+            }
+
+            img {
+                width: 36px;
+                height: 36px;
+                @include border-radius(100px);
+                margin-right: 12px;
+            }
+
+            .doc_detail {
+                text-align: left;
+
+                h4 {
+                    font-size: $font-14;
+                    margin: 0;
+                    color: $black-color;
+                }
+
+                p {
+                    font-size: $font-12;
+                    margin: 0;
+                    color: $border-color;
+                }
+            }
+        }
+    }
+
+    .clari_footer {
+        @include -flex-align(center);
+    }
+
+}

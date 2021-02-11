@@ -1,0 +1,84 @@
+@import 'mixins';
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "gilroy";
+  src: url("../../styles/fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "gilroy";
+  src: url("../../styles/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "gilroy";
+  src: url("../../styles/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "gilroy";
+  src: url("../../styles/fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "gilroy";
+  src: url("../../styles/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "gilroy";
+  src: url("../../styles/fonts/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: 900;
+}
+
+html, body {
+  font-family: 'gilroy', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  font-weight:400;
+  letter-spacing: 0.3px;
+  @include scrollbar();
+  input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.btn{
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 9px 50px;
+  border-radius: 5px;
+  background: #609FAE;
+  color: #ffffff;
+  font-weight: 300;
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'gilroy', sans-serif !important;
+  border: 0;
+  &:focus{
+    outline:none;
+  }
+}
+button,input, select {
+  font-family: 'gilroy', sans-serif !important;
+}
+.prep_wrap{
+  padding:77px 0px 0px 7px;
+  display: flex;
+    border-radius: 5px;
+}
+
+
+@import 'react-big-calendar/lib/sass/styles';
+  @import 'react-big-calendar/lib/addons/dragAndDrop/styles';

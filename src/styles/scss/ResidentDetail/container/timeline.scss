@@ -1,0 +1,266 @@
+.timeline_wrap {
+    padding: 15px;
+    .rightStatusbar {
+        border-left: 1px solid #d4d4d4;
+        padding: 0;
+        height: calc(100vh - 250px);
+        .rightResidentAction {
+            .residentTitle {
+                color: #2D2D30;
+                font-size: 14px;
+                font-weight: 600;
+                background: #f3f3f3;
+                margin: 0;
+                padding: 12px 15px;
+            }
+            .residentTop {
+                border-bottom: 1px solid #d4d4d4;
+                .subTitle {
+                    color: #2D2D30;
+                    font-size: 14px;
+                    font-weight: 600;
+                    margin: 0;
+                    padding: 12px 15px;
+                }
+            }
+            .residentListing {
+                height: calc(100vh / 2 - 208px);
+                overflow: auto;
+                @include scrollbar();
+                .residentTopList {
+                    border-bottom: 1px solid #d4d4d4;
+                    .listLeft,.listRight {
+                        font-size: 13px;
+                        font-weight: 300;
+                        margin: 0;
+                        padding: 12px 15px;
+                        color: #2D2D30;
+                    }
+                    .listLeft {
+                        color: #609FAE;
+                    }
+                }
+            }
+        }
+    }
+    .head {
+        @include border-radius(5px);
+        background-color: $btn-color;
+        padding: 10px;
+        @include -flex-align(center);
+        justify-content: space-between;
+
+        h4 {
+            margin: 0;
+            color: $white-color;
+            font-weight: 400;
+            font-size: $font-14;
+        }
+
+        svg {
+            cursor: pointer;
+            .a {
+                fill: #fff;
+            }
+        }
+
+    }
+
+}
+
+.timeline_container {
+    @include -flex-align(flex-start);
+    position: relative;
+}
+
+.timeline_data {
+    width: 100%;
+
+
+    .date {
+        font-size: $font-16;
+
+    }
+
+    .outer_scroll_wrap {
+        // max-height: calc(100vh - 310px);
+        overflow: hidden;
+        overflow-x: auto;
+        @include scrollbar();
+    }
+
+    .timeline_time_data_wrap {
+        padding-top: 20px;
+        width: max-content;
+    }
+
+    .timeline_time_data_row {
+        position: relative;
+        border-top: 1px solid $border-color;
+
+        .time {
+            position: absolute;
+            top: -11px;
+            left: 0;
+            padding-right: 20px;
+            background-color: $white-color;
+            color: $border-color;
+            z-index: 1;
+
+            span {
+                font-size: $font-12;
+            }
+
+        }
+
+        .timeline_time_data_container {
+            @include -flex-align(flex-start);
+            position: relative;
+            padding-left: 70px;
+
+            width: max-content;
+
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: -20px;
+                left: 70px;
+                width: 1px;
+                height: calc(100% + 20px);
+                background: $border-color;
+                z-index: 1;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: -1px;
+                left: 0px;
+                width: 70px;
+                height: calc(100% + 2px);
+                background: $white-color;
+                z-index: 0;
+            }
+
+            span {
+                font-size: $font-12;
+                line-height: 1.9;
+                color: $black-font;
+            }
+
+
+
+            .timeline_time_data {
+                border-right: 1px solid $border-color;
+                padding: 10px 10px;
+
+                &.title {
+                    background: #F5FDFF;
+
+                    span {
+                        font-weight: 600;
+                    }
+                }
+
+                span {
+                    @include -flex-align(flex-start);
+                    flex-direction: column;
+                }
+            }
+
+            &:nth-of-type(even) {
+
+                .timeline_time_data {
+                    &.title {
+                        position: relative;
+
+                        &::before {
+                            content: '';
+                            width: 25px;
+                            position: absolute;
+                            left: -25px;
+                            top: -1px;
+                            height: 1px;
+                            background: $border-color;
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+        &:nth-child(even) {
+
+            background: $grey-color-light;
+        }
+
+    }
+}
+
+.timeline_filter {
+    width: 25%;
+    height: 100%;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    background: $white-color;
+
+    .form_wrap {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .components {
+            width: 100%;
+        }
+
+
+    }
+
+    .filter_wrap {
+        &.track_type {
+            border-top: 0;
+
+            .filter_head {
+                background: transparent;
+                padding-left: 0;
+
+            }
+
+            .filter_value {
+                padding: 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .timeline_wrap {
+        
+        .rightStatusbar {
+            .rightResidentAction {
+                .residentListing {
+                    .residentTopList {
+                        .listLeft, .listRight{
+                            font-size: $font-16;
+                        }
+                    }
+                }
+                .residentTitle{
+                    font-size: $font-18;
+                }
+                .residentTop {
+                    .subTitle{
+                        font-size: $font-17;
+                    }
+                }
+            }
+        }
+        .head{
+            h4{
+                font-size: $font-20;
+            }
+        }
+    }
+}

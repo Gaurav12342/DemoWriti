@@ -1,0 +1,386 @@
+[
+  {
+    "id": "1",
+    "name": "Acid Reflux"
+  },
+  {
+    "id": "2",
+    "name": "Aggression"
+  },
+  {
+    "id": "3",
+    "name": "Agitation"
+  },
+  {
+    "id": "4",
+    "name": "Agitation (severe)"
+  },
+  {
+    "id": "5",
+    "name": "Allergic reaction"
+  },
+  {
+    "id": "6",
+    "name": "Alzheimer Disease"
+  },
+  {
+    "id": "7",
+    "name": "Anal Fissures"
+  },
+  {
+    "id": "8",
+    "name": "Anemia"
+  },
+  {
+    "id": "9",
+    "name": "Anxiety"
+  },
+  {
+    "id": "10",
+    "name": "Arthritic pain"
+  },
+  {
+    "id": "11",
+    "name": "Asthma"
+  },
+  {
+    "id": "12",
+    "name": "Atrial fibrillation"
+  },
+  {
+    "id": "13",
+    "name": "Behaviours"
+  },
+  {
+    "id": "14",
+    "name": "Bleeding"
+  },
+  {
+    "id": "15",
+    "name": "Blisters"
+  },
+  {
+    "id": "16",
+    "name": "BPSD"
+  },
+  {
+    "id": "17",
+    "name": "Bruising"
+  },
+  {
+    "id": "18",
+    "name": "Cellulitis"
+  },
+  {
+    "id": "19",
+    "name": "Cerumen Impaction"
+  },
+  {
+    "id": "20",
+    "name": "Confusion "
+  },
+  {
+    "id": "21",
+    "name": "Congestion"
+  },
+  {
+    "id": "22",
+    "name": "Congestion (nasal)"
+  },
+  {
+    "id": "23",
+    "name": "Conjunctivitis"
+  },
+  {
+    "id": "24",
+    "name": "Constipation"
+  },
+  {
+    "id": "25",
+    "name": "COPD"
+  },
+  {
+    "id": "26",
+    "name": "Cough"
+  },
+  {
+    "id": "27",
+    "name": "Dehydration"
+  },
+  {
+    "id": "28",
+    "name": "Delirium"
+  },
+  {
+    "id": "29",
+    "name": "Dementia"
+  },
+  {
+    "id": "30",
+    "name": "Depression"
+  },
+  {
+    "id": "31",
+    "name": "Dermatitis"
+  },
+  {
+    "id": "32",
+    "name": "Diabetes"
+  },
+  {
+    "id": "33",
+    "name": "Diarrhea"
+  },
+  {
+    "id": "34",
+    "name": "Dryness"
+  },
+  {
+    "id": "35",
+    "name": "Dyslipidemia"
+  },
+  {
+    "id": "36",
+    "name": "Ear wax"
+  },
+  {
+    "id": "37",
+    "name": "Earache"
+  },
+  {
+    "id": "96",
+    "name": "Eczema"
+  },
+  {
+    "id": "38",
+    "name": "Edema"
+  },
+  {
+    "id": "39",
+    "name": "Fall prevention"
+  },
+  {
+    "id": "40",
+    "name": "Fever"
+  },
+  {
+    "id": "41",
+    "name": "Fungus"
+  },
+  {
+    "id": "42",
+    "name": "GERD"
+  },
+  {
+    "id": "43",
+    "name": "Gout"
+  },
+  {
+    "id": "44",
+    "name": "Headache"
+  },
+  {
+    "id": "45",
+    "name": "Heartburn"
+  },
+  {
+    "id": "46",
+    "name": "Hemorrhoids"
+  },
+  {
+    "id": "47",
+    "name": "Hives"
+  },
+  {
+    "id": "48",
+    "name": "Hypercholesterolemia"
+  },
+  {
+    "id": "49",
+    "name": "Hypertension"
+  },
+  {
+    "id": "50",
+    "name": "Hyperthyroidism"
+  },
+  {
+    "id": "51",
+    "name": "Hypotension"
+  },
+  {
+    "id": "52",
+    "name": "Hypothyroidism"
+  },
+  {
+    "id": "53",
+    "name": "Impetigo"
+  },
+  {
+    "id": "54",
+    "name": "Incontinence"
+  },
+  {
+    "id": "55",
+    "name": "Infection"
+  },
+  {
+    "id": "56",
+    "name": "Insomnia"
+  },
+  {
+    "id": "57",
+    "name": "Itchiness"
+  },
+  {
+    "id": "58",
+    "name": "Loose stools"
+  },
+  {
+    "id": "59",
+    "name": "Nausea "
+  },
+  {
+    "id": "60",
+    "name": "Neuropathic pain"
+  },
+  {
+    "id": "61",
+    "name": "Nose bleeds"
+  },
+  {
+    "id": "62",
+    "name": "Onychomycosis"
+  },
+  {
+    "id": "63",
+    "name": "Osteoarthritis"
+  },
+  {
+    "id": "64",
+    "name": "Osteoporosis"
+  },
+  {
+    "id": "65",
+    "name": "Pain"
+  },
+  {
+    "id": "66",
+    "name": "Parkinson’s Disease"
+  },
+  {
+    "id": "67",
+    "name": "Pneumonia"
+  },
+  {
+    "id": "68",
+    "name": "Postural hypotension"
+  },
+  {
+    "id": "69",
+    "name": "Priapism"
+  },
+  {
+    "id": "70",
+    "name": "prophylaxis"
+  },
+  {
+    "id": "71",
+    "name": "Psoriasis"
+  },
+  {
+    "id": "72",
+    "name": "Psychosis"
+  },
+  {
+    "id": "73",
+    "name": "Rash"
+  },
+  {
+    "id": "74",
+    "name": "Redness"
+  },
+  {
+    "id": "75",
+    "name": "Respiratory infection"
+  },
+  {
+    "id": "76",
+    "name": "Respiratory Secretions"
+  },
+  {
+    "id": "77",
+    "name": "Restless leg syndrome"
+  },
+  {
+    "id": "78",
+    "name": "Restlessness"
+  },
+  {
+    "id": "79",
+    "name": "Seizures"
+  },
+  {
+    "id": "80",
+    "name": "Shortness of Breath"
+  },
+  {
+    "id": "81",
+    "name": "Sleep"
+  },
+  {
+    "id": "82",
+    "name": "Stroke prevention"
+  },
+  {
+    "id": "83",
+    "name": "Supplementation"
+  },
+  {
+    "id": "84",
+    "name": "Swelling"
+  },
+  {
+    "id": "85",
+    "name": "Tremors"
+  },
+  {
+    "id": "86",
+    "name": "Toothache"
+  },
+  {
+    "id": "87",
+    "name": "UTI"
+  },
+  {
+    "id": "88",
+    "name": "Vaginitis"
+  },
+  {
+    "id": "89",
+    "name": "Vertigo"
+  },
+  {
+    "id": "90",
+    "name": "Vomiting"
+  },
+  {
+    "id": "91",
+    "name": "Weight gain"
+  },
+  {
+    "id": "92",
+    "name": "Weight loss"
+  },
+  {
+    "id": "93",
+    "name": "wheezing"
+  },
+  {
+    "id": "94",
+    "name": "Wound healing"
+  },
+  {
+    "id": "95",
+    "name": "Yeast"
+  }
+]

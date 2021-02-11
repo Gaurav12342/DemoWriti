@@ -1,0 +1,245 @@
+.on_going_call_wrap {
+    padding: 10px;
+
+    .on_going_call_container {
+
+        border: 1px solid $border-color;
+        border-top: 0;
+        @include border-radius(5px);
+
+        .call_header {
+            background-color: $btn-color;
+            width: 100%;
+            @include border-radius(5px);
+            padding: 10px 20px;
+
+
+            h4 {
+                margin: 0;
+                color: $white-color;
+                font-size: $font-16;
+                font-weight: 500;
+            }
+        }
+
+        .call_detail_wrap {
+            @include -flex-space-between;
+
+            .call_detail_content {
+                padding: 15px;
+                width: 50%;
+
+                h4,
+                h5,
+                p {
+                    margin: 0;
+                }
+
+                h5 {
+                    font-size: $font-13;
+                }
+
+                p {
+                    margin-top: 7px;
+                    font-size: $font-14;
+
+                    .attach_doc {
+                        color: $btn-color;
+                    }
+                }
+
+                .call_type {
+                    @include -flex-align(center);
+                    margin-bottom: 24px;
+
+                    h4 {
+                        margin-left: 15px;
+                    }
+                }
+
+                .call_detail_blocks {
+                    @include -flex-align(center);
+                    flex-wrap: wrap;
+
+                    .call_detail {
+                        width: 33%;
+                        margin-bottom: 24px;
+                    }
+                }
+
+                .addi_call_info {
+                    padding-bottom: 20px;
+                }
+
+                .secondary_users {
+                    padding-bottom: 20px;
+
+                    ul {
+                        border-bottom: 0;
+                        padding: 0;
+                        margin-top: 10px;
+                        align-items: flex-start;
+
+                        li {
+                            padding: 0;
+                            display: inline-block;
+                            border: 0;
+                            border-top-left-radius: 0px;
+                            border-top-right-radius: 0px;
+                            border-bottom: 0;
+                            margin-right: 0px;
+                            min-height: auto;
+                            min-width: auto;
+                            cursor: auto;
+                            width: 33%;
+                        }
+                    }
+                }
+
+                .action_wrapper {
+                    .actions {
+                        width: 100%;
+                        @include -flex-align(center);
+                        margin-top: 25px;
+
+
+                        a {
+                            margin: 0 30px 0 0;
+                            position: relative;
+                            text-align: center;
+                            cursor: pointer;
+
+                            p {
+                                margin: 0;
+                            }
+
+                            .tot {
+                                position: absolute;
+                                top: -8px;
+                                right: 50%;
+                                padding: 2px 4px;
+                                font-size: 9px;
+                                color: $white-color;
+                                transform: translateX(100%);
+                                -webkit-transform: translateX(100%);
+                                -moz-transform: translateX(100%);
+                                -ms-transform: translateX(100%);
+                                -o-transform: translateX(100%);
+                                @include border-radius(10px);
+
+                                &.notes {
+                                    background: $notes;
+
+                                    &.read {
+                                        background: $reminder;
+                                    }
+                                }
+
+                                &.rem {
+                                    right: 10px;
+                                    background: $notes;
+
+                                    &.read {
+                                        background: $reminder;
+                                    }
+                                }
+
+                                &.todo {
+                                    right: 0px;
+                                    background: $notes;
+
+                                    &.read {
+                                        background: $reminder;
+                                    }
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+                .group_action{
+                    @include -flex-align(center);
+                    flex-direction: column;
+                    margin-top: 30px;
+                    // .authorized,.upd_sec_wrap{
+                    //     margin-top: 0;
+                    // }
+                }
+            }
+
+
+
+            figure {
+                width: 50%;
+                position: relative;
+                padding: 15px;
+
+                .call_window_bottom {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+
+                    .user_group {
+                        @include -flex-align(center);
+                        width: 100%;
+                        overflow: hidden;
+                        overflow-x: auto;
+                        @include scrollbar();
+
+                        .user_in {
+                            position: relative;
+                            min-width: 20%;
+
+                            img {
+                                max-width: 100%;
+                                width: auto;
+                            }
+
+                            p {
+                                background: $white-color;
+                                color: $black-font;
+                                margin: 0;
+                                font-size: $font-10;
+                                font-weight: 600;
+                                text-align: center;
+                                padding: 5px 0;
+                                line-height: 1;
+                                margin-top: -5px;
+                            }
+                        }
+                    }
+                }
+
+                .expand_btn {
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+
+                    svg {
+                        margin: 0 10px;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                }
+
+            }
+
+
+
+        }
+
+    }
+}
+
+.grey_border_bottom {
+    border-bottom: 1px solid $grey-border;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+
+}

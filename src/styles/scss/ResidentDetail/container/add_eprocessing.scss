@@ -1,0 +1,217 @@
+.add_eprocessing {
+    .on_going_call_container {
+        .call_header {
+            @include -flex-space-between;
+            align-items: center;
+
+            p {
+                color: $white-color;
+                margin: 0;
+                font-size: $font-14;
+            }
+        }
+
+        .uploaded_image_viewer_wrap {
+            width: 50%;
+            padding: 15px;
+
+            .uploaded_image_viewer_container {
+                border: 1px solid $border-color;
+                height: 100%;
+                .head {
+                    @include -flex-space-between;
+                    padding: 10px;
+                    background: #F3F3F3;
+
+                    h5 {
+                        margin: 0;
+                    }
+
+                    a {
+                        font-size: $font-14;
+                    }
+                }
+
+                figure {
+                    width: 100%;
+                    margin: 0;
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                .pagination_wrap {
+                    padding: 10px 0px;
+                    width: 100%;
+                    background-color: $white-color;
+                    @include -flex-align(center);
+                    justify-content: center;
+                    background: #F3F3F3;
+
+                    .pagination {
+                        @include -flex-align(center);
+
+                        a {
+                            margin: 0 10px;
+                            font-size: $font-12;
+                            cursor: pointer;
+                            color: $border-color;
+
+                            &.active_page {
+                                color: $active-page;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .doc_type {
+        border-top: 0;
+
+        .filter_section {
+            .filter_head {
+                background: transparent;
+                padding: 10px 0;
+                font-size: $font-14;
+            }
+
+            .filter_value {
+                padding: 10px 0;
+            }
+
+
+        }
+    }
+
+    .authorized {
+        margin-top: 30px;
+
+        .filter_value {
+            padding: 0;
+            margin-left: 20px;
+
+            .filter_check {
+                cursor: pointer;
+                @include -flex-align(center);
+                padding: 5px 0;
+
+                .lbl {
+                    padding: 5px 8px;
+                    font-size: $font-14;
+                    color: $black-font;
+                }
+
+                .checkbox {
+                    display: block;
+                    width: 16px;
+                    height: 16px;
+                    border: 1px solid $border-color;
+                    @include border-radius(3px);
+                    font-weight: 500;
+                }
+
+                input {
+                    display: none;
+
+                    &:checked~.checkbox {
+                        background: url('../../../../assets/images/check.svg') no-repeat;
+                        background-position: center;
+                        color: $phr-text;
+                        font-weight: 600;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .upd_sec_wrap {
+        @include -flex-align(center);
+        margin-top: 20px;
+        cursor: pointer;
+        .upd_sec {
+            margin-right: 20px;
+            @include -flex-align(center);
+
+            span {
+                font-weight: 600;
+                font-size: $font-14;
+            }
+
+            svg {
+                width: 16px;
+                margin-right: 7px;
+
+                path {
+                    fill: #10D296;
+                }
+            }
+        }
+    }
+
+    .upl_files_wrap {
+        margin-top: 20px;
+        width: 100%;
+
+        .upd_file {
+            @include -flex-align(center);
+            margin-bottom: 5px;
+
+            .file_spin {
+                margin-right: 5px;
+            }
+
+            span {
+                font-size: $font-14;
+                margin-right: 5px;
+            }
+
+            svg {
+                path {
+                    fill: $border-color
+                }
+            }
+        }
+    }
+
+    .footer_btn {
+        margin-top: 240px;
+        width: 100%;
+        @include -flex-align(center);
+        justify-content: flex-end;
+
+        button {
+            min-width: 112px;
+        }
+
+        .prev-screen-btn {
+            padding: 5px 20px;
+        }
+    }
+
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .add_eprocessing {
+        .upd_sec_wrap {
+            .upd_sec {
+                span{
+                    font-size: $font-17;
+                }
+            }
+        }
+        .authorized{
+            .filter_value{
+                .filter_check{
+                    .lbl{
+                        font-size: $font-17;
+                    }
+                }
+            }   
+        }
+    }
+}

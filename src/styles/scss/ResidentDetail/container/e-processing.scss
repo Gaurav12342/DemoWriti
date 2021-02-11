@@ -1,0 +1,138 @@
+.e-processing {
+  .patient_order_detail {
+    padding: 10px 0 !important;
+  }
+
+  .form_wrap {
+
+    input,
+    select {
+      font-size: 12px !important;
+      color: #919a9f !important;
+
+      &::placeholder {
+        color: #919a9f !important;
+      }
+    }
+  }
+
+  .patient_order_wrap {
+    .patient_order_head {
+      .p_head {
+        &.sr {
+          width: 5%;
+        }
+
+        &.ph {
+          width: 20%;
+        }
+
+        &.dt {
+          width: 15%;
+        }
+
+        &.st {
+          width: 10%;
+        }
+
+        &.ac {
+          width: 25%;
+        }
+      }
+    }
+
+    .scroll_wrapper {
+      .patient_order_content {
+        .patient_order_d {
+          &.sr {
+            width: 5%;
+          }
+
+          &.ph {
+            width: 20%;
+          }
+
+          &.dt {
+            width: 15%;
+          }
+
+          &.st {
+            width: 10%;
+          }
+
+          &.ac {
+            width: 25%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width : 1300px) and (max-width:1470px) {
+  .e-processing {
+    .patient_order_wrap {
+      .patient_order_head {
+        .p_head {
+          &.sr {
+            width: 6%;
+          }
+
+          &.ph {
+            width: 19%;
+          }
+
+        }
+      }
+
+      .scroll_wrapper {
+        .patient_order_content {
+          .patient_order_d {
+            &.sr {
+              width: 6%;
+            }
+
+            &.ph {
+              width: 19%;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width : 1024px) and (max-width:1299px) {
+  .e-processing {
+    .patient_order_wrap {
+      .patient_order_head {
+        .p_head {
+          &.sr {
+            width: 6%;
+          }
+
+          &.ph {
+            width: 19%;
+          }
+
+        }
+      }
+
+      .scroll_wrapper {
+        .patient_order_content {
+          .patient_order_d {
+            &.sr {
+              width: 6%;
+            }
+
+            &.ph {
+              width: 19%;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

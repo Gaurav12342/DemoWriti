@@ -1,0 +1,10 @@
+.modal_body_container{
+    max-height: 430px;
+    overflow: hidden;
+    overflow-y: auto;
+    @include scrollbar();
+    margin-bottom: 20px;
+}
+.footer-block{
+    padding-bottom: 15px;
+}

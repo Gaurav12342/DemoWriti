@@ -1,0 +1,313 @@
+.request-wrap {
+    width: 880px;
+
+    .left-req-box {
+        width: 60%;
+        padding: 0 20px 20px 0;
+        ;
+
+        .rx-btns a button {
+            font-size: $font-12;
+            color: #919A9F;
+            padding: 5px 13px;
+            border: 1px solid #919A9F;
+            border-radius: 5px;
+            background: #fff;
+            margin-right: 15px;
+            font-family: "gilroy" !important;
+            font-weight: 300;
+        }
+
+        .wd47 {
+            width: 47% !important;
+        }
+
+        .mr-10 {
+            margin-right: 10px;
+        }
+
+        .drug-bts {
+            padding: 10px 0 20px;
+
+            .rout-btn {
+                border: none;
+                color: #2056ED;
+                background: #2056ed26;
+            }
+        }
+
+        select {
+            width: 100%;
+            height: 36px;
+            padding: 0px 15px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            border: 1px solid rgba(145, 154, 159, 0.78);
+            font-family: 'gilroy', sans-serif !important;
+            font-size: 14px;
+            color: #41444E;
+            transition: all 0.5s ease;
+        }
+
+        .form_wrap {
+            flex-wrap: wrap;
+
+            // .components {
+            //     &.textarea {
+            //         width: 100%;
+
+            //         textarea {
+            //             padding: 10px;
+            //             border: 1px solid #919A9F;
+            //             border-radius: 5px;
+            //             font-size: 12px;
+            //             font-family: 'gilroy', sans-serif !important;
+            //             font-weight: 300;
+            //             color: #919A9F;
+            //             height: 77px;
+            //             width: 100%;
+            //             margin-bottom: 10px;
+
+            //         }
+            //     }
+            // }
+        }
+
+        .green-bg-plus {
+            background: #10D296;
+            width: 16px;
+            height: 16px;
+            border-radius: 50px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+
+            .green-text {
+                font-size: 14px;
+                font-weight: 600;
+                color: #2D2D30;
+            }
+        }
+
+        .poa-g {
+            width: 69px;
+            margin: 20px auto;
+            text-align: center;
+
+            p {
+                font-size: $font-16;
+                color: #919A9F;
+                font-weight: 300;
+                font-family: "gilroy";
+            }
+        }
+
+
+        .inputForm {
+            width: 100%;
+            height: 36px;
+            padding: 0px 15px;
+            border-radius: 5px;
+            border: 1px solid rgba(145, 154, 159, 0.78);
+            font-family: 'gilroy', sans-serif !important;
+            font-size: 14px;
+            color: #41444E;
+            transition: all 0.5s ease;
+        }
+
+        .van-desc {
+            font-size: $font-12;
+            color: #2D2D30;
+            margin: 0 15px 5px 0;
+            font-weight: 300;
+            font-family: "gilroy";
+        }
+
+        .light-green-text {
+            color: #609FAE !important;
+            position: relative;
+
+            &:after {
+                border-bottom: 2px solid #609FAE;
+                position: absolute;
+                content: '';
+                top: 30px;
+                right: 0;
+                left: 0;
+            }
+        }
+
+        .b-b1 {
+            position: relative;
+
+            &:after {
+                position: absolute;
+                content: '';
+                bottom: 22px;
+                left: -31px;
+                width: 524px;
+                height: 2px;
+                border-bottom: 1px solid #919A9F;
+            }
+        }
+
+        .custom-time {
+            margin-right: 15px;
+
+            label {
+                font-size: $font-12;
+                columns: #2D2D30;
+                font-weight: 300;
+                font-family: "gilroy";
+            }
+
+            select {
+                border: 0;
+                width: 80px;
+                display: block;
+                padding: 0;
+                font-size: 12px;
+                font-weight: 300;
+                color: #919A9F;
+                height: 22px;
+            }
+        }
+
+        .image-upload {
+            span {
+                font-size: $font-10;
+                font-weight: 300;
+                font-family: "gilroy";
+                color: #2D2D30;
+            }
+        }
+
+        .image-upload>input {
+            display: none;
+        }
+
+        .image-upload img {
+            cursor: pointer;
+            margin-right: 6px;
+        }
+
+        .green-text {
+            font-size: $font-14;
+            font-weight: 300;
+            font-family: "gilroy";
+            color: #2D2D30;
+        }
+    }
+
+    .right-req-box {
+        width: 40%;
+        border-left: 1px solid #919A9F;
+        padding-left: 20px;
+        position: relative;
+
+        .read-text {
+            font-size: $font-16;
+            color: #2D2D30;
+            margin: 0;
+            font-weight: 600;
+            font-family: "gilroy";
+            margin-bottom: 18px;
+        }
+
+        p {
+            font-size: $font-12;
+            color: #2D2D30;
+            font-weight: 300;
+            font-family: "gilroy";
+            line-height: 18px;
+        }
+
+        .list-item {
+            list-style: none;
+            padding-left: 20px;
+
+            li {
+                font-size: $font-12;
+                color: #2D2D30;
+                font-weight: 300;
+                font-family: "gilroy";
+                margin-bottom: 5px;
+                position: relative;
+            }
+        }
+
+        .list-item li:before {
+            position: absolute;
+            content: '';
+            top: 5px;
+            left: -15px;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: #609FAE;
+        }
+
+        .click-sh {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 36px;
+
+            img {
+                margin-right: 10px;
+            }
+        }
+
+
+        .mt-0 {
+            margin-top: 0;
+        }
+
+        .sh-btn {
+            padding: 5px 20px;
+        }
+    }
+
+    .knw-box {
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 54px;
+    }
+
+    .form_wrap {
+        .components {
+            padding: 0;
+
+            .inputForm {
+
+                width: 151px;
+            }
+
+            &.search {
+                .inputForm {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .react-datepicker-input input {
+        width: 128px;
+    }
+}
+
+.p-lr {
+    padding: 0 30px !important;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.wd100 {
+    width: 100%;
+}

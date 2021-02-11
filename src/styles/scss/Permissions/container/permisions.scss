@@ -1,0 +1,63 @@
+.permission_wrap {
+    padding: 60px 0px 10px;
+
+
+
+}
+
+
+
+.permission_tab_wrap {
+    padding: 0 15px;
+    
+    .rc-tabs-nav-operations {
+        display: none;
+    }
+    .rc-tabs-nav-wrap {
+        border-bottom: 1px solid #d4d4d4;
+
+        .rc-tabs-nav-list {
+            @include -flex-align(center);
+
+            .rc-tabs-tab {
+                font-size: $font-14;
+                padding: 10px 20px;
+                border-color: transparent;
+                position: relative;
+                background: transparent;
+                font-weight: 600;
+                color: #2d2d30;
+                cursor: pointer;
+
+                &.rc-tabs-tab.rc-tabs-tab-active:before {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 4px;
+                    background-color: $reminder;
+                    left: 0;
+                    bottom: 0;
+                }
+
+                .rc-tabs-tab-btn {
+                    outline: none;
+                }
+            }
+
+            .rc-tabs-ink-bar {
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .permission_tab_wrap {
+        .rc-tabs-nav-wrap {
+            .rc-tabs-nav-list {
+                .rc-tabs-tab{
+                    font-size: $font-19;
+                }
+            }
+        }
+    }
+}

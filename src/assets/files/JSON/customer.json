@@ -1,0 +1,929 @@
+[
+    {
+        "createdAt": "2020-08-20T05:53:25.469Z",
+        "updatedAt": "2020-08-20T05:53:25.469Z",
+        "id": "5f3e0fd5f3034917e38161f6",
+        "code": "",
+        "krollId": 0,
+        "phone": "54543634356",
+        "name": "test for swati",
+        "emails": [
+            {
+                "email": "test@fds.asqqw",
+                "isPrimary": true,
+                "id": "38e2b2b9-4af6-4104-a3fd-d2b9a1a801b4"
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {
+                "id": "bf390836-db98-450f-9781-4aaad4ea979a"
+            }
+        ],
+        "image": null,
+        "faxes": [
+            {
+                "fax": "325476572",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 452,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": {
+            "xray": "http://localhost:1376/XRay/imaging-diagnostic-json/XRay-b4874afe-1a97-4cc3-8881-5ca9025c2710.json",
+            "ultrasound": "http://localhost:1376/XRay/imaging-diagnostic-json/Ujtrasound-22d8d018-59fc-4d93-ba4b-4e7db98a65fe.json"
+        },
+        "addedBy": "5d3eef2ac3cefe0b60828985",
+        "updatedBy": null,
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-08-20T05:00:18.443Z",
+        "updatedAt": "2020-08-20T05:00:18.443Z",
+        "id": "5f3e0362ba0f950d85566592",
+        "code": "",
+        "krollId": 0,
+        "phone": "134124124124",
+        "name": "test json",
+        "emails": [
+            {
+                "email": "testJson@sdm.com",
+                "isPrimary": true,
+                "id": "61350fd1-9bcb-4040-aef6-a6c5a4c11d57"
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {
+                "id": "8a385116-2db4-4afe-8c63-b1c8656ca8f7"
+            }
+        ],
+        "image": null,
+        "faxes": [
+            {
+                "fax": "123124234",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 451,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": {
+            "xray": "http://localhost:1376/XRay/imaging-diagnostic-json/xRay-7f8c73d6-3fbf-4c11-9b48-fe03b93aa4ad.json",
+            "ultrasound": "http://localhost:1376/XRay/imaging-diagnostic-json/Ultrasound-2e4f37ab-d581-459a-b626-b676acee1618.json"
+        },
+        "addedBy": "5d3eef2ac3cefe0b60828985",
+        "updatedBy": null,
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-07-16T09:54:49.438Z",
+        "updatedAt": "2020-07-27T07:07:49.789Z",
+        "id": "5f1023e96ee3fb19b308b3d2",
+        "code": "",
+        "krollId": 0,
+        "phone": "5454363434532",
+        "name": "test json3",
+        "emails": [
+            {
+                "email": "test@fds.asaq",
+                "isPrimary": true
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {}
+        ],
+        "image": null,
+        "faxes": [
+            {
+                "fax": "32547657",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 450,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": {
+            "xray": "http://localhost:1376/XRay/imaging-diagnostic-json/XRay-532438ed-9efb-4936-82d5-ba90975cbdbe.json",
+            "ultrasound": "http://localhost:1376/XRay/imaging-diagnostic-json/Ujtrasound-cdeef236-7ae1-4f8e-a3c0-16283df5848b.json"
+        },
+        "addedBy": "5d3eef2ac3cefe0b60828985",
+        "updatedBy": "5d3eef2ac3cefe0b60828985",
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-07-16T09:54:49.438Z",
+        "updatedAt": "2020-07-16T09:54:49.438Z",
+        "id": "5ef4856133256021c00e80d8",
+        "code": "",
+        "krollId": 0,
+        "phone": "",
+        "name": "X-Ray(test)",
+        "emails": null,
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": null,
+        "image": null,
+        "faxes": null,
+        "assignedDeviceImei": null,
+        "addedBy": null,
+        "updatedBy": null,
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "pharmacyPrinter": null
+    },
+    {
+        "createdAt": "2020-07-16T09:01:43.783Z",
+        "updatedAt": "2020-07-16T09:01:43.783Z",
+        "id": "5f101777fbaf110bffacec3c",
+        "code": "",
+        "krollId": 0,
+        "phone": "5454363434532",
+        "name": "test json2",
+        "emails": [
+            {
+                "email": "test@fds.asqq",
+                "isPrimary": true,
+                "id": "f0e9f005-de58-4d00-a960-7940b21fddec"
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {
+                "id": "d99a3c57-d5cc-45e4-b3b9-925247af1b98"
+            }
+        ],
+        "image": null,
+        "faxes": [
+            {
+                "fax": "32547657",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 449,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": {
+            "xray": "/XRay/imaging-diagnostic-json/xRay-4e25f92c-a8cc-406e-b576-a9fdcada2af1.json",
+            "ultrasound": "/XRay/imaging-diagnostic-json/Ultrasound-42a98168-a0c5-466c-b6ae-0f4c1b6f2df6.json"
+        },
+        "addedBy": "5d3eef2ac3cefe0b60828985",
+        "updatedBy": null,
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-07-16T08:50:07.092Z",
+        "updatedAt": "2020-07-16T08:50:07.092Z",
+        "id": "5f1014bfa145fc090b4fe977",
+        "code": "",
+        "krollId": 0,
+        "phone": "5454363434532",
+        "name": "test json1",
+        "emails": [
+            {
+                "email": "test@fds.asa",
+                "isPrimary": true,
+                "id": "57227d70-30b7-40a1-a83c-762576b03bd7"
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {
+                "id": "b497eba1-aba1-418f-8008-52faf246e320"
+            }
+        ],
+        "image": null,
+        "faxes": [
+            {
+                "fax": "32547657",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 448,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": {
+            "xray": "/XRay/imaging-diagnostic-json/xRay-3edb712c-1f8e-40e9-bacb-c719ff2f80fd.json",
+            "ultrasound": "/XRay/imaging-diagnostic-json/Ultrasound-5eac31cf-a32c-4a35-8816-573fe5cfd000.json"
+        },
+        "addedBy": "5d3eef2ac3cefe0b60828985",
+        "updatedBy": null,
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-07-16T08:33:29.747Z",
+        "updatedAt": "2020-07-16T08:37:52.853Z",
+        "id": "5f1010d98a6fec57637e32c2",
+        "code": "",
+        "krollId": 0,
+        "phone": "3213124214",
+        "name": "ImagingDiagnosticNew1",
+        "emails": [
+            {
+                "email": "ImagingDiagnosticNew1@xyz.com",
+                "isPrimary": true
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {}
+        ],
+        "image": null,
+        "faxes": [
+            {
+                "fax": "1234545721",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 446,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": {
+            "xray": "/images/imaging-diagnostic-json/xRay-67b53d33-fe89-419f-944d-63ecb987b9a0.json",
+            "ultrasound": "/images/imaging-diagnostic-json/Ultrasound-1b8d3903-69fa-405b-b163-08706adfb3a5.json"
+        },
+        "addedBy": "5d3eef2ac3cefe0b60828985",
+        "updatedBy": "5d3eef2ac3cefe0b60828985",
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-07-16T07:09:44.283Z",
+        "updatedAt": "2020-07-16T07:09:44.283Z",
+        "id": "5f0ffd38b97885737aa0177e",
+        "code": "",
+        "krollId": 0,
+        "phone": "5454363434532",
+        "name": "test json",
+        "emails": [
+            {
+                "email": "test@fds.as",
+                "isPrimary": true,
+                "id": "13c61a46-f625-418c-abe2-0745569a2184"
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {
+                "id": "07297268-53b1-42cd-8e04-08792db4a416"
+            }
+        ],
+        "image": null,
+        "faxes": [
+            {
+                "fax": "32547657",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 445,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": null,
+        "addedBy": "5d3eef2ac3cefe0b60828985",
+        "updatedBy": null,
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-07-02T10:27:10.767Z",
+        "updatedAt": "2020-07-16T06:50:42.116Z",
+        "id": "5efdb67e7d860e25fa6baf8d",
+        "code": "",
+        "krollId": 0,
+        "phone": "4634634624",
+        "name": "Test Test imaging 12",
+        "emails": [
+            {
+                "email": "img12@xyz.com",
+                "isPrimary": true
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {}
+        ],
+        "image": "https://writi-2-dev.s3.ca-central-1.amazonaws.com/images/download-249af319-0f74-4239-a3b5-034813a264f6.png",
+        "faxes": [
+            {
+                "fax": "35235464",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 443,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": {
+            "xray": "/images/imaging-diagnostic-json/xRay-c444987c-e750-4551-b24d-f74272cee985.json",
+            "ultrasound": "/images/imaging-diagnostic-json/Ultrasound-48276f24-04df-4374-a198-1ac5717f23dd.json"
+        },
+        "addedBy": null,
+        "updatedBy": "5d3eef2ac3cefe0b60828985",
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-06-30T13:01:35.448Z",
+        "updatedAt": "2020-06-30T13:02:03.324Z",
+        "id": "5efb37af54b17d490d8895e0",
+        "code": "",
+        "krollId": 0,
+        "phone": "3242342344",
+        "name": "test imaging 8",
+        "emails": [
+            {
+                "email": "fdfs@xyz.com",
+                "isPrimary": true
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {}
+        ],
+        "image": null,
+        "faxes": [
+            {
+                "fax": "4523523523",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 442,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": {},
+        "addedBy": null,
+        "updatedBy": null,
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-06-27T09:30:15.217Z",
+        "updatedAt": "2020-07-27T07:08:30.140Z",
+        "id": "5ef711a7e26cea362eb55bc2",
+        "code": "",
+        "krollId": 0,
+        "phone": "1-800-268-5804",
+        "name": "imaging diagnostic 6",
+        "emails": [
+            {
+                "email": "imagingdiagnostic6@xyz.com",
+                "isPrimary": true
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {}
+        ],
+        "image": "https://writi-2-dev.s3.ca-central-1.amazonaws.com/images/download-6d1f1528-ae50-4689-b8e9-72c482d59c0c.png",
+        "faxes": [
+            {
+                "fax": "1-855-374-3497",
+                "isPrimary": true
+            }
+        ],
+        "website": "www.stlimaging.ca",
+        "assignedDeviceImei": null,
+        "uniqueNo": 441,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": {
+            "xray": "http://localhost:1376/XRay/imaging-diagnostic-json/XRay-d4deedc3-77dc-4742-907c-d6b6b0448cf4.json",
+            "ultrasound": "http://localhost:1376/XRay/imaging-diagnostic-json/Ujtrasound-fd807470-d68f-4f4a-81ae-1d00066f360f.json"
+        },
+        "addedBy": "5d3eef2ac3cefe0b60828985",
+        "updatedBy": "5d3eef2ac3cefe0b60828985",
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-06-27T09:28:09.556Z",
+        "updatedAt": "2020-06-30T13:00:12.902Z",
+        "id": "5ef71129e26cea362eb55bc0",
+        "code": "",
+        "krollId": 0,
+        "phone": "63482734534",
+        "name": "Imaging dianostic 5",
+        "emails": [
+            {
+                "email": "dianostic5@xyz.com",
+                "isPrimary": true
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {}
+        ],
+        "image": null,
+        "faxes": [
+            {
+                "fax": "65278635",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 440,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": {},
+        "addedBy": "5d3eef2ac3cefe0b60828985",
+        "updatedBy": null,
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-06-27T09:25:15.572Z",
+        "updatedAt": "2020-06-27T09:25:15.572Z",
+        "id": "5ef7107be26cea362eb55bbe",
+        "code": "",
+        "krollId": 0,
+        "phone": "6543278876",
+        "name": "test2",
+        "emails": [
+            {
+                "email": "testDianostic@xyz.com",
+                "isPrimary": true,
+                "id": "eaa63440-4420-4996-96a4-6bb6e2f1e08c"
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {
+                "id": "25537f99-3cd4-4991-b472-dd9baf022ea8"
+            }
+        ],
+        "image": null,
+        "faxes": [
+            {
+                "fax": "65432788",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 439,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": {
+            "xray": "https://writi-2-dev.s3.ca-central-1.amazonaws.com/images/imaging-diagnostic-json/xRay-295586ef-07e0-49d2-b43c-11dca7d2fba5.json",
+            "ultrasound": "https://writi-2-dev.s3.ca-central-1.amazonaws.com/images/imaging-diagnostic-json/Ultrasound-d63c797b-fc13-4158-92bc-06c3e5e585fa.json"
+        },
+        "addedBy": "5d3eef2ac3cefe0b60828985",
+        "updatedBy": null,
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-06-27T09:22:05.193Z",
+        "updatedAt": "2020-07-02T10:23:49.408Z",
+        "id": "5ef70fbde26cea362eb55bbc",
+        "code": "",
+        "krollId": 0,
+        "phone": "323353252",
+        "name": "imaging diagnostic 4",
+        "emails": [
+            {
+                "email": "imgdia4@xyz.com",
+                "isPrimary": true
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {}
+        ],
+        "image": null,
+        "faxes": [
+            {
+                "fax": "34574636",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 438,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "imagingDiagnosticJSON": {},
+        "addedBy": "5d3eef2ac3cefe0b60828985",
+        "updatedBy": null,
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null,
+        "imagingDiagnosticId": null
+    },
+    {
+        "createdAt": "2020-06-26T14:37:09.196Z",
+        "updatedAt": "2020-07-02T10:25:58.188Z",
+        "id": "5ef60815a9f19a6852a4726c",
+        "code": "",
+        "krollId": 0,
+        "phone": "987654321",
+        "name": "imaging diagnstic 1",
+        "emails": [
+            {
+                "email": "imgDia@xyz.com",
+                "isPrimary": true
+            }
+        ],
+        "mobiles": null,
+        "type": 7,
+        "isDeleted": false,
+        "isActive": true,
+        "addresses": [
+            {
+                "line1": "imaging diagostic 123",
+                "city": "waterloo",
+                "province": "ottawa",
+                "postalCode": "1234567",
+                "country": "canada"
+            }
+        ],
+        "image": null,
+        "faxes": [
+            {
+                "fax": "23456786",
+                "isPrimary": true
+            }
+        ],
+        "website": null,
+        "assignedDeviceImei": null,
+        "uniqueNo": 437,
+        "settings": {},
+        "draftDiscardHours": 0,
+        "careClause": "",
+        "storeId": 0,
+        "virtualVisitDuration": {},
+        "isKroll": false,
+        "eHR": 0,
+        "facId": 0,
+        "bedCount": 0,
+        "lineOfBusiness": null,
+        "healthType": "",
+        "facilityCode": "",
+        "environment": "",
+        "billingStyleCountry": "",
+        "timeZone": "",
+        "headOffice": false,
+        "floorDesc": "",
+        "floorId": null,
+        "pccOrgId": "",
+        "addedBy": null,
+        "updatedBy": null,
+        "parentId": null,
+        "pharmacyId": null,
+        "organizationId": null,
+        "parentPharmacyId": null,
+        "pharmacyPrinter": null,
+        "assignedPermissionId": null
+    }
+]

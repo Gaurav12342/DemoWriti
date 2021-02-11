@@ -1,0 +1,93 @@
+.date_range {
+    width: 228px;
+
+    .my-react-component {
+        width: 100% !important;
+        padding: 10px 50px 10px 10px;
+        @include border-radius(5px);
+        border: 1px solid $border-color;
+        font-size: $font-12;
+        color: #000;
+        background-image: url('/static/media/calendar-dates.e34cbb75.svg');
+        background-position: 95% center;
+        background-repeat: no-repeat;
+
+        &::-webkit-input-placeholder {
+            color: $border-color;
+            font-size: $font-12;
+        }
+    }
+}
+
+.rc-calendar-range {
+    .rc-calendar-in-range-cell {
+        background: #F3F3F3 !important;
+    }
+}
+
+.rc-calendar-selected-day {
+    .rc-calendar-date {
+        background: $btn-color !important;
+        color: $white-color !important;
+        @include border-radius(50px);
+    }
+}
+
+.rc-calendar-today {
+    .rc-calendar-date {
+        border-color: $btn-color !important;
+        color: $btn-color !important;
+        @include border-radius(50px);
+
+    }
+
+    &.rc-calendar-selected-day {
+        .rc-calendar-date {
+            border-color: $btn-color !important;
+            color: $white-color !important;
+            @include border-radius(50px);
+
+        }
+    }
+}
+
+.rc-calendar-cell {
+    .rc-calendar-date {
+        &:hover {
+            background: rgba(96, 159, 174, 0.3) !important;
+            @include border-radius(50px);
+        }
+    }
+}
+.rc-calendar-picker{
+    z-index: 999999 !important;
+}
+.rc-calendar{
+    box-shadow: 0 1px 2px #ccc !important;
+}
+
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .rc-calendar{
+        font-size: $font-18 !important;
+    }
+    .rc-calendar-date{
+        width: 32px !important;
+        height: 32px !important;
+        line-height: 32px !important;
+    }
+    .rc-calendar-date-panel{
+        height: 315px !important;
+    }
+    .rc-calendar-year-select, .rc-calendar-month-select, .rc-calendar-day-select{
+        font-size: $font-18 !important;
+    }
+    .rc-calendar-prev-month-btn, .rc-calendar-next-month-btn, .rc-calendar-prev-year-btn, .rc-calendar-next-year-btn{
+        font-size: $font-23 !important;
+    }
+    .rc-calendar-range .rc-calendar-input{
+        font-size: $font-18 !important;
+    }
+    .rc-calendar-input{
+        font-size: $font-18;
+    }
+}

@@ -1,0 +1,45 @@
+.subkey {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom:30px !important;
+    margin-left: 40px;
+}
+.subkey-option {
+    margin-left: 50px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.key {
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom:30px !important;
+}
+.key-option {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.request_no{
+    margin-right: 20px;
+    float: right;
+}
+.result_table{
+    width: 100%;
+    margin-top: 20px;
+    font-size:15px;
+}
+.result_table.custom_tr{
+    border-top: 4px;
+    margin-top: 10px;
+}
+.my-fieldset{
+    border: 1.4px solid;
+}
+.request{
+    margin-bottom: 10px;
+}
+.custom-legend{
+    width: auto;
+    margin-left: 20px;
+    white-space: pre-wrap;
+}

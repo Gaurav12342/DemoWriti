@@ -1,0 +1,308 @@
+// .form_wrap {
+//     flex-wrap: wrap;
+
+//     .components {
+
+//         &.textarea {
+//             width: 100%;
+
+//             textarea {
+//                 padding: 10px;
+//                 border: 1px solid #919A9F;
+//                 border-radius: 5px;
+//                 font-size: 12px;
+//                 font-family: 'gilroy', sans-serif !important;
+//                 font-weight: 300;
+//                 color: #919A9F;
+//                 height: 77px;
+//                 width: 100%;
+//                 margin-bottom: 10px;
+
+//             }
+//         }
+
+//         .inputForm {
+//             width: 100%;
+//             height: 36px;
+//             padding: 0px 15px;
+//             @include border-radius(5px);
+//             border: 1px solid rgba(145, 154, 159, 0.78);
+//             font-family: 'gilroy', sans-serif !important;
+//             font-size: $font-12;
+//             color: $secondary-color;
+//             transition: all 0.5s ease;
+
+
+
+//             &:focus {
+//                 border-color: #000;
+//                 outline: none;
+//             }
+
+//             &.select {
+//                 appearance: none;
+//                 background: url('../../../../assets/images/chevron-down.svg') no-repeat;
+//                 background-position: 95% center;
+//                 padding-right: 50px;
+//                 min-width: 184px;
+//             }
+
+//             &.datePick {
+//                 appearance: none;
+//                 background: url('../../../../assets/images/calendar-dates.svg') no-repeat;
+//                 background-position: 95% center;
+//                 padding-right: 50px;
+
+//                 &::-webkit-calendar-picker-indicator {
+
+//                     -webkit-appearance: none;
+//                 }
+//             }
+//         }
+
+//         &.search {
+//             .inputForm {
+//                 padding-right: 40px;
+//                 background-image: url('../../../../assets/images/pmr/search.svg');
+//                 background-repeat: no-repeat;
+//                 background-position: 95% 50%;
+//             }
+//         }
+//     }
+// }
+
+
+
+
+.form_wrap {
+    @include -flex-align(center);
+
+    &.flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .components {
+        padding: 0 6px;
+        position: relative;
+        &.textarea {
+            width: 100%;
+
+            textarea {
+                padding: 10px;
+                border: 1px solid #919A9F;
+                border-radius: 5px;
+                font-size: $font-12;
+                font-family: 'gilroy', sans-serif !important;
+                font-weight: 300;
+                color: #919A9F;
+                height: 77px;
+                width: 100%;
+                margin-bottom: 10px;
+
+            }
+        }
+
+        .inputForm {
+            width: 100%;
+            height: 36px;
+            padding: 0px 15px;
+            @include border-radius(5px);
+            border: 1px solid rgba(145, 154, 159, 0.78);
+            font-family: 'gilroy', sans-serif !important;
+            font-size: $font-12;
+            color: $secondary-color;
+            transition: all 0.5s ease;
+            &:focus {
+                border-color: #000;
+                outline: none;
+            }
+
+            &.select {
+                appearance: none;
+                background: url('../../../../assets/images/chevron-down.svg') no-repeat;
+                background-position: 95% center;
+                padding-right: 30px;
+                cursor: pointer;
+            }
+
+            &.datePick {
+                appearance: none;
+                background: url('../../../../assets/images/calendar-dates.svg') no-repeat;
+                background-position: 95% center;
+                padding-right: 50px;
+
+                &::-webkit-calendar-picker-indicator {
+
+                    -webkit-appearance: none;
+                }
+            }
+        }
+
+        .react-datepicker {
+            .react-datepicker-top {
+                background: linear-gradient(#609fae, #609fae);
+                border-top: 1px solid #609fae;
+                border-left: 1px solid #609fae;
+                border-right: 1px solid #609fae;
+            }
+
+            .react-datepicker-picker.selected.current {
+                background: #aad9e5 !important;
+            }
+
+            .react-datepicker-top::after {
+                border-bottom-color: #609fae;
+            }
+        }
+
+        .react-datepicker-input {
+            background: #fff;
+            border: 1px solid rgba(145, 154, 159, 0.78);
+            cursor: pointer;
+            .calendar {
+                background: url('../../../../assets/images/calendar-dates.svg') no-repeat;
+                width: 18px;
+                height: 18px;
+                background-size: 18px;
+            }
+
+            input {
+                font-family: "gilroy", sans-serif !important;
+                font-size: $font-12;
+                color: #41444e;
+                font-weight: 400;
+                cursor: pointer;
+            }
+
+            &.is-open {
+                background: transparent;
+                border-color: #000;
+            }
+
+            &:hover {
+                background: transparent;
+                // border-color: #000;
+            }
+        }
+
+        &.search {
+            .inputForm {
+                padding-right: 40px;
+                background-image: url('../../../../assets/images/pmr/search.svg');
+                background-repeat: no-repeat;
+                background-position: 95% 50%;
+            }
+            &.allow_clear{
+                .inputForm{
+                    background: none;
+                    width: 100%;
+                }
+                .clear{
+                    position: absolute;
+                    right: 11px;
+                    width: 25px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &.radio_grp {
+            @include -flex-align(center);
+
+            label {
+                display: block;
+                cursor: pointer;
+                border-collapse: collapse;
+                margin-right: -11px;
+                white-space: nowrap;
+
+                input {
+                    display: none;
+                }
+
+                span {
+                    border: 1px solid rgba(145, 154, 159, 0.78);
+                    padding: 9px 15px;
+                    min-width: 116px;
+                    font-size: 14px;
+                    color: $border-color;
+                    font-weight: 300;
+                    position: relative;
+                }
+
+                &:first-child {
+                    span {
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                        // border-right: 0;
+                    }
+                }
+
+                &:last-child {
+                    span {
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        // border-left: 0;
+
+                    }
+                }
+
+                input:checked+span {
+                    border-color: $btn-color;
+                    color: $btn-color;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+
+
+
+
+}
+
+.error-msg {
+    color: rgb(201, 19, 19) !important;
+    text-align: left !important;
+    margin: 5px 0 0px 5px !important;
+    font-size: 12px !important;
+}
+input[type=checkbox][disabled] ,input[type=checkbox][disabled] + span.checkbox{
+    background-color: #D3D3D3 !important
+}
+
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .form_wrap {
+        .components{
+            &.radio_grp{
+                label {
+                    span{
+                        font-size: $font-18;
+                    }
+                }
+            }
+            .react-datepicker-input{
+                height: 45px;
+                input{
+                    font-size: $font-17;
+                    
+                }
+            }
+            .inputForm{
+                height: 45px;
+                font-size: $font-17;
+            }
+        }
+    }
+    .font-18{
+        font-size: $font-18;
+    }
+    .font-22{
+        font-size: $font-22;
+    }
+    .error-msg{
+        font-size: $font-17 !important;
+      }
+    
+}

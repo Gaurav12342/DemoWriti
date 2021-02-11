@@ -1,0 +1,290 @@
+.notes_tab {
+    .patient_order_wrap {
+        .patient_order_head {
+            .p_head {
+                &.sr {
+                    width: 5%;
+                }
+
+                &.ad {
+                    width: 12%;
+                }
+
+                &.cb {
+                    width: 12%;
+                }
+
+                &.dt {
+                    width: 12%;
+                }
+
+                &.no {
+                    width: 20%;
+                }
+
+                &.nt {
+                    width: 10%;
+                }
+
+                &.st {
+                    width: 9%;
+                }
+
+                &.ac {
+                    width: 20%;
+                }
+            }
+        }
+
+        .scroll_wrapper {
+            .patient_order_detail {
+                .patient_order_content {
+                    position: relative;
+
+                    .pcc-tg {
+                        position: absolute;
+                        background: #609FAE;
+                        color: #fff;
+                        font-size: 8px;
+                        padding: 2px 5px 2px 3px;
+
+                        top: -10px;
+                        left: 0;
+
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            display: block;
+                            bottom: 0em;
+                            right: -7px;
+                            border: 6.5px solid $btn-color;
+                            border-left-width: 3px;
+                            border-right-color: transparent;
+                            z-index: 0;
+                        }
+                    }
+
+                    .patient_order_d {
+                        &.sr {
+                            width: 5%;
+                        }
+
+                        &.ad {
+                            width: 12%;
+
+                            span {
+                                display: block;
+                            }
+                        }
+
+                        &.cb {
+                            width: 12%;
+                        }
+
+                        &.dt {
+                            width: 12%;
+
+                            span {
+                                display: block;
+                            }
+                        }
+
+                        &.no {
+                            width: 20%;
+
+                            span {
+                                display: block;
+                            }
+                        }
+
+                        &.nt {
+                            width: 10%;
+                        }
+
+                        &.st {
+                            width: 9%;
+
+                            &.call_type {
+                                svg {
+                                    display: block;
+                                    margin-top: 5px;
+                                }
+
+                                .with_help {
+                                    @include -flex-align(center);
+
+                                    svg {
+                                        margin-right: 10px;
+                                    }
+
+                                    a {
+                                        margin-top: 5px;
+                                    }
+
+                                    &.rejected {
+                                        color: $notes;
+
+
+                                        svg {
+                                            margin-left: 10px;
+                                            margin-top: 0;
+
+                                            path {
+                                                fill: $notes;
+                                            }
+                                        }
+                                    }
+
+                                    &.reschdule {
+                                        a {
+                                            color: $btn-color;
+                                            text-decoration: underline;
+
+                                        }
+                                    }
+
+                                    &.completed {
+
+                                        color: $todo-text;
+                                    }
+                                }
+
+
+                            }
+                        }
+
+                        &.ac {
+                            width: 20%;
+                        }
+
+                        .more_wrap {
+
+                            width: 166px;
+
+                            a {
+                                span {
+                                    .nos {
+                                        margin-left: 13px;
+                                        float: right;
+                                        @include border-radius(10px);
+                                        padding: 2px 4px;
+                                        font-size: 9px;
+                                        color: $white-color;
+                                        background: $reminder;
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+
+            }
+        }
+
+
+    }
+
+    .ph-r-t {
+        padding: 3px 12px;
+        border-radius: 10px;
+        font-weight: 300;
+        font-size: $font-12;
+
+    }
+
+    .red-color {
+        color: #FF3347;
+        background: #FFF5F6;
+    }
+
+    .light-green-text {
+        color: #609FAE;
+    }
+
+    .blue-color {
+        color: #2056ED;
+        background: #F3F6FF;
+    }
+}
+
+@media screen and (min-width : 1300px) and (max-width : 1470px) {
+    .notes_tab {
+        .patient_order_wrap {
+            .patient_order_head {
+                .p_head {
+                    &.sr {
+                        width: 6%;
+                    }
+
+                    &.dt {
+                        width: 11%;
+                    }
+                }
+            }
+
+            .scroll_wrapper {
+                .patient_order_detail {
+                    .patient_order_content {
+                        .patient_order_d {
+                            &.sr {
+                                width: 6%;
+                            }
+
+                            &.dt {
+                                width: 11%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1299px) {
+    .notes_tab {
+        .patient_order_wrap {
+            .patient_order_head {
+                .p_head {
+                    &.sr {
+                        width: 6%;
+                    }
+
+                    &.no {
+                        width: 19%;
+                    }
+
+                    &.ac {
+                        width: 21%;
+                    }
+
+
+                }
+            }
+
+            .scroll_wrapper {
+                .patient_order_detail {
+                    .patient_order_content {
+                        .patient_order_d {
+                            &.sr {
+                                width: 6%;
+                            }
+
+                            &.no {
+                                width: 19%;
+                            }
+
+                            &.ac {
+                                width: 21%;
+                            }
+
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

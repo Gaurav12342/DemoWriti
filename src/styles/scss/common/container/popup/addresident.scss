@@ -1,0 +1,51 @@
+.resident_wrap{
+    width: 850px;
+    // height: 510px;
+    max-height: 580px;
+    overflow: hidden;
+    overflow-y: auto;
+
+    @include scrollbar();
+
+    .wd25{
+        width: 33%;
+    }
+    .wd50{
+        width: 95%;
+    }
+    .flex-end {
+        margin-bottom: 35px;
+        justify-content: flex-end;
+    }
+    .gray-btn {
+        background: #919A9F !important;
+    }
+    .inputForm{
+        width: 145px;
+        // margin-right: 20px;
+    }
+    .text-area{
+        width: 250px;
+        // margin-right: 20px;
+    }
+}
+.mdm-text{
+    font-weight: 600;
+    font-size: 13px;
+    color: #2D2D30;
+}
+.small-text{
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 22px;
+    color: #2D2D30;
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .mdm-text{
+        font-size: $font-18;
+    }
+  
+    .small-text{
+        font-size: $font-17;
+    }
+}

@@ -1,0 +1,265 @@
+.todo_wrap {
+  padding-top: 60px;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+
+
+
+  .todolist {
+    width: 220px;
+    border-right: 1px solid #d4d4d4;
+    background: $white-color;
+
+    .select {
+      padding: 12px 20px 0;
+
+      select {
+        width: 100%;
+        height: 36px;
+        padding: 0px 15px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border: 1px solid rgba(145, 154, 159, 0.78);
+        font-family: "gilroy", sans-serif !important;
+        font-size: 12px;
+        color: #919a9f;
+        transition: all 0.5s ease;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(/static/media/chevron-down.d1f73a36.svg) no-repeat;
+        background-position: 95% center;
+        padding-right: 50px;
+
+        &:focus {
+          border-color: #000;
+          outline: none;
+        }
+
+        &::placeholder {
+          font-size: 12px;
+          color: #919a9f;
+        }
+      }
+    }
+
+    .todo-listblock {
+      padding: 15px 20px 10px;
+      text-align: left;
+
+      .title {
+        font-size: 16px;
+        text-align: left;
+        margin: 0;
+        margin-right: 20px;
+        display: inline-block;
+
+        div {
+          display: inline-block;
+          margin-right: 20px;
+        }
+      }
+      span {
+        color: #818d94;
+        font-weight: 300;
+        font-size: 12px;
+        padding-left: 15px;
+        position: relative;
+        margin-right: 10px;
+  
+        &:before {
+          content: "";
+          background: #609fae;
+          width: 5px;
+          height: 5px;
+          border-radius: 50px;
+          position: absolute;
+          left: 0;
+          top: 5px;
+        }
+  
+        &.green:before {
+          background: $btn-color;
+        }
+  
+        &.red:before {
+          background: $notes;
+        }
+      }
+    }
+
+    .todo-list {
+      height: calc(100vh - 200px);
+      overflow-y: auto;
+
+      &::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+        background-color: rgba(240, 240, 240, 0);
+      }
+
+      &::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: #d4d4d4;
+      }
+
+      &::-webkit-scrollbar-track {
+        background-color: transparent;
+      }
+      span {
+        color: #818d94;
+        font-weight: 300;
+        font-size: 12px;
+        padding-left: 15px;
+        position: relative;
+        margin-right: 10px;
+  
+        &:before {
+          content: "";
+          background: #609fae;
+          width: 5px;
+          height: 5px;
+          border-radius: 50px;
+          position: absolute;
+          left: 0;
+          top: 5px;
+        }
+  
+        &.green:before {
+          background: $btn-color;
+        }
+  
+        &.red:before {
+          background: $notes;
+        }
+      }
+    }
+
+    
+
+    .media {
+      display: flex;
+      padding: 10px 20px;
+      text-decoration: none;
+      position: relative;
+      transition: all 0.4s ease-in-out;
+      &.active{
+        background: #f3f3f3;
+      }
+      .media-body {
+        margin-left: 15px;
+        text-align: left;
+
+        .name {
+          margin: 0;
+          font-size: 12px;
+          color: #1d1d20;
+          margin-bottom: 0px;
+        }
+      }
+
+      .contact-profile {
+        .etar path {
+          fill: #0baa50;
+        }
+
+        .consent path {
+          fill: #2056ed;
+        }
+
+        .emar path {
+          fill: #ff7885;
+        }
+
+        .vo path {
+          fill: #1ebbee;
+        }
+
+        .ebox path {
+          fill: #ff6f00;
+        }
+
+        .dr path {
+          fill: #2056ed;
+        }
+
+        .cp path {
+          fill: #bc00d1
+        }
+
+        .xray path {
+          fill: #ff6f00;
+        }
+
+        .cs path {
+          fill: #df0069;
+        }
+      }
+
+      &:hover {
+        background: #f3f3f3;
+      }
+    }
+  }
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+  .todo_wrap {
+    .todolist {
+      .media {
+        .media-body {
+          .name{
+            font-size: $font-17;
+          }
+        }
+      }
+      .todo-listblock {
+        .title{
+          font-size: $font-19;
+        }
+      }
+      .todo-list{
+        span{
+          font-size: $font-15;
+        }
+      }
+    }
+  }
+  
+}
+@media screen and (min-width : 1024px) and (max-width : 1299px) {
+
+  .todo_btn {
+    position: absolute;
+    top: 50%;
+    left: -68px;
+    z-index: 1;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    display: flex;
+    flex-direction: row;
+
+    span {
+      background: $btn-color;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      margin-right: 10px;
+      display: block;
+      white-space: nowrap;
+      padding: 10px;
+      color: $white-color;
+      cursor: pointer;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,137 @@
+.archive_tab {
+    .patient_order_wrap {
+        .patient_order_head {
+            .p_head {
+                &.sr {
+                    width: 7%;
+                }
+
+                &.tp {
+                    width: 15%;
+                }
+
+                &.ar {
+                    width: 15%;
+                }
+
+                &.dt {
+                    width: 10%;
+                }
+
+                &.rs {
+                    width: 28%;
+                }
+            }
+        }
+
+        .scroll_wrapper {
+            .patient_order_detail {
+                .patient_order_content {
+
+                    .patient_order_d {
+                        &.sr {
+                            width: 7%;
+                        }
+
+                        &.tp {
+                            width: 15%;
+
+                            span {
+                                display: block;
+                            }
+
+                            a {
+                                color: $btn-color;
+                                margin-top: 3px;
+                            }
+                        }
+
+                        &.ar {
+                            width: 15%;
+                        }
+
+                        &.dt {
+                            width: 10%;
+
+                            span {
+                                display: block;
+                            }
+                        }
+
+                        &.rs {
+                            width: 28%;
+
+                            span {
+                                display: block;
+                            }
+                        }
+
+
+
+                        .more_wrap {
+
+                            width: 200px;
+
+                            a {
+                                span {
+                                    .nos {
+                                        margin-left: 20px;
+                                        float: right;
+                                        @include border-radius(10px);
+                                        padding: 3px 8px;
+                                        font-size: 11px;
+                                        color: $white-color;
+                                        background: $reminder;
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+
+            }
+        }
+
+
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width:1299px) {
+    .archive_tab {
+        .patient_order_wrap {
+            .patient_order_head {
+                .p_head {
+                    &.tp {
+                        width: 14%;
+                    }
+
+                    &.dt {
+                        width: 11%;
+                    }
+
+
+                }
+            }
+
+            .scroll_wrapper {
+                .patient_order_detail {
+                    .patient_order_content {
+                        .patient_order_d {
+                            &.tp {
+                                width: 14%;
+                            }
+
+                            &.dt {
+                                width: 11%;
+                            }
+
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

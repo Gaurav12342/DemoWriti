@@ -1,0 +1,51 @@
+.pmr_wrap {
+    text-align: left;
+    padding-top: 60px;
+    &.defaultPasswordWrap{
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+
+.page_head {
+    @include -flex-space-between;
+    padding: 20px 15px;
+    align-items: center;
+    h3 {
+        @include -flex-align(flex-start);
+        color: $black-font;
+        margin: 0;
+        font-size: 22px;
+
+        // align-items: center;
+
+        .r_no {
+            background: $btn-color;
+            @include border-radius(10px);
+            color: $white-color;
+            padding: 3px 4px;
+            margin-left: 10px;
+            font-weight: normal;
+            margin-top: 1%;
+            font-size: 55%;
+        }
+    }
+
+
+}
+@media screen and (min-width : 1299px) and (max-width : 1440px){
+    .page_head{
+        &.sub_head{
+            h3{
+                font-size: 19px;
+                padding-right: 20px;
+                align-items: flex-start;
+                .r_no{
+                    margin-top: 0;
+                    padding : 3px 8px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

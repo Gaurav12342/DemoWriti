@@ -1,0 +1,25 @@
+.user-detail-view{
+    padding-left: 0;
+    li{
+        text-align: left;
+        margin-left: 10px;
+        list-style-type: none;
+        font-size: 17px;
+        margin-bottom: 10px;
+        strong{
+            margin-right: 6px;
+        }
+    }
+    .view-btn{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .user-detail-view{
+        li{
+            font-size: $font-20;
+            margin-bottom: 15px;
+        }
+    }
+}

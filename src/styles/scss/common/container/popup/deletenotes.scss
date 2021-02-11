@@ -1,0 +1,80 @@
+.del-notes-wrap{
+    .popup-content{
+        h3{
+            font-size: $font-20;
+        }
+        p{
+            color: #2D2D30;
+            font-size: $font-16;
+            margin-bottom: 17px;
+            font-weight: 300;
+            font-family: 'gilroy';
+        }
+        .bottom-line{
+            font-size: $font-10;
+            color: #919A9F;
+            margin: 20px 0;
+        }
+        .screen-btn{
+            padding: 7px 44px;
+        }
+    }
+}
+
+/* start save prescription style */
+.save-pre-wrap{
+    width: 427px;
+    .popup-content{
+    h3{
+        font-size: 20px !important;
+    }
+    .large-text{
+        color: #2D2D30;
+        font-size: $font-20;
+        font-weight: 600;
+        margin: 10px 0 30px 0;
+        display: block;
+    }
+    .mb-0{
+        margin-bottom: 0;
+    }
+    p{
+        margin-bottom: 8px;
+    }
+    .bottom-line{
+        margin: 22px 0 30px 0;
+    }
+    .save-graft{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span{
+            color: #609fae;
+            font-weight: 600;
+            font-size: $font-16;
+            margin-right: 10px;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        svg{
+            width: 16px;
+            height: 16px;
+            margin-right: 20px;
+        }
+    }
+    }
+}
+/* end save prescription style */
+
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .del-notes-wrap {
+        .popup-content {
+            h3{
+                font-size: $font-25;
+            }
+            p{
+                font-size: $font-20;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.finish_visit_wrap {
+    border-left: 1px solid $border-color;
+    padding: 15px;
+    width: 50%;
+}
+
+.creation {
+    @include -flex-align(center);
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    p {
+        font-size: $font-14;
+    }
+}
+
+.call_summary_form {
+    form {
+        @include -flex-align(center);
+        flex-direction: column;
+        justify-content: space-between;
+        height: calc(100vh - 370px);
+    }
+
+    .form_wrap {
+
+        .components {
+            margin-bottom: 20px;
+
+            &.textarea {
+
+
+                textarea {
+                    min-height: 100px;
+                    resize: none;
+                    padding: 15px;
+
+                }
+            }
+        }
+    }
+
+    .add_attachment {
+        @include -flex-space-between;
+        width: 100%;
+
+        .attach_file {
+            @include -flex-align(center);
+            cursor: pointer;
+
+            span {
+                margin-left: 5px;
+                font-size: $font-14;
+            }
+        }
+
+        .add_order_xray {
+            @include -flex-align(center);
+
+            .add_rx {
+                @include -flex-align(center);
+                cursor: pointer;
+                margin-left: 20px;
+
+                svg {
+                    width: 16px;
+
+                    path {
+                        fill: #10D296;
+                    }
+                }
+
+                h4 {
+                    font-size: $font-14;
+                    margin: 0;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+
+    .footer_btn {
+        width: 100%;
+        @include -flex-align(center);
+        justify-content: flex-end;
+
+        button {
+            cursor: pointer;
+        }
+    }
+
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.pr-0 {
+    padding-right: 0 !important;
+}

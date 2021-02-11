@@ -1,0 +1,93 @@
+.lock_popup{
+    width: 514px;
+    background-clip: padding-box;
+    outline: 0;
+    text-align: left;
+    margin: auto;
+    @include border-radius(5px);
+    position: absolute;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    .popup-content{
+        text-align: center;
+        margin: 30px 0;
+        .user_name_img{
+            margin-bottom: 8px;
+            img{
+                border-radius: 100%;
+                max-width: 62px;
+            }
+        }
+        h3{
+            color: #2D2D30;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0;
+            font-family: 'gilroy';
+        }
+        .des_head {
+            font-size: $font-14;
+            color: #2D2D30;
+            font-weight: 600;
+        }
+        .bb{
+            border-bottom: 1px solid #919A9F;
+            padding-top: 10px;
+            margin-bottom: 10px;
+        }
+        .activity_head {
+            font-size: $font-12;
+            color: #919A9F;
+            margin: 0 0 24px 0;
+            font-weight: 300;
+            font-family: 'gilroy';
+        }
+        .screen_input input{
+            width: 403px;
+            border: 1px solid #919A9F;
+            @include border-radius(5px);
+            height: 51px;
+            padding: 10px;
+            margin-bottom: 25px;
+            font-size: 20px;
+            color: #919A9F;
+            text-align: center;
+            font-weight: 300;
+            font-family: 'gilroy';
+        }
+        .screen-btn{
+            font-size: $font-14;
+            padding: 5px 40px;
+            background: #609FAE;
+            color: #fff;
+            @include border-radius(5px);
+            border: 0;
+            padding: 10px 20px;
+            font-weight: 300;
+            font-family: 'gilroy';
+        }
+        
+    }
+}
+.gray-btn{
+    background: #919A9F !important;
+}
+
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .lock_popup {
+        .popup-content {
+            .activity_head{
+                font-size: $font-17;
+            }
+            h3{
+                font-size: $font-20;
+            }
+            .screen-btn{
+                font-size: $font-19;
+            }
+        }
+    }
+}

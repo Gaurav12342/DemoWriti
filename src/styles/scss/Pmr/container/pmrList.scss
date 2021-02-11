@@ -1,0 +1,444 @@
+.pmr_list_wrap {
+    padding: 0 15px 10px;
+
+    .patient_order_wrap {
+        .patient_order_head {
+            .p_head {
+                position: relative;
+
+                &.sr {
+                    width: 4%;
+                }
+
+                &.rs {
+                    width: 10%;
+                }
+
+                &.ha {
+                    width: 6%;
+                }
+
+                &.dob {
+                    width: 7%;
+                }
+
+                &.pmr {
+                    width: 6%;
+                }
+
+                &.ph {
+                    width: 9%;
+                }
+
+                &.pr {
+                    width: 9%;
+                }
+
+                &.dd {
+                    width: 9%;
+                }
+
+                &.phm {
+                    width: 7%;
+                }
+
+                &.st {
+                    width: 11%;
+                }
+
+                &.ac {
+                    width: 22%;
+                }
+
+                &.refresh {
+                    width: 1%
+                }
+            }
+        }
+
+        .scroll_wrapper {
+            .patient_order_detail {
+                &:nth-child(even) {
+                    background-color: $white-color;
+                }
+
+                .patient_order_content {
+
+                    .patient_order_d {
+                        span {
+                            display: block;
+                        }
+
+                        &.sr {
+                            width: 4%;
+                        }
+
+                        &.rs {
+                            width: 10%;
+                        }
+
+                        &.ha {
+                            width: 6%;
+                        }
+
+                        &.dob {
+                            width: 7%;
+                        }
+
+                        &.pmr {
+                            width: 6%;
+                        }
+
+                        &.ph {
+                            width: 9%;
+                        }
+
+                        &.pr {
+                            width: 9%;
+                        }
+
+                        &.dd {
+                            width: 9%;
+
+                            &.over {
+                                color: $notes;
+                            }
+                        }
+
+                        &.phm {
+                            width: 7%;
+
+                            a {
+                                color: $btn-color;
+                                cursor: pointer;
+                            }
+                        }
+
+                        &.st {
+                            width: 11%;
+                        }
+
+                        &.ac {
+                            width: 22%;
+                        }
+
+
+                    }
+                }
+
+            }
+        }
+    }
+
+
+
+    .pagination_wrap {
+        padding: 20px 15px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: $white-color;
+        @include -flex-space-between;
+
+        .showing {
+            font-size: $font-12;
+            color: $border-color;
+        }
+
+        .pagination {
+            @include -flex-align(center);
+
+            a {
+                margin: 0 10px;
+                font-size: $font-12;
+                cursor: pointer;
+                color: $border-color;
+
+                &.active_page {
+                    color: $active-page;
+                    font-weight: 1000;
+                }
+            }
+        }
+    }
+    
+}
+.demo-table{
+    
+}
+
+@media screen and (min-width : 1300px) and (max-width : 1440px) {
+    .pmr_list_wrap {
+        .patient_order_wrap {
+            .patient_order_head {
+                .p_head {
+
+                    &.sr {
+                        width: 5%;
+                    }
+
+                    &.ha {
+                        width: 7%;
+                    }
+
+                    &.ac {
+                        width: 20%;
+                    }
+
+                    &.pr {
+                        width: 11%;
+                    }
+
+                    &.st {
+                        width: 11%;
+                    }
+
+                    &.dd {
+                        width: 10%;
+                    }
+                }
+            }
+        }
+
+        .patient_order_wrap {
+            .scroll_wrapper {
+                .patient_order_detail {
+                    .patient_order_content {
+                        .patient_order_d {
+                            &.sr {
+                                width: 5%;
+                            }
+
+                            &.ha {
+                                width: 7%;
+                            }
+
+                            &.ac {
+                                width: 20%;
+                            }
+
+                            &.pr {
+                                width: 11%;
+                            }
+
+                            &.st {
+                                width: 11%;
+                            }
+
+                            &.dd {
+                                width: 10%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .o_status {
+            font-size: 11px;
+        }
+    }
+
+}
+
+.tab_filer {
+    background: $white-color;
+    box-shadow: 0 0px 10px #00000029;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 170px;
+    z-index: 1;
+    
+    ul {
+        list-style: none;
+        padding: 5px 0 5px;
+        margin: 0;
+        width: max-content;    
+        max-height: 252px;
+        overflow: auto;
+    
+        li {
+            padding: 5px 10px;
+
+            .filter_check {
+                cursor: pointer;
+                @include -flex-align(center);
+                padding: 0;
+
+                .lbl {
+                    padding: 5px 8px;
+                    font-size: $font-14;
+                    color: $black-font;
+                }
+
+                .checkbox {
+                    display: block;
+                    width: 16px;
+                    height: 16px;
+                    border: 1px solid $border-color;
+                    @include border-radius(3px);
+                    font-weight: 500;
+                }
+
+                input {
+                    // display: none;
+
+                    &:checked~.checkbox {
+                        background: url('../../../../assets/images/check.svg') no-repeat;
+                        background-position: center;
+                        color: $phr-text;
+                        font-weight: 600;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .filter_opt {
+        @include -flex-space-between;
+        align-items: center;
+        padding: 10px;
+        border-top: 1px solid $grey-color;
+
+        span {
+            color: $border-color;
+            cursor: pointer;
+        }
+
+        .btn {
+            &.btn-sm {
+                min-width: auto !important;
+                // padding: 4px 0 !important;
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width:1299px) {
+
+
+    .pmr_list_wrap {
+        overflow: hidden;
+        overflow-x: auto;
+
+
+
+        .patient_order_wrap {
+            display: flex;
+            flex-direction: column;
+            width: max-content; 
+
+
+            .scroll_wrapper {
+                .patient_order_detail {
+                    .patient_order_content {
+                        .patient_order_d {
+                            vertical-align: top;
+
+                            &.st {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width:1023px) {
+
+    .pmr_wrap {
+        .page_head {
+            h3 {
+                margin-bottom: 20px;
+                align-items: center;
+                font-size: 22px;
+
+            }
+            label{
+                font-size: 20px;
+                margin-bottom: 10px;
+                font-weight: 500;
+            }
+
+            padding-bottom: 10px;
+
+            flex-wrap: wrap;
+
+            .form_wrap {
+                flex-wrap: wrap;
+                margin: 0 -6px;
+
+                .components {
+                    // margin-bottom: 12px;
+                    padding: 0 10px;
+                    width: 25.00%;
+
+                    .inputForm {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .pmr_list_wrap {
+        overflow: hidden;
+        overflow-x: auto;
+
+
+
+        .patient_order_wrap {
+            display: flex;
+            flex-direction: column;
+            width: max-content;
+
+            .patient_order_head {
+                .p_head {
+                    &.sr {
+                        width: 5%;
+                    }
+
+                    &.phm {
+                        width: 8%;
+                    }
+
+                    &.ha {
+                        width: 8%;
+                    }
+                }
+            }
+
+            .scroll_wrapper {
+                .patient_order_detail {
+                    .patient_order_content {
+                        .patient_order_d {
+                            vertical-align: top;
+
+                            &.sr {
+                                width: 5%;
+                            }
+
+                            &.phm {
+                                width: 8%;
+                            }
+
+                            &.st {
+                                text-align: center;
+                            }
+
+                            &.ha {
+                                width: 8%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

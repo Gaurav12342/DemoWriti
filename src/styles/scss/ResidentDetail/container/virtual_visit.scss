@@ -1,0 +1,209 @@
+.virtual_visit {
+    .patient_order_wrap {
+        .patient_order_head {
+            .p_head {
+
+                &.vw {
+                    width: 15%;
+                }
+
+                &.rq {
+                    width: 10%;
+                }
+
+                &.sh {
+                    width: 10%;
+                }
+
+                &.vd {
+                    width: 15%;
+                }
+            }
+        }
+
+        .scroll_wrapper {
+            .patient_order_detail {
+                .patient_order_content {
+
+                    .patient_order_d {
+                        &.vw {
+                            width: 15%;
+                        }
+
+                        &.rq {
+                            width: 10%;
+                        }
+
+                        &.sh {
+                            width: 10%;
+
+                            span {
+                                display: block;
+                            }
+                        }
+
+                        &.vd {
+                            width: 15%;
+
+                            span {
+                                display: block;
+                            }
+                        }
+
+                        &.st {
+
+                            &.call_type {
+                                svg {
+                                    display: block;
+                                    margin-top: 5px;
+
+                                    path {
+                                        fill: #919A9F;
+                                        stroke-width: 0;
+                                    }
+                                }
+
+                                .o_status {
+                                    padding-left: 0;
+                                }
+
+                                .with_help {
+                                    @include -flex-align(center);
+
+                                    svg {
+                                        margin-right: 10px;
+                                    }
+
+                                    a {
+                                        margin-top: 5px;
+                                    }
+
+                                    &.rejected {
+                                        color: $notes;
+
+
+                                        svg {
+                                            margin-left: 10px;
+                                            margin-top: 0;
+
+                                            path {
+                                                fill: $notes;
+                                            }
+                                        }
+                                    }
+
+                                    &.reschdule {
+                                        a {
+                                            color: $btn-color;
+                                            text-decoration: underline;
+
+                                        }
+                                    }
+
+                                    &.completed {
+
+                                        color: $todo-text;
+                                    }
+                                }
+
+
+                            }
+                        }
+
+                        .more_wrap {
+
+                            width: 166px;
+
+                            a {
+                                span {
+                                    .nos {
+                                        margin-left: 13px;
+                                        float: right;
+                                        @include border-radius(10px);
+                                        padding: 2px 4px;
+                                        font-size: 9px;
+                                        color: $white-color;
+                                        background: $reminder;
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+
+            }
+        }
+
+
+    }
+}
+
+@media screen and (min-width : 1300px) and (max-width : 1470px) {
+    .virtual_visit {
+        .patient_order_wrap {
+            .patient_order_head {
+                .p_head {
+                    &.sr {
+                        width: 6%;
+                    }
+                }
+            }
+        }
+
+        .patient_order_wrap {
+            .scroll_wrapper {
+                .patient_order_detail {
+                    .patient_order_content {
+                        .patient_order_d {
+                            &.sr {
+                                width: 6%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1299px) {
+    .virtual_visit {
+        .patient_order_wrap {
+            .patient_order_head {
+                .p_head {
+                    &.sh {
+                        width: 11%;
+                    }
+
+                    &.st {
+                        width: 14%;
+                    }
+                }
+            }
+        }
+
+        .patient_order_wrap {
+            .scroll_wrapper {
+                .patient_order_detail {
+                    .patient_order_content {
+                        .patient_order_d {
+                            &.sh {
+                                width: 11%;
+                            }
+
+                            &.st {
+                                width: 14%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}

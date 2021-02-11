@@ -1,0 +1,13 @@
+export { ReactComponent as View } from '../pmr/view.svg';
+export { ReactComponent as Notes } from '../pmr/notes.svg';
+export { ReactComponent as Reminder } from '../pmr/reminder.svg';
+export { ReactComponent as MoreDots } from '../pmr/more-dots.svg';
+export { ReactComponent as Audit } from '../pmr/audit.svg';
+export { ReactComponent as Refresh } from '../pmr/refresh.svg';
+export { ReactComponent as Refresh1 } from '../pmr/refresh1.svg';
+export { ReactComponent as Search } from '../pmr/search.svg';
+export { ReactComponent as Sort } from '../pmr/sort.svg';
+export { ReactComponent as Download } from '../resident-detail/download.svg';
+export { ReactComponent as Print } from '../resident-detail/print.svg';
+export { ReactComponent as DetailsLess } from '../resident-detail/details-less.svg';
+export { ReactComponent as DetailsMore } from '../resident-detail/details-more.svg';

@@ -1,0 +1,245 @@
+.container {
+
+  &.defaultPassword{
+    max-width: 600px;
+    margin:auto
+  }
+  .loginContainer {
+    width: 100%;
+    height: calc(100vh - 100px);
+    // padding: 40px 0px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .loginBox {
+      width: 500px;
+
+      h1 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 48px;
+      }
+      p{
+        span{
+          display: block;
+          line-height: 25px;
+        }
+      }
+      .form {
+        width: 500px;
+
+        form {
+          .compnents {
+            position: relative;
+
+            .inputForm {
+              width: 100%;
+              height: 50px;
+              padding: 0px 18px;
+              margin-top: 20px;
+              border-radius: 5px;
+              border: 1px solid rgba(145, 154, 159, 0.78);
+              font-family: 'gilroy', sans-serif !important;
+              font-size: 14px;
+              color: $secondary-color;
+              transition: all 0.5s ease;
+
+              &:focus {
+                border-color: #000;
+                outline: none;
+              }
+            }
+
+            svg {
+              cursor: pointer;
+              position: absolute;
+              top: 35px;
+              right: 28px;
+              z-index: 1;
+              width: 20px;
+              height: 19px;
+            }
+          }
+
+          .forgotPasswordLink {
+            cursor: pointer;
+            text-align: right;
+            margin-top: 12px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 24px;
+            a{
+              color : $btn-color;
+              
+            }
+            .checkbx-lb {
+              display: flex;
+              display: -ms-flexbox;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+
+          .dontask{
+            a{
+              color:#000!important
+            }
+          }
+
+          .signBtn {
+            .btn {
+              font-size: $font-20;
+              padding: 9px 50px;
+              line-height: normal;
+              &.spin_btn.btn-sm{ 
+                .spin_wrap{
+                  left: 6px;
+                  top: 6px;
+                  div{
+                    width: 30px !important;
+                    height: 30px !important;
+                    canvas{
+                      width: 30px !important;
+                    height: 30px !important;
+                    }
+                  }
+                }
+                
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .loginFooter {
+    .topFooter {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+
+        li {
+          font-size: 12px;
+          color: #2D2D30;
+          padding: 0px 10px;
+          font-weight: 600;
+
+          a {
+            color: #2D2D30;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .bottomFooter {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+
+        li {
+          font-size: 12px;
+          color: #2D2D30;
+          padding: 0px 10px;
+          font-weight: 600;
+
+          a {
+            color: #2D2D30;
+            text-decoration: none;
+          }
+
+          &.versionName {
+            color: #919A9F;
+            text-decoration: none;
+            position: absolute;
+            right: 50px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+  .container {
+    .loginContainer {
+      .loginBox {
+        width: 700px;
+        h2{
+          font-size: $font-25;
+        }
+        .form {
+          form {
+            .compnents {
+              .inputForm{
+                font-size: $font-20;
+                height: 60px;
+              }
+              svg{
+                width: 30px;
+                height: 29px;
+                top: 32px;
+                right: 20px;
+              }
+            }
+            .signBtn{
+              .btn{
+                padding: 12px 80px;
+                font-size: $font-25;
+                height: auto;
+                &.spin_btn.btn-sm{ 
+                  .spin_wrap{
+                   
+                    div{
+                      width: 40px !important;
+                      height: 40px !important;
+                      canvas{
+                        width: 40px !important;
+                      height: 40px !important;
+                      }
+                    }
+                  }
+                  
+                }
+              }
+              
+            }
+          }
+        }
+        .forgot-pass-text{
+          font-size: $font-19;
+        }
+      }
+    }
+    .back-to-login{
+      font-size: $font-20;
+    }
+    
+  }
+  
+}
+@media screen and (min-width : 1300px) and (max-width : 1470px) {
+  .container {
+    .loginContainer{
+      padding: 50px 0;
+      min-height: calc(100vh - 100px);
+      height: auto !important;
+      .loginBox {
+        h1{
+            margin-bottom: 30px !important;
+        }
+      }
+    }
+  }
+  
+}

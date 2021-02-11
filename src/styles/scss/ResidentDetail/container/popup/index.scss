@@ -1,0 +1,19 @@
+.close-btn {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.close-btn:focus {
+    outline: none;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}

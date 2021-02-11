@@ -1,0 +1,1089 @@
+.residents_detail_container {
+    width: calc(100% - 17%);
+    padding: 10px 0px 0 10px;
+    margin-left: 17%;
+
+    .resi_sub_tab {
+        border: 1px solid $border-color;
+        border-bottom: 0;
+        border-top-left-radius: 0;
+    }
+}
+
+.tab_wrapper {
+    ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+        @include -flex-align(flex-end);
+        @include scrollbar();
+        overflow: hidden;
+        overflow-x: auto;
+        position: relative;
+        z-index: 2;
+        padding-top: 1px;
+        top : 1px;
+        li {
+            @include -flex-align(center);
+            justify-content: space-between;
+            padding: 0px 10px;
+            border: 1px solid $grey-border;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom: 0;
+            margin-right: 10px;
+            min-height: 45px;
+            min-width: 220px;
+            background-color: $white-color;
+            cursor: pointer;
+            position: relative;
+            top:-1px;
+            &:focus {
+                outline: none;
+            }
+
+            .resi_d {
+                width:'-webkit-fill-available';
+                @include -flex-align(center);
+                margin-right: 45px;
+
+                img {
+                    display: none;
+                }
+
+                h3 {
+                    margin: 0;
+                    font-size: $font-14;
+                    font-weight: 300;
+                    color: $border-color;
+                }
+            }
+
+
+
+            &.react-tabs__tab--selected {
+                padding-bottom: 0px;
+                position: relative;
+                top: 0px;
+                z-index: 1;
+                border-color: $border-color;
+
+                .resi_d {
+                    @include -flex-align(center);
+                    margin-right: 45px;
+                    width: 100%;
+                    img {
+                        max-width: 36px;
+                        @include border-radius(50px);
+                        margin-right: 8px;
+                        display: block;
+                    }
+
+                    h3 {
+                        margin: 0;
+                        font-size: $font-18;
+                        color: $black-font;
+                        font-weight: 800;
+                    }
+                }
+
+
+
+
+            }
+
+
+
+
+        }
+    }
+
+    /*sub tabs*/
+    .resi_sub_tab {
+
+        position: relative;
+        z-index: 1;
+        &.react-tabs__tab-panel--selected {
+            border: 1px solid $border-color;
+
+            // border-bottom: 0;
+            border-top-left-radius: 0;
+        }
+
+        ul {
+            list-style: none;
+
+            margin: 0;
+            @include -flex-align(flex-end);
+            border-bottom: 1px solid $grey-color;
+            padding: 10px;
+            padding-bottom: 0;
+
+            li {
+                @include -flex-align(center);
+                justify-content: center;
+                padding: 10px 20px;
+                border: 0;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                border-bottom: 0;
+                // margin-right: 20px;
+                min-height: 10px;
+                min-width: 10px;
+                cursor: pointer;
+
+                &:focus {
+                    outline: none;
+                }
+
+                .resi_d {
+                    @include -flex-align(center);
+                    margin-right: 0px;
+
+                    img {
+                        display: none;
+                    }
+
+                    h3 {
+                        margin: 0;
+                        font-size: $font-13;
+                        font-weight: 600;
+                        color: $black-color;
+                    }
+                }
+
+                &.react-tabs__tab--selected {
+                    background-color: $grey-color;
+
+                    .resi_d {
+                        @include -flex-align(center);
+                        margin-right: 0px;
+
+                        img {
+                            max-width: 36px;
+                            @include border-radius(50px);
+                            margin-right: 10px;
+                            display: block;
+                        }
+
+                        h3 {
+                            margin: 0;
+                            font-size: $font-13;
+                            color: $black-font;
+                            font-weight: 600;
+                            position: relative;
+                            &:after{
+                                content: '';
+                                width: 100%;
+                                height: 2px;
+                                border-bottom: 0.13rem dotted $black-font;
+                                position: absolute;
+                                bottom: -2px;
+                                left: 0;
+
+                            }
+                            // text-decoration: underline;
+                            // text-decoration-style: dotted;
+                            // -moz-text-decoration-style: dotted;
+                        }
+                    }
+                }
+
+
+
+
+            }
+        }
+
+        .resi_opt {
+            position: absolute;
+            right: 0;
+            top: 10px;
+            z-index: 2;
+            margin-right: 10px;
+            display: flex;
+
+            >div {
+                margin: 0 4px;
+                cursor: pointer;
+                display: inline-block;
+            }
+
+            .active .ab {
+                fill: #FF7885;
+            }
+
+            .active .ab {
+                fill: #FF7885;
+            }
+        }
+
+    }
+
+    .resi_treat {
+        ul {
+
+            li {
+                @include -flex-align(center);
+                justify-content: center;
+                padding: 0px 20px 10px;
+                border: 0;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                border-bottom: 0;
+                margin-right: 0px;
+                min-height: 10px;
+                min-width: 10px;
+                cursor: pointer;
+
+                &:focus {
+                    outline: none;
+                }
+
+                .resi_d {
+                    @include -flex-align(center);
+                    margin-right: 0px;
+
+                    img {
+                        display: none;
+                    }
+
+                    h3 {
+                        margin: 0;
+                        font-size: $font-13;
+                        font-weight: 300;
+                        color: $black-color;
+                    }
+                }
+
+                .c_records {
+                    background-color: $btn-color;
+                    padding: 3px 4px;
+                    font-size: $font-10;
+                    color: $white-color;
+                    @include border-radius(20px);
+                    margin-left: 7px;
+                    display: none;
+                }
+
+                &.react-tabs__tab--selected {
+                    background-color: transparent;
+                    top: 0;
+
+                    .resi_d {
+                        @include -flex-align(center);
+                        margin-right: 0px;
+
+
+
+                        h3 {
+                            margin: 0;
+                            font-size: $font-13;
+                            color: $btn-color;
+                            font-weight: 300;
+                            text-decoration: none;
+                            &::after{
+                                width: 0;
+                                height: 0;
+                                border: 0;
+                            }
+
+                        }
+                    }
+
+                    .c_records {
+
+                        display: block;
+                    }
+                }
+
+
+
+
+            }
+        }
+        // .pagination_wrap{
+        //     .pagination{
+               
+        //             li{
+        //                 padding: 0;
+        //             }
+               
+        //     }
+        // }
+
+
+        .resi_treat_content_wrap {
+            padding: 10px;
+            position: relative;
+
+            .form_wrap {
+                @include -flex-align(center);
+
+                .components {
+                    padding: 0 6px;
+                }
+
+                .clearDateRangeIcon{
+                    cursor: pointer;
+                    position: absolute;
+                    top: 12px;
+                    right: 15px;
+                    z-index: 1;
+                    width: 12px;
+                    height: 12px;
+                }
+
+            }
+
+
+            .data_table_wrap{
+                padding:0px
+             }
+
+            .pagination_wrap {
+                padding: 20px 0px 10px;
+                width: 100%;
+                background-color: $white-color;
+                @include -flex-space-between;
+
+                .showing {
+                    font-size: $font-12;
+                    color: $border-color;
+                }
+
+                .pagination {
+                    @include -flex-align(center);
+                    border-bottom: 0;
+                    li{
+                        padding: 0;
+                    }
+                    a {
+                        margin: 0 10px;
+                        font-size: $font-13;
+                        cursor: pointer;
+                        color: $border-color;
+                        svg{
+                            width: 10px;
+                            height: 10px;
+                        }
+                        &.active_page {
+                            color: $active-page;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+.resident_overview {
+    //   padding: 10px;
+      margin: 10px;
+      border: 1px solid #96989a;
+      border-radius: 5px;
+    
+      .overview_header {
+        padding: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        border-bottom: 1px solid #96989a;
+    
+        img {
+          width: 80px;
+          height: 80px;
+          border-radius: 40px;
+        }
+    
+        .user_information {
+          margin-left: 20px;
+    
+          h4 {
+            margin: 0;
+            font-size: 23px;
+            color: #1d1d20;
+          }
+          p {
+            margin: 0;
+          }
+          .r_room {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 6px;
+          }
+          .status {
+            height: 10px;
+            width: 10px;
+            background-color: #0baa50;
+            border-radius: 5px;
+          }
+          p {
+            font-size: 19px;
+            color: #919a9f;
+            margin-left: 10px;
+          }
+        }
+      }
+    
+      .overview_content {
+        .information_block {
+          display: flex;
+          flex-direction: column;
+          font-weight: 500;
+          padding: 20px;
+    
+          .label {
+            font-size: 15px;
+            color: #2d2d30;
+            line-height: 15px;
+            margin-bottom: 7px;
+          }
+          .value {
+            font-size: 12px;
+            color: #777777;
+            line-height: 14px;
+          }
+        }
+      }
+    }
+    
+.patient_order_wrap {
+    &.od_tab_temp {
+        margin-top: 10px;
+        border: 1px solid $border-color;
+        border-top: 0;
+
+        @include border-radius(5px);
+
+        .patient_order_head {
+            background-color: $btn-color;
+            display: table;
+            width: 100%;
+            @include border-radius(5px);
+
+            .p_head {
+                display: table-cell;
+                color: $white-color;
+                padding: 10px 10px;
+                font-size: $font-13;
+                font-weight: 300;
+
+                .p_head_container {
+                    @include -flex-align(center);
+                }
+
+                &.sr {
+                    width: 5%;
+                }
+
+                &.ph {
+                    width: 20%;
+                }
+
+                &.dt {
+                    width: 20%;
+                }
+
+                &.ot {
+                    width: 15%;
+                }
+
+                &.st {
+                    width: 15%;
+                }
+
+                &.ac {
+                    width: 25%;
+                }
+
+                svg {
+                    margin-left: 15px;
+                    width: 13px;
+                    cursor: pointer;
+
+
+                    .a {
+                        fill: $white-color;
+                        stroke: $white-color;
+                        stroke-width: 0 !important;
+                        cursor: pointer;
+                    }
+                }
+
+                .refresh {
+
+                    float: right;
+                    @include -flex-align(center);
+
+                    a {
+                        margin: 0 10px;
+
+                        svg {
+                            margin-left: 5px;
+                            margin-top: 0;
+                            width: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        // .scroll_wrapper {
+        // max-height: calc(100vh - 385px);
+        // min-height: calc(100vh - 385px);
+        // overflow: hidden;
+        // overflow-y: auto;
+        // @include scrollbar();
+
+
+        .patient_order_detail {
+
+            padding: 10px 0px;
+            border-bottom: 1px solid $border-color;
+
+            &:last-child {
+                border-bottom: 0;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+
+            &:nth-child(even) {
+                background-color: $grey-color-light;
+            }
+
+            .patient_order_content {
+                display: table;
+                width: 100%;
+
+                .patient_order_d {
+                    display: table-cell;
+                    font-size: $font-12;
+                    padding: 12px 10px 8px;
+                    font-family: 'gilroy';
+                    font-weight: 300;
+
+                    &.sr {
+                        width: 5%;
+                    }
+
+                    &.ph {
+                        width: 20%;
+                    }
+
+                    &.dt {
+                        width: 20%;
+                    }
+
+                    &.ot {
+                        width: 15%;
+
+                        .ot_container {
+                            @include -flex-align(center);
+                        }
+
+                        svg {
+                            margin-right: 5px;
+                            height: 15px;
+
+                            path {
+                                fill: $todo-text;
+                            }
+                        }
+
+                        svg.non_drug {
+
+
+
+                            path {
+                                fill: $np-text;
+                            }
+
+
+                        }
+
+                        .o_status {
+                            @include border-radius(20px);
+                            padding: 2px 12px;
+                            display: inline-block;
+                            font-weight: 300;
+                            text-transform: capitalize;
+
+                            &.std_order {
+                                background-color: $todo-backround;
+                                color: $todo-text;
+                            }
+
+                            &.prn {
+                                background-color: $phr-backround;
+                                color: $phr-text;
+                            }
+
+                            &.non_drug {
+                                background-color: $np-backround;
+                                color: $np-text;
+                            }
+                        }
+                    }
+
+                    &.st {
+                        width: 15%;
+
+
+
+                        svg {
+                            path {
+                                fill: $todo-text;
+                            }
+                        }
+
+                        .o_status {
+                            @include border-radius(20px);
+                            padding: 3px 12px;
+                            display: inline-block;
+                            font-weight: 300;
+                            text-transform: capitalize;
+
+                            &.submitted {
+                                background-color: $todo-backround;
+                                color: $todo-text;
+
+                            }
+
+                            &.in_process {
+                                background-color: $np-backround;
+                                color: $np-text;
+
+                            }
+
+                            &.edited {
+                                background-color: $edited-background;
+                                color: $edited-text;
+
+                            }
+
+                            &.uploaded {
+                                background-color: $phr-backround;
+                                color: $phr-text;
+                            }
+                        }
+                    }
+
+                    &.ac {
+                        width: 25%;
+
+                        .actions {
+                            width: 100%;
+                            @include -flex-align(center);
+                            justify-content: space-between;
+
+                            .more {
+                                margin-left: 10px;
+                            }
+
+                            a {
+                                margin: 0 5px;
+                                position: relative;
+                                text-align: center;
+                                cursor: pointer;
+
+                                svg {
+                                    .a {
+                                        stroke-width: 0;
+                                    }
+                                }
+
+                                p {
+                                    margin-top: 4px;
+                                    margin-bottom: 0;
+                                }
+
+                                .tot {
+                                    position: absolute;
+                                    top: -8px;
+                                    right: 2px;
+                                    padding: 2px 4px;
+                                    font-size: 9px;
+                                    color: $white-color;
+
+                                    @include border-radius(10px);
+
+                                    &.notes {
+                                        background: $notes;
+
+                                        &.read {
+                                            background: $reminder;
+                                        }
+                                    }
+
+                                    &.rem {
+                                        right: 10px;
+                                        background: $notes;
+
+                                        &.read {
+                                            background: #609FAE;
+                                        }
+                                    }
+
+                                    &.todo {
+                                        right: 0px;
+                                        background: $notes;
+
+                                        &.read {
+                                            background: #609FAE;
+                                        }
+                                    }
+
+
+                                }
+
+                            }
+                        }
+                    }
+
+                    .more {
+                        position: relative;
+
+                        .more_wrap {
+                            position: absolute;
+                            top: 0px;
+                            right: 0;
+                            background: $white-color;
+                            box-shadow: 0 0px 10px $shadow-color;
+                            min-width: 100px;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            display: none;
+                            z-index: 1;
+
+                            a {
+                                padding: 5px 10px;
+                                text-align: left !important;
+                                @include -flex-align(center);
+                                font-size: $font-12;
+                                font-weight: 600;
+                                -webkit-transition: all 0.3s ease-in-out;
+                                transition: all 0.3s ease-in-out;
+                                font-family: 'gilroy';
+                                font-weight: 300;
+
+                                &:hover {
+                                    color: $reminder;
+                                }
+
+                                svg {
+                                    margin-right: 10px;
+                                    width: 20px;
+                                }
+                            }
+                        }
+
+                        &:hover .more_wrap {
+                            display: block;
+                        }
+                    }
+                }
+            }
+
+            .patient_order_desc {
+                @include -flex-space-between;
+
+                .p_desc {
+                    padding: 0px 20px 10px 10px;
+                    font-size: $font-12;
+                    font-family: 'gilroy';
+                    font-weight: 300;
+
+                    h4 {
+                        margin-top: 0;
+                        margin-bottom: 10px;
+                        font-size: $font-13;
+                    }
+
+                    ol {
+                        padding-left: 13px;
+                        margin: 0;
+
+                        li {
+                            margin-bottom: 10px;
+                            padding-right: 20px;
+                            font-size: $font-13;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        // }
+    }
+
+}
+.urgent {
+    background-color: $edited-background;
+    color:$edited-text;
+}
+.j-space-between {
+    justify-content: space-between;
+}
+.mr-0{
+    margin-right: 0 !important;
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+   .tab_wrapper {
+       .resi_treat{
+           ul{
+               li{
+                   &.react-tabs__tab--selected {
+                    .c_records{
+                        font-size: $font-17;
+                        padding: 2px 8px;
+                    }
+                   }
+               }
+           }
+           .resi_treat_content_wrap{
+           .pagination_wrap{
+               
+            .pagination{
+                
+                li{
+                    a{
+                        font-size:$font-17;
+                        svg{
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+           }
+    }
+       }
+    ul {
+        li{
+            
+                .resi_d{
+                    width: 100%;
+                    margin-right: 20px;
+                    h3{
+                        font-size: $font-16;
+                    }
+                }
+                
+            }
+    }
+    .resi_sub_tab{
+        ul{
+            li{
+                &.react-tabs__tab{
+                    .resi_d {
+                        h3{
+                            font-size: $font-19;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .resi_sub_tab {
+        .resi_opt{
+            svg{
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+    .resi_treat_content_wrap {
+        .pagination_wrap{
+            margin-top: 11px;
+            
+        }
+    }
+   }
+   .resident_overview{
+    .overview_content {
+        .information_block {
+            .label{
+                font-size: $font-20;
+                margin-bottom: 15px;
+                font-weight: 300;
+            }
+            .value{
+                font-size: $font-18;
+                font-weight: 300;
+            }
+        }
+    }
+   }
+   .residents_detail_container {
+    width: calc(100% - 15%);
+    margin-left: 15%;
+    .resi_sub_tab{
+        border-bottom: 1px solid #919A9F;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+   }
+   .resident_overview {
+    .overview_header{
+        .user_initial{
+            width: 50px !important;
+            height: 50px !important;
+            font-size: $font-25 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+
+        }
+    }
+   }
+}
+@media screen and (min-width : 1300px) and (max-width : 1470px) {
+    .tab_wrapper {
+        ul {
+
+            li {
+                min-width: 190px;
+                min-height: 45px;
+                padding: 0 10px;
+
+                &.react-tabs__tab--selected {
+                    .resi_d {
+                        margin-right: 25px;
+                    }
+
+                    h3 {
+                        font-size: 15px;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .patient_order_wrap {
+
+        .patient_order_head {
+
+            .p_head {
+                &.ot {
+                    width: 16%;
+                }
+
+                &.st {
+                    width: 14%;
+                }
+            }
+        }
+
+        .scroll_wrapper {
+            .patient_order_detail {
+                .patient_order_content {
+                    .patient_order_d {
+
+                        &.ot {
+                            width: 16%;
+                        }
+
+                        &.st {
+                            width: 14%;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1299px) {
+    .tab_wrapper {
+        ul {
+            li {
+                &.react-tabs__tab--selected {
+                    .resi_d {
+                        margin-right: 10px;
+
+                        h3 {
+                            font-size: $font-15;
+                        }
+                    }
+                }
+            }
+        }
+
+        .resi_sub_tab {
+            ul {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+        .resi_treat {
+            ul {
+                li {
+                    padding-left: 16px;
+                    padding-right: 16px;
+                }
+            }
+        }
+    }
+
+    .residents_detail_container {
+        width: calc(100% - 20%);
+        margin-left: 20%;
+    }
+
+    .responsive_scroll_wrap {
+        overflow: hidden;
+        overflow-x: auto;
+
+        .patient_order_wrap {
+            width: 100vw;
+
+            .patient_order_head {
+                .p_head {
+                    &.sr {
+                        width: 6%;
+                    }
+
+                    &.ot {
+                        width: 16%;
+                    }
+                }
+            }
+
+            .scroll_wrapper {
+                .patient_order_detail {
+                    .patient_order_content {
+                        .patient_order_d {
+                            &.sr {
+                                width: 6%;
+                            }
+
+                            &.ot {
+                                width: 16%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .residents_detail_container {
+        width: calc(100% - 3%);
+        margin-left: 3%;
+        padding: 10px 10px 0 10px;
+    }
+}

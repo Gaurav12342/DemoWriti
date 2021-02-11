@@ -1,0 +1,73 @@
+.actions {
+    width: 100%;
+    @include -flex-align(center);
+    justify-content: space-between;
+
+    .more {
+        margin-left: 10px;
+    }
+
+    a {
+        margin: 0 5px;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+
+        span {
+            position: relative;
+        }
+
+        svg {
+            .a {
+                stroke-width: 0;
+            }
+        }
+
+        p {
+            margin-top: 4px;
+            margin-bottom: 0;
+            font-size: $font-12;
+        }
+
+        .tot {
+            position: absolute;
+            top: -10px;
+            right: -8px;
+            padding: 2px 4px;
+            font-size: 9px;
+            color: $white-color;
+            line-height: 1;
+            @include border-radius(10px);
+            min-width: 17px;
+            background: $btn-color;
+
+            &.unread {
+                background: $notes;
+            }
+
+
+        }
+
+    }
+}
+
+.badge{
+    &.simple{
+        text-align: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color:#78b7c5;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width : 1700px) and (max-width : 2600px){
+    .actions{
+        a{
+            p{
+                font-size: $font-15;
+            }
+        }
+    }
+}

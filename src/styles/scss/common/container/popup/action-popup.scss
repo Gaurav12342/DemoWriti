@@ -1,0 +1,42 @@
+.action-popup {
+    // width: 543px;
+
+    .popup-content {
+
+        // padding: 0 30px 30px 0px;
+        .action-notes-d-c {
+            @include -flex-space-between;
+            padding-top: 12px;
+
+        }
+
+        .d-c-icon {
+            cursor: pointer;
+            margin-right: 0px;
+            display: flex;
+            align-items: center;
+
+            img {
+                margin-right: 10px;
+            }
+
+            span {
+                font-size: 16px;
+                color: #2D2D30;
+                font-weight: 300;
+                font-family: 'gilroy';
+
+                img {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+    }
+
+}
+
+.word-wrap-align {
+    word-wrap:break-word;
+    text-align:justify;
+}
